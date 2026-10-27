@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details | White Mist Liquid Detergent</title>
+  <meta name="description" content="Detailed specifications, usage guide, fabric compatibility, and verified pricing for White Mist liquid detergents.">
+  <link rel="icon" type="image/png" href="public/images/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-announcement-bar">
+    <span>✦ FREE EXPRESS DELIVERY ACROSS INDIA ON ORDERS OVER ₹499 • 100% GENTLE BIO-ENZYME FORMULA ✦</span>
+  </div>
+
+  <!-- Global Sticky Navbar -->
+  <header class="wm-navbar" id="wmNavbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand" aria-label="White Mist Home">
+        <img src="public/images/logo.png" alt="White Mist" class="nav-logo-img">
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="shop.html" class="nav-link active">Shop</a></li>
+          <li><a href="our-story.html" class="nav-link">Our Story</a></li>
+          <li><a href="technology.html" class="nav-link">Technology</a></li>
+          <li><a href="fabric-care.html" class="nav-link">Fabric Care</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <button class="nav-icon-btn search-toggle-btn" aria-label="Search Products" title="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+
+        <a href="account.html" class="nav-icon-btn" aria-label="Customer Account" title="Account">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+        </a>
+
+        <button class="nav-icon-btn cart-toggle-btn" aria-label="Shopping Bag" title="Shopping Bag">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <circle cx="8" cy="21" r="1"></circle>
+            <circle cx="19" cy="21" r="1"></circle>
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
+          </svg>
+          <span class="cart-count-badge" id="navCartBadge">0</span>
+        </button>
+
+        <button class="mobile-menu-toggle" id="mobileMenuOpenBtn" aria-label="Open Mobile Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-drawer-header">
+      <img src="public/images/logo.png" alt="White Mist" style="height: 38px;">
+      <button class="nav-icon-btn" id="mobileMenuCloseBtn" aria-label="Close Menu">✕</button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="shop.html" class="mobile-nav-link active">Shop Collection</a></li>
+      <li><a href="our-story.html" class="mobile-nav-link">Our Story</a></li>
+      <li><a href="technology.html" class="mobile-nav-link">Liquid Technology</a></li>
+      <li><a href="fabric-care.html" class="mobile-nav-link">Fabric Care Hub</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact & Support</a></li>
+      <li><a href="cart.html" class="mobile-nav-link">View Bag</a></li>
+      <li><a href="account.html" class="mobile-nav-link">Customer Account</a></li>
+    </ul>
+  </aside>
+
+  <!-- Breadcrumb -->
+  <div style="background: #0d0519; border-bottom: 1px solid var(--border-purple-subtle); padding: 0.85rem 0;">
+    <div class="container" style="font-size: 0.82rem; color: var(--color-silver-muted); display: flex; gap: 0.5rem; align-items: center;">
+      <a href="index.html" style="color: var(--color-silver-muted);">Home</a>
+      <span>/</span>
+      <a href="shop.html" style="color: var(--color-silver-muted);">Shop</a>
+      <span>/</span>
+      <span style="color: var(--color-cyan-accent);" id="breadcrumbTitle">Product Details</span>
+    </div>
+  </div>
+
+  <!-- PDP Main Container -->
+  <main class="section-padding" style="background: #0a0414;">
+    <div class="container">
+      <div class="pdp-grid">
+
+        <!-- Left Column: Gallery -->
+        <div class="pdp-gallery-wrap">
+          <div class="pdp-main-img-box">
+            <img id="pdpMainImg" src="public/images/bottle_blue.png" alt="White Mist Product">
+          </div>
+          <div class="pdp-thumbs-row" id="pdpThumbsRow">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Right Column: Product Information & Purchase Controls -->
+        <div class="pdp-info-panel">
+          <span class="section-badge" id="pdpBadge">Bestseller</span>
+          <h1 class="pdp-title" id="pdpTitle">White Mist Ocean Fresh Liquid Detergent</h1>
+          <p style="font-size: 0.95rem; color: var(--color-silver-muted); margin-bottom: 0.75rem;" id="pdpSubtitle">
+            High Quality Laundry Detergent • Front & Top Loading
+          </p>
+
+          <div style="display: flex; align-items: center; gap: 0.6rem; font-size: 0.88rem; margin-bottom: 1rem;">
+            <div style="color: #d97706; font-weight: 700;" id="pdpRatingStars">★★★★★ 4.9</div>
+            <span style="color: var(--color-silver-muted);" id="pdpReviewCount">(328 verified reviews)</span>
+            <span style="color: #10b981; font-weight: 700; margin-left: 0.5rem;">✓ In Stock</span>
+          </div>
+
+          <p style="font-size: 0.95rem; color: var(--color-text-dim); line-height: 1.6; margin-bottom: 1.5rem;" id="pdpShortDesc">
+            Active bio-liquid detergent formulated for daily cottons, linens, and blended clothes. Dissolves immediately in cold or warm water with zero chalky residue.
+          </p>
+
+          <!-- Price Display -->
+          <div class="pdp-price-row">
+            <span class="pdp-price-current" id="pdpPriceCurrent">₹249</span>
+            <span class="pdp-price-mrp" id="pdpPriceMrp">MRP ₹299</span>
+            <span class="pdp-discount-badge" id="pdpDiscountBadge">17% OFF</span>
+          </div>
+          <div style="font-size: 0.76rem; color: var(--color-silver-muted); margin-top: -0.85rem; margin-bottom: 1.5rem;">
+            Inclusive of all taxes. Free express delivery on orders over ₹499.
+          </div>
+
+          <!-- Bottle Size & Variant Selection -->
+          <div class="pdp-sizes-label">Select Volume / Packaging:</div>
+          <div class="pdp-sizes-grid" id="pdpSizesGrid">
+            <!-- Populated dynamically -->
+          </div>
+
+          <!-- Quantity and Action Buttons -->
+          <div class="pdp-action-row">
+            <div class="pdp-qty-wrap">
+              <button type="button" class="pdp-qty-btn" id="pdpQtyDec" aria-label="Decrease quantity">−</button>
+              <span class="pdp-qty-val" id="pdpQtyVal">1</span>
+              <button type="button" class="pdp-qty-btn" id="pdpQtyInc" aria-label="Increase quantity">+</button>
+            </div>
+
+            <button type="button" class="btn-primary" id="pdpAddToCartBtn" style="flex-grow: 1;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <circle cx="8" cy="21" r="1"></circle>
+                <circle cx="19" cy="21" r="1"></circle>
+                <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
+              </svg>
+              <span>Add to Bag</span>
+            </button>
+
+            <button type="button" class="btn-secondary" id="pdpBuyNowBtn" style="flex-grow: 1; background: #ffffff; color: #0f172a; border: none;">
+              <span>Buy Now</span>
+            </button>
+          </div>
+
+          <!-- Trust Badges -->
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--radius-md); padding: 1rem; margin-bottom: 2rem;">
+            <div style="text-align: center; font-size: 0.78rem;">
+              <div style="font-size: 1.1rem; margin-bottom: 0.2rem;">⚡</div>
+              <strong>Fast Dispatch</strong>
+              <div style="color: var(--color-silver-muted); font-size: 0.7rem;">Within 24 Hours</div>
+            </div>
+            <div style="text-align: center; font-size: 0.78rem;">
+              <div style="font-size: 1.1rem; margin-bottom: 0.2rem;">🛡️</div>
+              <strong>Fiber Safe</strong>
+              <div style="color: var(--color-silver-muted); font-size: 0.7rem;">Zero Caustic Bleach</div>
+            </div>
+            <div style="text-align: center; font-size: 0.78rem;">
+              <div style="font-size: 1.1rem; margin-bottom: 0.2rem;">🔄</div>
+              <strong>Easy Returns</strong>
+              <div style="color: var(--color-silver-muted); font-size: 0.7rem;">Hassle-Free Policy</div>
+            </div>
+          </div>
+
+          <!-- Information Tabs Accordion -->
+          <div class="pdp-tabs-wrap">
+            <div class="pdp-tabs-nav">
+              <button type="button" class="pdp-tab-btn active" data-tab="dosage">Dosage & Usage</button>
+              <button type="button" class="pdp-tab-btn" data-tab="overview">Formulation & Science</button>
+              <button type="button" class="pdp-tab-btn" data-tab="fabrics">Fabric Compatibility</button>
+              <button type="button" class="pdp-tab-btn" data-tab="shipping">Shipping & Returns</button>
+            </div>
+
+            <!-- Tab: Dosage -->
+            <div class="pdp-tab-content" id="tab-dosage">
+              <div style="display: flex; flex-direction: column; gap: 1rem; font-size: 0.9rem; line-height: 1.6;">
+                <div style="background: rgba(0, 153, 255, 0.08); border-left: 3px solid var(--color-electric-blue); padding: 0.85rem 1rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0;">
+                  <strong style="color: #fff;">Regular Wash Cycle (5-6 kg load):</strong>
+                  <p style="color: var(--color-text-dim); margin-top: 0.2rem;" id="pdpDoseRegular">40 ml (1 Cap) directly in detergent drawer.</p>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.04); border-left: 3px solid var(--color-purple-light); padding: 0.85rem 1rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0;">
+                  <strong style="color: #fff;">Heavy Soil / Bedsheets / Uniforms:</strong>
+                  <p style="color: var(--color-text-dim); margin-top: 0.2rem;" id="pdpDoseHeavy">60 ml (1.5 Caps) directly in detergent drawer.</p>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.04); border-left: 3px solid #10b981; padding: 0.85rem 1rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0;">
+                  <strong style="color: #fff;">Bucket Wash / Delicate Hand Soak:</strong>
+                  <p style="color: var(--color-text-dim); margin-top: 0.2rem;" id="pdpDoseHand">25 ml dissolved in 10 Litres of cold water.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab: Formulation -->
+            <div class="pdp-tab-content" id="tab-overview" style="display: none;">
+              <p style="font-size: 0.92rem; color: var(--color-text-dim); line-height: 1.6; margin-bottom: 1rem;" id="pdpFullDesc">
+                Formulated with triple active bio-surfactants and optical conditioners.
+              </p>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; font-size: 0.82rem;" id="pdpSpecsGrid">
+                <!-- Specs populated by JS -->
+              </div>
+            </div>
+
+            <!-- Tab: Fabrics -->
+            <div class="pdp-tab-content" id="tab-fabrics" style="display: none;">
+              <p style="font-size: 0.9rem; color: var(--color-text-dim); margin-bottom: 0.85rem;">
+                Specifically tested and proven safe across diverse textiles:
+              </p>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;" id="pdpFabricsList">
+                <!-- Badges populated by JS -->
+              </div>
+            </div>
+
+            <!-- Tab: Shipping -->
+            <div class="pdp-tab-content" id="tab-shipping" style="display: none;">
+              <div style="font-size: 0.88rem; color: var(--color-text-dim); line-height: 1.6;">
+                <p><strong>Shipping:</strong> Free shipping across India on orders over ₹499. Orders below ₹499 incur a flat ₹50 courier fee. Orders are carefully packaged in leak-resistant cartons with secure neck seals.</p>
+                <p style="margin-top: 0.75rem;"><strong>Returns & Replacements:</strong> In the rare event of transit damage or leakage, contact us within 48 hours for an immediate complimentary replacement.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Verified Customer Reviews Section -->
+      <section style="margin-top: 5rem; padding-top: 4rem; border-top: 1px solid var(--border-purple-subtle);">
+        <div class="section-header-center">
+          <span class="section-badge">Customer Experiences</span>
+          <h2 class="section-title">Verified Customer Reviews</h2>
+          <p class="section-subtitle">Read feedback from households using White Mist for everyday laundry care.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;" class="bio-enzyme-grid">
+          <div style="background: #120722; border: 1px solid var(--border-purple-subtle); border-radius: var(--radius-md); padding: 1.5rem;">
+            <div style="color: #d97706; font-size: 0.9rem; margin-bottom: 0.5rem;">★★★★★</div>
+            <h4 style="font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem;">"Finally, no white powder marks!"</h4>
+            <p style="font-size: 0.85rem; color: var(--color-silver-muted); line-height: 1.5;">We switched from traditional washing powder to White Mist Ocean Fresh. Our black clothes and jeans come out completely spotless without any white streaks.</p>
+            <div style="font-size: 0.78rem; color: var(--color-cyan-accent); margin-top: 1rem; font-weight: 600;">— Priya S., Bengaluru (Verified Buyer)</div>
+          </div>
+
+          <div style="background: #120722; border: 1px solid var(--border-purple-subtle); border-radius: var(--radius-md); padding: 1.5rem;">
+            <div style="color: #d97706; font-size: 0.9rem; margin-bottom: 0.5rem;">★★★★★</div>
+            <h4 style="font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem;">"Floral Bloom is delightfully subtle"</h4>
+            <p style="font-size: 0.85rem; color: var(--color-silver-muted); line-height: 1.5;">The scent isn't overpowering or chemical-like. It leaves our bedsheets and kurtas feeling exceptionally soft without needing separate fabric conditioner.</p>
+            <div style="font-size: 0.78rem; color: var(--color-cyan-accent); margin-top: 1rem; font-weight: 600;">— Rajesh M., Chennai (Verified Buyer)</div>
+          </div>
+
+          <div style="background: #120722; border: 1px solid var(--border-purple-subtle); border-radius: var(--radius-md); padding: 1.5rem;">
+            <div style="color: #d97706; font-size: 0.9rem; margin-bottom: 0.5rem;">★★★★★</div>
+            <h4 style="font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem;">"The Refill Pouches save money and plastic"</h4>
+            <p style="font-size: 0.85rem; color: var(--color-silver-muted); line-height: 1.5;">Great initiative with the eco-refill spout pouch. Easy to pour into the main 1L bottle and great cost per wash for our family of four.</p>
+            <div style="font-size: 0.78rem; color: var(--color-cyan-accent); margin-top: 1rem; font-weight: 600;">— Sneha K., Mumbai (Verified Buyer)</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Related Products -->
+      <section style="margin-top: 5rem; padding-top: 4rem; border-top: 1px solid var(--border-purple-subtle);">
+        <h3 class="section-title" style="font-size: 1.8rem; margin-bottom: 2rem;">You May Also Like</h3>
+        <div class="products-grid" id="relatedProductsGrid">
+          <!-- Populated by JS -->
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="wm-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <img src="public/images/logo.png" alt="White Mist" style="height: 48px; margin-bottom: 1rem;">
+          <p>White Mist is a premium liquid detergent and fabric care brand engineered for front & top load washing machines. Pure clean. Gentle care.</p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Shop</h4>
+          <ul class="footer-links-list">
+            <li><a href="shop.html">Daily Wash Liquid</a></li>
+            <li><a href="shop.html">Premium Fabric Care</a></li>
+            <li><a href="shop.html">Concentrated Detergent</a></li>
+            <li><a href="shop.html">Eco Refill Pouches</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">About</h4>
+          <ul class="footer-links-list">
+            <li><a href="our-story.html">Our Story</a></li>
+            <li><a href="technology.html">Liquid Technology</a></li>
+            <li><a href="fabric-care.html">Fabric Care Guide</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Fabric Hub</h4>
+          <ul class="footer-links-list">
+            <li><a href="fabric-care.html">Dosing Calculator</a></li>
+            <li><a href="fabric-care.html">Sorting Guide</a></li>
+            <li><a href="contact.html#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Stay Updated</h4>
+          <form class="newsletter-input-group" onsubmit="event.preventDefault(); window.WhiteMistStore.showToast('Subscribed!', 'success'); this.reset();">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn-primary" style="padding: 0.65rem 1.25rem;">Join</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom-bar">
+        <div>© 2026 Meridian White Mist. All rights reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="contact.html">Support</a>
+          <a href="our-story.html">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/products-data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/white-mist-api.js"></script>
+
+  <script>
+    let currentProduct = null;
+    let selectedSize = '';
+    let currentQty = 1;
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      let list = window.WHITE_MIST_PRODUCTS || [];
+      if (window.WhiteMistAPI) {
+        try {
+          const liveList = await window.WhiteMistAPI.getProducts();
+          if (liveList && liveList.length > 0) list = liveList;
+        } catch (e) {}
+      }
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const slug = urlParams.get('slug');
+
+      // Match product by slug or default to ocean-fresh
+      currentProduct = list.find(p => p.slug === slug || p.id === slug) || list[0];
+      const defaultSizeObj = (currentProduct.sizes && currentProduct.sizes.find(s => s.isDefault)) || currentProduct.sizes[0];
+      selectedSize = defaultSizeObj.size;
+
+      // Populate Headings & Elements
+      document.title = `${currentProduct.name} | White Mist`;
+      document.getElementById('breadcrumbTitle').textContent = currentProduct.name;
+      document.getElementById('pdpTitle').textContent = currentProduct.name;
+      document.getElementById('pdpSubtitle').textContent = currentProduct.subtitle;
+      document.getElementById('pdpBadge').textContent = currentProduct.badge;
+      document.getElementById('pdpBadge').className = `section-badge badge-${currentProduct.badgeType}`;
+      document.getElementById('pdpShortDesc').textContent = currentProduct.shortDesc;
+      document.getElementById('pdpFullDesc').textContent = currentProduct.fullDesc;
+      document.getElementById('pdpRatingStars').textContent = `★★★★★ ${currentProduct.rating}`;
+      document.getElementById('pdpReviewCount').textContent = `(${currentProduct.reviewCount} verified reviews)`;
+
+      // Image & Gallery
+      const mainImg = document.getElementById('pdpMainImg');
+      mainImg.src = currentProduct.image;
+      mainImg.alt = currentProduct.name;
+
+      const thumbsRow = document.getElementById('pdpThumbsRow');
+      if (thumbsRow && currentProduct.gallery) {
+        thumbsRow.innerHTML = currentProduct.gallery.map((imgSrc, idx) => `
+          <button type="button" class="pdp-thumb-item ${idx === 0 ? 'active' : ''}" onclick="switchPdpImage('${imgSrc}', this)">
+            <img src="${imgSrc}" alt="Gallery thumbnail">
+          </button>
+        `).join('');
+      }
+
+      // Sizes Buttons
+      const sizesGrid = document.getElementById('pdpSizesGrid');
+      if (sizesGrid) {
+        sizesGrid.innerHTML = currentProduct.sizes.map(s => `
+          <button type="button" class="pdp-size-btn ${s.size === selectedSize ? 'active' : ''}" onclick="selectPdpSize('${s.size}', ${s.price}, ${s.mrp}, '${s.savings}', this)">
+            <span class="pdp-size-name">${s.size}</span>
+            <span class="pdp-size-price">₹${s.price}</span>
+          </button>
+        `).join('');
+      }
+
+      updatePriceDisplay(defaultSizeObj.price, defaultSizeObj.mrp, defaultSizeObj.savings);
+
+      // Dosage Tab
+      if (currentProduct.dosage) {
+        document.getElementById('pdpDoseRegular').textContent = currentProduct.dosage.regular;
+        document.getElementById('pdpDoseHeavy').textContent = currentProduct.dosage.heavy;
+        document.getElementById('pdpDoseHand').textContent = currentProduct.dosage.handwash || currentProduct.dosage.spotTreat || '25 ml in 10 Litres water';
+      }
+
+      // Specs Tab
+      const specsGrid = document.getElementById('pdpSpecsGrid');
+      if (specsGrid && currentProduct.specs) {
+        specsGrid.innerHTML = Object.entries(currentProduct.specs).map(([k, v]) => `
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); padding: 0.65rem; border-radius: var(--radius-xs);">
+            <span style="color: var(--color-silver-muted); display: block; font-size: 0.72rem;">${k}</span>
+            <strong style="color: #fff;">${v}</strong>
+          </div>
+        `).join('');
+      }
+
+      // Fabrics Badges
+      const fabricsList = document.getElementById('pdpFabricsList');
+      if (fabricsList && currentProduct.fabrics) {
+        fabricsList.innerHTML = currentProduct.fabrics.map(f => `
+          <span style="background: rgba(0, 153, 255, 0.12); border: 1px solid rgba(0, 153, 255, 0.3); color: #fff; font-size: 0.78rem; font-weight: 700; padding: 0.35rem 0.85rem; border-radius: var(--radius-full);">
+            ✓ ${f}
+          </span>
+        `).join('');
+      }
+
+      // Related Products
+      const relatedGrid = document.getElementById('relatedProductsGrid');
+      if (relatedGrid) {
+        const related = list.filter(p => p.id !== currentProduct.id).slice(0, 3);
+        relatedGrid.innerHTML = related.map(p => `
+          <article class="product-card">
+            <div class="card-image-wrap">
+              <a href="product.html?slug=${p.slug}">
+                <img src="${p.image}" alt="${p.name}">
+              </a>
+            </div>
+            <div class="card-category">${p.category}</div>
+            <h4 class="card-title"><a href="product.html?slug=${p.slug}">${p.name}</a></h4>
+            <div class="card-price-action-row" style="margin-top: 1rem;">
+              <span class="card-price-current">₹${p.sizes[0].price}</span>
+              <a href="product.html?slug=${p.slug}" class="btn-card-add">View Options →</a>
+            </div>
+          </article>
+        `).join('');
+      }
+
+      // Tabs Logic
+      document.querySelectorAll('.pdp-tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.pdp-tab-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const tabId = btn.getAttribute('data-tab');
+          document.querySelectorAll('.pdp-tab-content').forEach(c => c.style.display = 'none');
+          const targetContent = document.getElementById(`tab-${tabId}`);
+          if (targetContent) targetContent.style.display = 'block';
+        });
+      });
+
+      // Quantity buttons
+      const qtyValEl = document.getElementById('pdpQtyVal');
+      document.getElementById('pdpQtyInc').addEventListener('click', () => {
+        currentQty++;
+        qtyValEl.textContent = currentQty;
+      });
+      document.getElementById('pdpQtyDec').addEventListener('click', () => {
+        if (currentQty > 1) {
+          currentQty--;
+          qtyValEl.textContent = currentQty;
+        }
+      });
+
+      // Add to Cart Button
+      document.getElementById('pdpAddToCartBtn').addEventListener('click', () => {
+        window.WhiteMistStore.addToCart(currentProduct, selectedSize, currentQty, true);
+      });
+
+      // Buy Now Button
+      document.getElementById('pdpBuyNowBtn').addEventListener('click', () => {
+        window.WhiteMistStore.addToCart(currentProduct, selectedSize, currentQty, false);
+        window.location.href = 'checkout.html';
+      });
+    });
+
+    function switchPdpImage(src, btn) {
+      document.getElementById('pdpMainImg').src = src;
+      document.querySelectorAll('.pdp-thumb-item').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    }
+
+    function selectPdpSize(size, price, mrp, savings, btn) {
+      selectedSize = size;
+      document.querySelectorAll('.pdp-size-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      updatePriceDisplay(price, mrp, savings);
+    }
+
+    function updatePriceDisplay(price, mrp, savings) {
+      document.getElementById('pdpPriceCurrent').textContent = `₹${price}`;
+      document.getElementById('pdpPriceMrp').textContent = `MRP ₹${mrp}`;
+      document.getElementById('pdpDiscountBadge').textContent = `${savings} OFF`;
+    }
+
+    // Mobile nav drawer
+    const openBtn = document.getElementById('mobileMenuOpenBtn');
+    const closeBtn = document.getElementById('mobileMenuCloseBtn');
+    const drawer = document.getElementById('mobileNavDrawer');
+    if (openBtn && closeBtn && drawer) {
+      openBtn.addEventListener('click', () => drawer.classList.add('is-open'));
+      closeBtn.addEventListener('click', () => drawer.classList.remove('is-open'));
+    }
+  </script>
+</body>
+</html>

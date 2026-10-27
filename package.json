@@ -1,0 +1,24 @@
+{
+  "name": "white-mist-laundry",
+  "version": "2.0.0",
+  "description": "White Mist — Premium Liquid Laundry Detergent Brand E-Commerce & Dynamic Admin CMS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test-suite.js"
+  },
+  "keywords": [
+    "white-mist",
+    "liquid-detergent",
+    "fabric-care",
+    "ecommerce",
+    "admin-dashboard",
+    "cms"
+  ],
+  "author": "Meridian White Mist",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

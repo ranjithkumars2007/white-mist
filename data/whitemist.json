@@ -1,0 +1,2075 @@
+{
+  "version": "2.0.0",
+  "admins": [
+    {
+      "id": "admin_root_1",
+      "email": "admin@whitemist.com",
+      "fullName": "White Mist Executive Administrator",
+      "role": "super_admin",
+      "passwordHash": "286678cb85a49c1362eef1a45a2b9e109a564e4fc14b39c4b928ed41e92f2297519868bf11de2fdcb8b26b9d4a7bf72d8835b2da4a1951922006181cf49b859e",
+      "passwordSalt": "261b0d8fbe622b2769ec9b8a45ef476e",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "lastLogin": "2026-10-22T09:36:10.884Z"
+    }
+  ],
+  "settings": {
+    "storeName": "White Mist",
+    "tagline": "Premium Liquid Laundry Detergent & Fabric Care",
+    "currency": "₹",
+    "freeShippingThreshold": 499,
+    "standardShippingFee": 50,
+    "supportEmail": "support@whitemistcare.com",
+    "supportPhone": "+91 98765 43210",
+    "supportAddress": "42, Textile Garden Avenue, Near Green Mills, Coimbatore, Tamil Nadu — 641001",
+    "announcementBarText": "✦ FREE EXPRESS DELIVERY ACROSS INDIA ON ORDERS OVER ₹499 • 100% GENTLE BIO-ENZYME FORMULA ✦",
+    "announcementBarEnabled": true,
+    "updatedAt": "2026-10-22T09:36:10.892Z"
+  },
+  "products": [
+    {
+      "id": "wm-ocean-blue",
+      "slug": "ocean-fresh-liquid-detergent",
+      "name": "White Mist Ocean Fresh Liquid Detergent",
+      "category": "Daily Wash Liquid",
+      "subtitle": "High Quality Laundry Detergent • Front & Top Loading",
+      "shortDesc": "Active bio-liquid detergent formulated for daily cottons, linens, and blended clothes. Dissolves immediately in cold or warm water with zero chalky residue.",
+      "fullDesc": "White Mist Ocean Fresh Liquid Detergent is meticulously formulated to dissolve quickly in water, penetrating deep into fabric weaves to lift daily dust, sweat, and stubborn collar grime. Engineered with balanced surfactants that protect garment elasticity and color integrity wash after wash.",
+      "image": "public/images/bottle_blue.png",
+      "gallery": [
+        "public/images/bottle_blue.png",
+        "public/images/pouch_blue.png",
+        "public/images/fresh_clean_fabrics.jpg"
+      ],
+      "badge": "Bestseller",
+      "badgeType": "bestseller",
+      "rating": 4.9,
+      "reviewCount": 328,
+      "fragrance": "Cool Ocean & Crisp Cotton",
+      "formula": "Low-Foam Bio-Enzyme Active Surfactant",
+      "machineType": "Front & Top Load Compatible",
+      "sizes": [
+        {
+          "size": "500ml",
+          "price": 149,
+          "mrp": 175,
+          "savings": "15%"
+        },
+        {
+          "size": "1 Litre",
+          "price": 249,
+          "mrp": 299,
+          "savings": "17%",
+          "isDefault": true
+        },
+        {
+          "size": "2 Litre",
+          "price": 449,
+          "mrp": 549,
+          "savings": "18%"
+        },
+        {
+          "size": "5 Litre",
+          "price": 999,
+          "mrp": 1299,
+          "savings": "23%"
+        }
+      ],
+      "inStock": true,
+      "stockQty": 462,
+      "sku": "WM-BLU-1000",
+      "dosage": {
+        "regular": "40 ml (1 Cap) for standard 5-6 kg load",
+        "heavy": "60 ml (1.5 Caps) for heavily soiled loads / bedsheets",
+        "handwash": "25 ml in 10 Litres of water"
+      },
+      "fabrics": [
+        "Cottons",
+        "Linens",
+        "Blends",
+        "School Uniforms",
+        "Denims"
+      ],
+      "specs": {
+        "Formulation": "Concentrated Liquid Soluble",
+        "pH Balance": "Neutral (Gentle on hands)",
+        "Water Efficacy": "Effective in Hard & Soft Water",
+        "Shelf Life": "24 Months from MFG Date"
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "seoTitle": "White Mist Ocean Fresh Liquid Detergent (1000ml) | Official Store",
+      "seoDesc": "Buy White Mist Ocean Fresh Liquid Detergent online. Instant dissolving bio-enzyme action for brilliant whites and colors.",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "updatedAt": "2026-10-22T09:36:10.892Z"
+    },
+    {
+      "id": "wm-floral-pink",
+      "slug": "floral-bloom-liquid-detergent",
+      "name": "White Mist Floral Bloom Liquid Detergent",
+      "category": "Premium Fabric Care",
+      "subtitle": "Gentle Care & Softness • Front & Top Loading",
+      "shortDesc": "Infused with gentle fabric conditioners and micro-fragrance floral notes. Shields yarn texture from stiffness and preserves vibrant color pigments.",
+      "fullDesc": "Formulated especially for festive wear, delicates, pastel shirts, and daily soft fabrics. White Mist Floral Bloom cushions fibers during tumbling cycles, preventing micro-fuzzing and static cling while releasing an uplifting botanical jasmine-rose fragrance.",
+      "image": "public/images/bottle_pink.png",
+      "gallery": [
+        "public/images/bottle_pink.png",
+        "public/images/fabric_clean.jpg",
+        "public/images/fresh_clean_fabrics.jpg"
+      ],
+      "badge": "Gentle Care",
+      "badgeType": "gentle",
+      "rating": 4.8,
+      "reviewCount": 214,
+      "fragrance": "Jasmine & Soft Rose Petals",
+      "formula": "Conditioner-Infused Low-Foam Cleanser",
+      "machineType": "Front Load, Top Load & Delicates Cycle",
+      "sizes": [
+        {
+          "size": "500ml",
+          "price": 159,
+          "mrp": 189,
+          "savings": "16%"
+        },
+        {
+          "size": "1 Litre",
+          "price": 269,
+          "mrp": 320,
+          "savings": "16%",
+          "isDefault": true
+        },
+        {
+          "size": "2 Litre",
+          "price": 479,
+          "mrp": 580,
+          "savings": "17%"
+        },
+        {
+          "size": "5 Litre",
+          "price": 1049,
+          "mrp": 1350,
+          "savings": "22%"
+        }
+      ],
+      "inStock": true,
+      "stockQty": 320,
+      "sku": "WM-PNK-1000",
+      "dosage": {
+        "regular": "40 ml for soft daily garments",
+        "heavy": "55 ml for festive or embellished loads",
+        "handwash": "20 ml in a bucket of cold water"
+      },
+      "fabrics": [
+        "Silks",
+        "Chiffons",
+        "Kurtas",
+        "Soft Cottons",
+        "Baby Clothes"
+      ],
+      "specs": {
+        "Formulation": "pH-Balanced Fabric Conditioning Liquid",
+        "Fragrance Type": "Extended-Release Floral Notes",
+        "Bleach": "100% Bleach-Free & Phosphate-Free",
+        "Shelf Life": "24 Months from MFG Date"
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "seoTitle": "White Mist Floral Bloom Fabric Care Detergent | Gentle Silks & Delicates",
+      "seoDesc": "Ultra gentle laundry liquid with botanical conditioners and lasting rose-jasmine notes.",
+      "createdAt": "2026-10-02T00:00:00.000Z",
+      "updatedAt": "2026-10-22T09:36:10.892Z"
+    },
+    {
+      "id": "wm-citrus-yellow",
+      "slug": "citrus-sunshine-liquid-detergent",
+      "name": "White Mist Citrus Sunshine Liquid Detergent",
+      "category": "Concentrated Detergent",
+      "subtitle": "Tough Stain Action & Grease Cutting • Front & Top Load",
+      "shortDesc": "Potent degreasing liquid detergent with natural citrus extracts. Breaks down oily food splatters, turmeric spots, and sports sweat.",
+      "fullDesc": "Engineered for tough household laundry challenges. White Mist Citrus Sunshine features targeted active cleansers that dissolve grease, culinary sauces, coffee stains, and activewear odor without requiring abrasive scrubbing.",
+      "image": "public/images/bottle_yellow.png",
+      "gallery": [
+        "public/images/bottle_yellow.png",
+        "public/images/pouch_yellow.png",
+        "public/images/shirt_cleanpro.jpg"
+      ],
+      "badge": "Tough Stain Action",
+      "badgeType": "stain",
+      "rating": 4.9,
+      "reviewCount": 189,
+      "fragrance": "Zesty Lime & Sunlit Citrus",
+      "formula": "High-Efficacy Grease Cutting Emulsion",
+      "machineType": "All Automatic Washers & Bucket Soaking",
+      "sizes": [
+        {
+          "size": "500ml",
+          "price": 155,
+          "mrp": 180,
+          "savings": "14%"
+        },
+        {
+          "size": "1 Litre",
+          "price": 259,
+          "mrp": 310,
+          "savings": "16%",
+          "isDefault": true
+        },
+        {
+          "size": "2 Litre",
+          "price": 469,
+          "mrp": 560,
+          "savings": "16%"
+        },
+        {
+          "size": "5 Litre",
+          "price": 1029,
+          "mrp": 1320,
+          "savings": "22%"
+        }
+      ],
+      "inStock": true,
+      "stockQty": 250,
+      "sku": "WM-YEL-1000",
+      "dosage": {
+        "regular": "40 ml for general washing",
+        "heavy": "60 ml for sports gear, kitchen aprons, tough grease",
+        "spotTreat": "Dab 5 ml directly on stain, let rest 10 mins before wash"
+      },
+      "fabrics": [
+        "Activewear",
+        "Denims",
+        "Towels",
+        "Heavy Cottons",
+        "Bedsheets"
+      ],
+      "specs": {
+        "Formulation": "Citrus Terpene Fortified Cleanser",
+        "Enzyme Blend": "Lipase & Protease Stain Targeted",
+        "Machine Safety": "Anti-Scale Formulation",
+        "Shelf Life": "24 Months from MFG Date"
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "seoTitle": "White Mist Citrus Sunshine Tough Stain Detergent | Degreasing Liquid",
+      "seoDesc": "Power through tough food grease, turmeric, and sweat stains with concentrated citrus surfactants.",
+      "createdAt": "2026-10-03T00:00:00.000Z",
+      "updatedAt": "2026-10-22T09:36:10.892Z"
+    },
+    {
+      "id": "wm-pouch-blue",
+      "slug": "ocean-fresh-eco-refill-pouch",
+      "name": "White Mist Ocean Fresh Eco Refill Pouch",
+      "category": "Family Value Pack",
+      "subtitle": "70% Less Plastic Packaging • High Quality Laundry Refill",
+      "shortDesc": "Convenient spout pouch that refills your existing White Mist bottle easily. Zero spills, maximum savings, and environmentally mindful.",
+      "fullDesc": "The smart choice for eco-conscious households. Refill your durable White Mist measuring bottle with this ergonomic spout pouch. Saves up to 70% virgin plastic packaging while maintaining the highest standard of fabric-friendly cleaning.",
+      "image": "public/images/pouch_blue.png",
+      "gallery": [
+        "public/images/pouch_blue.png",
+        "public/images/bottle_blue.png",
+        "public/images/fresh_clean_fabrics.jpg"
+      ],
+      "badge": "Eco Saver",
+      "badgeType": "eco",
+      "rating": 4.9,
+      "reviewCount": 412,
+      "fragrance": "Cool Ocean & Crisp Cotton",
+      "formula": "100% Identical Ocean Fresh Formula",
+      "machineType": "Easy-Pour Spout Refill",
+      "sizes": [
+        {
+          "size": "1 Litre Pouch",
+          "price": 199,
+          "mrp": 249,
+          "savings": "20%",
+          "isDefault": true
+        },
+        {
+          "size": "2 Litre Pouch",
+          "price": 379,
+          "mrp": 469,
+          "savings": "19%"
+        }
+      ],
+      "inStock": true,
+      "stockQty": 540,
+      "sku": "WM-PCH-BLU-1000",
+      "dosage": {
+        "regular": "Pour into White Mist bottle and use measuring cap (40ml)",
+        "heavy": "Use 60ml for heavy loads"
+      },
+      "fabrics": [
+        "All Daily Fabrics"
+      ],
+      "specs": {
+        "Packaging": "Triple-Barrier Anti-Leak Spout Pouch",
+        "Plastic Reduction": "70% Less Plastic than rigid bottle",
+        "Storage": "Reclosable tamper-evident cap"
+      },
+      "isActive": true,
+      "isFeatured": false,
+      "seoTitle": "White Mist Ocean Fresh Eco Refill Pouch (1L & 2L)",
+      "seoDesc": "Save money and plastic with White Mist liquid laundry detergent refill pouches.",
+      "createdAt": "2026-10-04T00:00:00.000Z",
+      "updatedAt": "2026-10-22T09:36:10.892Z"
+    },
+    {
+      "id": "wm-pouch-yellow",
+      "slug": "citrus-sunshine-eco-refill-pouch",
+      "name": "White Mist Citrus Sunshine Eco Refill Pouch",
+      "category": "Family Value Pack",
+      "subtitle": "Tough Stain Action • Family Economy Spout Refill",
+      "shortDesc": "High-capacity refill pouch of our tough-stain Citrus Sunshine formulation. Cost-effective and easy to store in any utility shelf.",
+      "fullDesc": "Keep your laundry room stocked with the toughest grease-fighting liquid detergent. Designed with an easy-pour threaded spout that refills your measuring bottle smoothly without mess.",
+      "image": "public/images/pouch_yellow.png",
+      "gallery": [
+        "public/images/pouch_yellow.png",
+        "public/images/bottle_yellow.png",
+        "public/images/shirt_cleanpro.jpg"
+      ],
+      "badge": "Value Pack",
+      "badgeType": "eco",
+      "rating": 4.8,
+      "reviewCount": 145,
+      "fragrance": "Zesty Lime & Sunlit Citrus",
+      "formula": "Concentrated Citrus Stain Cutter",
+      "machineType": "Easy-Pour Spout Refill",
+      "sizes": [
+        {
+          "size": "1 Litre Pouch",
+          "price": 209,
+          "mrp": 259,
+          "savings": "19%",
+          "isDefault": true
+        },
+        {
+          "size": "2 Litre Pouch",
+          "price": 389,
+          "mrp": 479,
+          "savings": "19%"
+        }
+      ],
+      "inStock": true,
+      "stockQty": 180,
+      "sku": "WM-PCH-YEL-1000",
+      "dosage": {
+        "regular": "Pour into White Mist bottle and use measuring cap (40ml)",
+        "heavy": "Use 60ml for heavily soiled clothes"
+      },
+      "fabrics": [
+        "Activewear",
+        "Heavy Linens",
+        "Denims"
+      ],
+      "specs": {
+        "Packaging": "Reinforced Gusseted Stand-Up Pouch",
+        "Spout": "Precision anti-drip nozzle",
+        "Recyclability": "Multi-layer barrier"
+      },
+      "isActive": true,
+      "isFeatured": false,
+      "seoTitle": "White Mist Citrus Sunshine Refill Pouch | Tough Laundry Degreaser",
+      "seoDesc": "Refill pouch for tough stain removal with 70% reduced plastic packaging.",
+      "createdAt": "2026-10-05T00:00:00.000Z",
+      "updatedAt": "2026-10-22T09:36:10.892Z"
+    },
+    {
+      "id": "wm-twin-pack",
+      "slug": "twin-master-pack",
+      "name": "White Mist Twin Master Pack (Ocean + Floral)",
+      "category": "Family Value Pack",
+      "subtitle": "Complete 2-Bottle Household Care Bundle",
+      "shortDesc": "1x Ocean Fresh (1L) for daily cottons and office wear + 1x Floral Bloom (1L) for delicate silks and beddings.",
+      "fullDesc": "Why compromise on fabric care? The White Mist Twin Master Pack delivers specialized care for every item in your wardrobe. Use the crisp Ocean Fresh for whites, shirts, and jeans; switch to the softening Floral Bloom for delicate washables, curtains, and linens.",
+      "image": "public/images/bottle_blue.png",
+      "gallery": [
+        "public/images/bottle_blue.png",
+        "public/images/bottle_pink.png",
+        "public/images/fresh_clean_fabrics.jpg"
+      ],
+      "badge": "Best Value Bundle",
+      "badgeType": "bundle",
+      "rating": 5,
+      "reviewCount": 98,
+      "fragrance": "Dual Collection (Ocean + Floral)",
+      "formula": "Full Spectrum Household Laundry Solution",
+      "machineType": "All Washing Machines",
+      "sizes": [
+        {
+          "size": "2 x 1 Litre Bottles",
+          "price": 469,
+          "mrp": 599,
+          "savings": "22%",
+          "isDefault": true
+        },
+        {
+          "size": "2 x 2 Litre Bottles",
+          "price": 849,
+          "mrp": 1099,
+          "savings": "23%"
+        }
+      ],
+      "inStock": true,
+      "stockQty": 110,
+      "sku": "WM-BND-TWIN-2000",
+      "dosage": {
+        "regular": "Use Ocean Fresh for regular cottons (40ml)",
+        "delicates": "Use Floral Bloom for silks and beddings (40ml)"
+      },
+      "fabrics": [
+        "Every Wardrobe Fabric Type"
+      ],
+      "specs": {
+        "Bundle Contains": "1x Ocean Fresh + 1x Floral Bloom",
+        "Savings": "Extra ₹130 over individual purchases",
+        "Delivery": "Ships in custom protective carton"
+      },
+      "isActive": true,
+      "isFeatured": false,
+      "seoTitle": "White Mist Twin Master Pack | 2x Premium Detergent Bundle",
+      "seoDesc": "Complete home fabric care pack with Ocean Fresh and Floral Bloom variants.",
+      "createdAt": "2026-10-06T00:00:00.000Z",
+      "updatedAt": "2026-10-22T09:36:10.892Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_daily",
+      "name": "Daily Wash Liquid",
+      "slug": "daily-wash-liquid",
+      "description": "Everyday bio-enzyme cleansing for daily cottons, office shirts, and school uniforms.",
+      "image": "public/images/bottle_blue.png",
+      "displayOrder": 1
+    },
+    {
+      "id": "cat_delicates",
+      "name": "Premium Fabric Care",
+      "slug": "premium-fabric-care",
+      "description": "Silk, chiffon, and delicate garment softening formula with botanical aroma.",
+      "image": "public/images/bottle_pink.png",
+      "displayOrder": 2
+    },
+    {
+      "id": "cat_concentrated",
+      "name": "Concentrated Detergent",
+      "slug": "concentrated-detergent",
+      "description": "High performance grease-cutting formulation with natural citrus extracts.",
+      "image": "public/images/bottle_yellow.png",
+      "displayOrder": 3
+    },
+    {
+      "id": "cat_refills",
+      "name": "Family Value Pack",
+      "slug": "family-value-pack",
+      "description": "Sustainable eco-refill pouches and money-saving bundle packs.",
+      "image": "public/images/pouch_blue.png",
+      "displayOrder": 4
+    }
+  ],
+  "homepage": {
+    "hero": {
+      "headline": "Every Wash.\nA Fresh Beginning.",
+      "subtitle": "Discover a smarter way to care for your clothes with White Mist liquid detergent. Engineered with targeted bio-enzymes to dissolve instantly, lift stubborn grime, and shield fabric yarns.",
+      "primaryCtaText": "Explore Products",
+      "primaryCtaLink": "shop.html",
+      "secondaryCtaText": "Discover White Mist",
+      "secondaryCtaLink": "our-story.html",
+      "mainBottleImage": "public/images/bottle_blue.png",
+      "badge1Title": "100% Instant Dissolve",
+      "badge1Desc": "Zero powdery chalk residue",
+      "badge2Title": "Micro-Conditioning",
+      "badge2Desc": "Shields cotton yarn elasticity"
+    },
+    "brandIntro": {
+      "heading": "Crafted for Perfection.",
+      "subheading": "Liquid detergent engineered for modern automatic washing machines.",
+      "stat1Number": "99.8%",
+      "stat1Label": "Stain Lift Efficiency",
+      "stat2Number": "100%",
+      "stat2Label": "Water Soluble (Zero Grit)",
+      "stat3Number": "24 Mo",
+      "stat3Label": "Formula Stability Guarantee"
+    },
+    "cleaningFeatures": [
+      {
+        "title": "Targeted Bio-Enzyme Action",
+        "desc": "Breaks down protein, gravy, and grease stains at microscopic levels without bleaching fibers."
+      },
+      {
+        "title": "Color Lock Technology",
+        "desc": "Seals vibrant dye molecules inside yarns to prevent fading across repetitive wash cycles."
+      },
+      {
+        "title": "Low Foam Front & Top Load Formulation",
+        "desc": "Optimized foam control protects electronic machine sensors and saves rinsing water."
+      },
+      {
+        "title": "Long-Lasting Freshness Infusion",
+        "desc": "Extended-release micro-fragrance capsules keep wardrobes smelling fresh for up to 14 days."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can White Mist be used in both Front Load and Top Load machines?",
+        "answer": "Yes! White Mist is specially engineered with a low-foam, high-dispersion surfactant formula that is 100% safe and effective in both Front Load and Top Load washing machines, as well as bucket handwashing."
+      },
+      {
+        "question": "Does White Mist leave white powdery residue on dark clothes?",
+        "answer": "Never. Unlike traditional detergent powders that rely on insoluble chalk fillers, White Mist is a completely liquid micro-soluble formulation that leaves zero chalky marks."
+      },
+      {
+        "question": "What is the recommended dosage for a standard load?",
+        "answer": "Use 40 ml (approx. 1 cap) for a regular 5–6 kg wash load. For heavy or extra soiled garments, use 60 ml (1.5 caps)."
+      },
+      {
+        "question": "Is White Mist safe for baby clothes and delicate fabrics?",
+        "answer": "Our Floral Bloom variant is 100% bleach-free, phosphate-free, and pH neutral, making it ideal for delicate silks, baby wear, and sensitive skin."
+      }
+    ],
+    "updatedAt": "2026-10-26T10:09:35.229Z",
+    "stainDemo": {
+      "heading": "Drag to Reveal 10x Bio-Clean Magic",
+      "subtitle": "Slide across the fabric below to see how White Mist active bio-enzymes penetrate deep fibers, dissolving tough stains instantly without harming fabric color.",
+      "stains": [
+        {
+          "id": "stain_oil",
+          "name": "Tough Cooking Oil & Kadhai Grease",
+          "beforeImg": "/assets/images/stain_grease_before.jpg",
+          "afterImg": "/assets/images/fabric_clean.jpg",
+          "active": true
+        },
+        {
+          "id": "stain_mud",
+          "name": "Stubborn Mud & Grass Stains",
+          "beforeImg": "/assets/images/stain_mud_before.jpg",
+          "afterImg": "/assets/images/fabric_clean.jpg",
+          "active": true
+        },
+        {
+          "id": "stain_tea",
+          "name": "Dark Coffee, Tea & Turmeric",
+          "beforeImg": "/assets/images/stain_coffee_before.jpg",
+          "afterImg": "/assets/images/fabric_clean.jpg",
+          "active": true
+        },
+        {
+          "id": "stain_sweat",
+          "name": "Yellow Collar Sweat & Odor",
+          "beforeImg": "/assets/images/stain_sweat_before.jpg",
+          "afterImg": "/assets/images/fabric_clean.jpg",
+          "active": true
+        }
+      ]
+    },
+    "heroVariants": [
+      {
+        "id": "variant_blue",
+        "name": "Blue Ocean Fresh",
+        "color": "#0084ff",
+        "bottleImg": "/assets/images/bottle_blue.png",
+        "pouchImg": "/assets/images/pouch_blue.png",
+        "tag": "Bestseller"
+      },
+      {
+        "id": "variant_pink",
+        "name": "Pink Floral Bloom",
+        "color": "#f01262",
+        "bottleImg": "/assets/images/bottle_pink.png",
+        "pouchImg": "/assets/images/pouch_pink.png",
+        "tag": "Gentle Care"
+      },
+      {
+        "id": "variant_yellow",
+        "name": "Yellow Citrus Sunshine",
+        "color": "#d97706",
+        "bottleImg": "/assets/images/bottle_yellow.png",
+        "pouchImg": "/assets/images/pouch_yellow.png",
+        "tag": "Tough Stain Action"
+      }
+    ],
+    "shirtWash": {
+      "heading": "The 3D Micro-Fiber Deep Clean",
+      "subtitle": "Watch dirt particles disintegrate as bio-enzymes lock onto collar grease and restore fabric brightness.",
+      "stainedShirtImg": "/assets/images/shirt_stained_before.png",
+      "cleanShirtImg": "/assets/images/shirt_clean_after.png",
+      "badgeText": "1 Wash Cycle Result"
+    }
+  },
+  "banners": [
+    {
+      "id": "banner_festive_1",
+      "title": "✦ FESTIVE EXPRESS CLEANING OFFER ✦",
+      "subtitle": "Get 15% OFF on orders over ₹599 with code MIST15 + Free Delivery Across India",
+      "imageUrl": "public/images/fresh_clean_fabrics.jpg",
+      "ctaText": "Shop Best Sellers",
+      "ctaLink": "shop.html",
+      "badge": "Limited Time",
+      "isActive": true,
+      "displayOrder": 1,
+      "startDate": "2026-10-01",
+      "endDate": "2026-12-31"
+    }
+  ],
+  "pages": {
+    "our-story": {
+      "title": "Our Story | White Mist",
+      "heroTitle": "Redefining Laundry Care",
+      "heroSubtitle": "Born from a simple belief: your favorite clothes deserve more than harsh chemical powders.",
+      "content": "White Mist was established with a mission to eliminate chalky, fiber-destroying laundry powders. By blending gentle plant-assisted bio-enzymes with fabric conditioning polymers, White Mist delivers a brilliant clean that preserves garment colors, soft weaves, and machine health.",
+      "seoTitle": "Our Story — White Mist Premium Liquid Laundry Detergent",
+      "seoDesc": "Learn the story behind White Mist, engineered for fabric longevity and effortless cleaning.",
+      "updatedAt": "2026-10-22T09:36:10.892Z"
+    },
+    "technology": {
+      "title": "Liquid Technology | White Mist",
+      "heroTitle": "The Science of Clean Clothes",
+      "heroSubtitle": "Inside our low-foam, triple-action bio-enzyme surfactant formulation.",
+      "content": "Traditional detergent powders rely on cheap limestone or chalk fillers that abrade fibers and leave white streaks. White Mist dissolves instantly in water, releasing active lipases and proteases that lift grease, sweat, and stains without degrading fabric integrity.",
+      "seoTitle": "Liquid Laundry Technology — Bio-Enzymes & Color Lock | White Mist",
+      "seoDesc": "Explore the high-tech liquid formulation that gives White Mist superior stain cutting without residue.",
+      "updatedAt": "2026-10-22T09:36:10.892Z"
+    },
+    "fabric-care": {
+      "title": "Fabric Care Hub & Dosing Calculator | White Mist",
+      "heroTitle": "Complete Garment Care Guide",
+      "heroSubtitle": "Master the art of keeping your wardrobe looking brand new for years.",
+      "content": "From delicate silks to durable denim, every weave has unique laundry requirements. Learn exact dosing, sorting guidelines, water temperatures, and fabric preservation tips.",
+      "seoTitle": "Fabric Care Guide & Laundry Dosing Calculator | White Mist",
+      "seoDesc": "Comprehensive care instructions and dosing calculator for all types of clothing fabrics.",
+      "updatedAt": "2026-10-22T09:36:10.892Z"
+    },
+    "privacy-policy": {
+      "title": "Privacy Policy | White Mist",
+      "heroTitle": "Privacy Policy",
+      "heroSubtitle": "Your privacy and data security are our top priorities.",
+      "content": "At White Mist, we respect your privacy. We collect only necessary delivery and contact information required to fulfill orders and provide customer support. We never sell or share your personal data with third-party marketers.",
+      "seoTitle": "Privacy Policy | White Mist",
+      "seoDesc": "Official privacy policy for White Mist e-commerce store and customer accounts.",
+      "updatedAt": "2026-10-22T09:36:10.892Z"
+    },
+    "terms-conditions": {
+      "title": "Terms & Conditions | White Mist",
+      "heroTitle": "Terms & Conditions",
+      "heroSubtitle": "Standard terms of service for purchases made on White Mist.",
+      "content": "All orders placed on White Mist are backed by our 100% satisfaction guarantee. Orders are dispatched within 24 to 48 business hours via insured courier partners with live tracking.",
+      "seoTitle": "Terms & Conditions | White Mist",
+      "seoDesc": "Terms of sale, express dispatch policies, and return guarantees for White Mist products.",
+      "updatedAt": "2026-10-22T09:36:10.892Z"
+    }
+  },
+  "media": [
+    {
+      "id": "media_bottle_blue",
+      "fileName": "bottle_blue.png",
+      "url": "public/images/bottle_blue.png",
+      "fileSize": 254482,
+      "mimeType": "image/png",
+      "uploadedAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "media_bottle_pink",
+      "fileName": "bottle_pink.png",
+      "url": "public/images/bottle_pink.png",
+      "fileSize": 285354,
+      "mimeType": "image/png",
+      "uploadedAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "media_bottle_yellow",
+      "fileName": "bottle_yellow.png",
+      "url": "public/images/bottle_yellow.png",
+      "fileSize": 274367,
+      "mimeType": "image/png",
+      "uploadedAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "media_pouch_blue",
+      "fileName": "pouch_blue.png",
+      "url": "public/images/pouch_blue.png",
+      "fileSize": 351109,
+      "mimeType": "image/png",
+      "uploadedAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "media_pouch_yellow",
+      "fileName": "pouch_yellow.png",
+      "url": "public/images/pouch_yellow.png",
+      "fileSize": 351109,
+      "mimeType": "image/png",
+      "uploadedAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "media_fresh_fabrics",
+      "fileName": "fresh_clean_fabrics.jpg",
+      "url": "public/images/fresh_clean_fabrics.jpg",
+      "fileSize": 662625,
+      "mimeType": "image/jpeg",
+      "uploadedAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "media_logo",
+      "fileName": "logo.png",
+      "url": "public/images/logo.png",
+      "fileSize": 236186,
+      "mimeType": "image/png",
+      "uploadedAt": "2026-10-01T00:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "WM-122147",
+      "customerName": "Test Customer",
+      "customerEmail": "test.customer@example.com",
+      "customerPhone": "+91 99999 88888",
+      "shippingAddress": {
+        "city": "Coimbatore",
+        "pincode": "641001"
+      },
+      "items": [
+        {
+          "id": "wm-ocean-blue",
+          "name": "White Mist Ocean Fresh Liquid Detergent",
+          "size": "1 Litre",
+          "price": 249,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 747,
+      "discount": 0,
+      "shipping": 0,
+      "total": 747,
+      "paymentMethod": "UPI",
+      "status": "Confirmed & Processing",
+      "notes": "Order placed via online checkout",
+      "createdAt": "2026-10-26T10:09:35.216Z"
+    },
+    {
+      "id": "WM-673431",
+      "customerName": "Test Customer",
+      "customerEmail": "test.customer@example.com",
+      "customerPhone": "+91 99999 88888",
+      "shippingAddress": {
+        "city": "Coimbatore",
+        "pincode": "641001"
+      },
+      "items": [
+        {
+          "id": "wm-ocean-blue",
+          "name": "White Mist Ocean Fresh Liquid Detergent",
+          "size": "1 Litre",
+          "price": 249,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 747,
+      "discount": 0,
+      "shipping": 0,
+      "total": 747,
+      "paymentMethod": "UPI",
+      "status": "Confirmed & Processing",
+      "notes": "Order placed via online checkout",
+      "createdAt": "2026-10-26T09:38:50.397Z"
+    },
+    {
+      "id": "WM-721387",
+      "customerName": "Test Customer",
+      "customerEmail": "test.customer@example.com",
+      "customerPhone": "+91 99999 88888",
+      "shippingAddress": {
+        "city": "Coimbatore",
+        "pincode": "641001"
+      },
+      "items": [
+        {
+          "id": "wm-ocean-blue",
+          "name": "White Mist Ocean Fresh Liquid Detergent",
+          "size": "1 Litre",
+          "price": 249,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 747,
+      "discount": 0,
+      "shipping": 0,
+      "total": 747,
+      "paymentMethod": "UPI",
+      "status": "Confirmed & Processing",
+      "notes": "Order placed via online checkout",
+      "createdAt": "2026-10-26T09:08:12.649Z"
+    },
+    {
+      "id": "WM-202014",
+      "customerName": "Test Customer",
+      "customerEmail": "test.customer@example.com",
+      "customerPhone": "+91 99999 88888",
+      "shippingAddress": {
+        "city": "Coimbatore",
+        "pincode": "641001"
+      },
+      "items": [
+        {
+          "id": "wm-ocean-blue",
+          "name": "White Mist Ocean Fresh Liquid Detergent",
+          "size": "1 Litre",
+          "price": 249,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 747,
+      "discount": 0,
+      "shipping": 0,
+      "total": 747,
+      "paymentMethod": "UPI",
+      "status": "Confirmed & Processing",
+      "notes": "Order placed via online checkout",
+      "createdAt": "2026-10-22T09:55:10.448Z"
+    },
+    {
+      "id": "WM-632991",
+      "customerName": "Test Customer",
+      "customerEmail": "test.customer@example.com",
+      "customerPhone": "+91 99999 88888",
+      "shippingAddress": {
+        "city": "Coimbatore",
+        "pincode": "641001"
+      },
+      "items": [
+        {
+          "id": "wm-ocean-blue",
+          "name": "White Mist Ocean Fresh Liquid Detergent",
+          "size": "1 Litre",
+          "price": 249,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 747,
+      "discount": 0,
+      "shipping": 0,
+      "total": 747,
+      "paymentMethod": "UPI",
+      "status": "Confirmed & Processing",
+      "notes": "Order placed via online checkout",
+      "createdAt": "2026-10-22T09:37:55.086Z"
+    },
+    {
+      "id": "WM-967668",
+      "customerName": "Test Customer",
+      "customerEmail": "test.customer@example.com",
+      "customerPhone": "+91 99999 88888",
+      "shippingAddress": {
+        "city": "Coimbatore",
+        "pincode": "641001"
+      },
+      "items": [
+        {
+          "id": "wm-ocean-blue",
+          "name": "White Mist Ocean Fresh Liquid Detergent",
+          "size": "1 Litre",
+          "price": 249,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 747,
+      "discount": 0,
+      "shipping": 0,
+      "total": 747,
+      "paymentMethod": "UPI",
+      "status": "Confirmed & Processing",
+      "notes": "Order placed via online checkout",
+      "createdAt": "2026-10-22T09:36:10.909Z"
+    },
+    {
+      "id": "WM-849102",
+      "customerName": "Ananya Sharma",
+      "customerEmail": "ananya.sharma@example.com",
+      "customerPhone": "+91 98450 11223",
+      "shippingAddress": {
+        "address": "Villa 14, Palm Meadows, Whitefield",
+        "city": "Bengaluru",
+        "pincode": "560066",
+        "state": "Karnataka"
+      },
+      "items": [
+        {
+          "id": "wm-ocean-blue",
+          "name": "White Mist Ocean Fresh Liquid Detergent",
+          "size": "1 Litre",
+          "price": 249,
+          "quantity": 2,
+          "image": "public/images/bottle_blue.png"
+        },
+        {
+          "id": "wm-floral-pink",
+          "name": "White Mist Floral Bloom Liquid Detergent",
+          "size": "1 Litre",
+          "price": 269,
+          "quantity": 1,
+          "image": "public/images/bottle_pink.png"
+        }
+      ],
+      "subtotal": 767,
+      "discount": 115,
+      "shipping": 0,
+      "total": 652,
+      "paymentMethod": "UPI",
+      "status": "Delivered",
+      "notes": "Handover at security gate",
+      "createdAt": "2026-10-18T10:30:00.000Z"
+    },
+    {
+      "id": "WM-629415",
+      "customerName": "Vikramaditya Verma",
+      "customerEmail": "vikram.v@example.com",
+      "customerPhone": "+91 97112 34567",
+      "shippingAddress": {
+        "address": "B-402, DLF Phase 5, Golf Course Road",
+        "city": "Gurugram",
+        "pincode": "122002",
+        "state": "Haryana"
+      },
+      "items": [
+        {
+          "id": "wm-twin-pack",
+          "name": "White Mist Twin Master Pack (Ocean + Floral)",
+          "size": "2 x 1 Litre Bottles",
+          "price": 469,
+          "quantity": 1,
+          "image": "public/images/bottle_blue.png"
+        }
+      ],
+      "subtotal": 469,
+      "discount": 0,
+      "shipping": 50,
+      "total": 519,
+      "paymentMethod": "CARD",
+      "status": "Shipped",
+      "notes": "Air Express courier dispatched",
+      "createdAt": "2026-10-20T14:15:00.000Z"
+    },
+    {
+      "id": "WM-318492",
+      "customerName": "Pooja Sundaram",
+      "customerEmail": "pooja.s@example.com",
+      "customerPhone": "+91 94441 88990",
+      "shippingAddress": {
+        "address": "Flat 3B, Ceebros Heritage, Adyar",
+        "city": "Chennai",
+        "pincode": "600020",
+        "state": "Tamil Nadu"
+      },
+      "items": [
+        {
+          "id": "wm-citrus-yellow",
+          "name": "White Mist Citrus Sunshine Liquid Detergent",
+          "size": "2 Litre",
+          "price": 469,
+          "quantity": 1,
+          "image": "public/images/bottle_yellow.png"
+        },
+        {
+          "id": "wm-pouch-yellow",
+          "name": "White Mist Citrus Sunshine Eco Refill Pouch",
+          "size": "1 Litre Pouch",
+          "price": 209,
+          "quantity": 1,
+          "image": "public/images/pouch_yellow.png"
+        }
+      ],
+      "subtotal": 678,
+      "discount": 50,
+      "shipping": 0,
+      "total": 628,
+      "paymentMethod": "COD",
+      "status": "Confirmed & Processing",
+      "notes": "Verification call completed",
+      "createdAt": "2026-10-21T09:40:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1793009375246",
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "phone": "",
+      "subject": "product_question",
+      "message": "Can I use White Mist for machine handwash mode?",
+      "status": "replied",
+      "createdAt": "2026-10-26T10:09:35.246Z"
+    },
+    {
+      "id": "msg_1793007530433",
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "phone": "",
+      "subject": "product_question",
+      "message": "Can I use White Mist for machine handwash mode?",
+      "status": "replied",
+      "createdAt": "2026-10-26T09:38:50.433Z"
+    },
+    {
+      "id": "msg_1793005692689",
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "phone": "",
+      "subject": "product_question",
+      "message": "Can I use White Mist for machine handwash mode?",
+      "status": "replied",
+      "createdAt": "2026-10-26T09:08:12.689Z"
+    },
+    {
+      "id": "msg_1792662910466",
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "phone": "",
+      "subject": "product_question",
+      "message": "Can I use White Mist for machine handwash mode?",
+      "status": "replied",
+      "createdAt": "2026-10-22T09:55:10.466Z"
+    },
+    {
+      "id": "msg_1792661875107",
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "phone": "",
+      "subject": "product_question",
+      "message": "Can I use White Mist for machine handwash mode?",
+      "status": "replied",
+      "createdAt": "2026-10-22T09:37:55.107Z"
+    },
+    {
+      "id": "msg_1792661770934",
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "phone": "",
+      "subject": "product_question",
+      "message": "Can I use White Mist for machine handwash mode?",
+      "status": "replied",
+      "createdAt": "2026-10-22T09:36:10.934Z"
+    },
+    {
+      "id": "msg_101",
+      "name": "Siddharth Nair",
+      "email": "siddharth.nair@example.com",
+      "phone": "+91 99887 76655",
+      "subject": "product_question",
+      "message": "Is the Citrus Sunshine variant safe for washing delicate linen shirts in cold water?",
+      "status": "replied",
+      "createdAt": "2026-10-19T11:20:00.000Z"
+    },
+    {
+      "id": "msg_102",
+      "name": "Kavita Menon",
+      "email": "kavita.m@example.com",
+      "phone": "+91 98200 44332",
+      "subject": "bulk_order",
+      "message": "We operate a boutique serviced residence in Kochi and would like to order 50 Litres monthly. Do you offer institutional packs?",
+      "status": "new",
+      "createdAt": "2026-10-21T16:05:00.000Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_1793090729307_641",
+      "adminEmail": "admin@whitemist.com",
+      "action": "admin_login",
+      "entityType": "auth",
+      "entityId": "admin_root_1",
+      "details": "Admin signed in successfully from ::1",
+      "timestamp": "2026-10-27T08:45:29.307Z"
+    },
+    {
+      "id": "log_1793009375252_208",
+      "adminEmail": "admin@whitemist.com",
+      "action": "message_status_update",
+      "entityType": "message",
+      "entityId": "msg_1793009375246",
+      "details": "Contact inquiry status set to replied",
+      "timestamp": "2026-10-26T10:09:35.253Z"
+    },
+    {
+      "id": "log_1793009375243_919",
+      "adminEmail": "admin@whitemist.com",
+      "action": "banner_delete",
+      "entityType": "banner",
+      "entityId": "banner_1793009375235",
+      "details": "Deleted banner \"Flash Weekend Sale\"",
+      "timestamp": "2026-10-26T10:09:35.243Z"
+    },
+    {
+      "id": "log_1793009375238_932",
+      "adminEmail": "admin@whitemist.com",
+      "action": "banner_create",
+      "entityType": "banner",
+      "entityId": "banner_1793009375235",
+      "details": "Created promo banner \"Flash Weekend Sale\"",
+      "timestamp": "2026-10-26T10:09:35.238Z"
+    },
+    {
+      "id": "log_1793009375232_213",
+      "adminEmail": "admin@whitemist.com",
+      "action": "homepage_update",
+      "entityType": "homepage",
+      "entityId": "content",
+      "details": "Updated homepage sections and hero content",
+      "timestamp": "2026-10-26T10:09:35.232Z"
+    },
+    {
+      "id": "log_1793009375226_737",
+      "adminEmail": "admin@whitemist.com",
+      "action": "homepage_update",
+      "entityType": "homepage",
+      "entityId": "content",
+      "details": "Updated homepage sections and hero content",
+      "timestamp": "2026-10-26T10:09:35.226Z"
+    },
+    {
+      "id": "log_1793009375219_804",
+      "adminEmail": "test.customer@example.com",
+      "action": "order_created",
+      "entityType": "order",
+      "entityId": "WM-122147",
+      "details": "New order ₹747 placed by Test Customer",
+      "timestamp": "2026-10-26T10:09:35.219Z"
+    },
+    {
+      "id": "log_1793009375212_431",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_delete",
+      "entityType": "product",
+      "entityId": "wm-prod-1793009375192",
+      "details": "Deleted product \"White Mist Ultra Silk & Wool Detergent\" (WM-SLK-TEST-1)",
+      "timestamp": "2026-10-26T10:09:35.212Z"
+    },
+    {
+      "id": "log_1793009375207_841",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_update",
+      "entityType": "product",
+      "entityId": "wm-prod-1793009375192",
+      "details": "Updated product \"White Mist Ultra Silk & Wool Detergent\"",
+      "timestamp": "2026-10-26T10:09:35.207Z"
+    },
+    {
+      "id": "log_1793009375198_124",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_create",
+      "entityType": "product",
+      "entityId": "wm-prod-1793009375192",
+      "details": "Created product \"White Mist Ultra Silk & Wool Detergent\" (WM-SLK-TEST-1)",
+      "timestamp": "2026-10-26T10:09:35.198Z"
+    },
+    {
+      "id": "log_1793007530439_531",
+      "adminEmail": "admin@whitemist.com",
+      "action": "message_status_update",
+      "entityType": "message",
+      "entityId": "msg_1793007530433",
+      "details": "Contact inquiry status set to replied",
+      "timestamp": "2026-10-26T09:38:50.439Z"
+    },
+    {
+      "id": "log_1793007530429_616",
+      "adminEmail": "admin@whitemist.com",
+      "action": "banner_delete",
+      "entityType": "banner",
+      "entityId": "banner_1793007530418",
+      "details": "Deleted banner \"Flash Weekend Sale\"",
+      "timestamp": "2026-10-26T09:38:50.429Z"
+    },
+    {
+      "id": "log_1793007530422_76",
+      "adminEmail": "admin@whitemist.com",
+      "action": "banner_create",
+      "entityType": "banner",
+      "entityId": "banner_1793007530418",
+      "details": "Created promo banner \"Flash Weekend Sale\"",
+      "timestamp": "2026-10-26T09:38:50.422Z"
+    },
+    {
+      "id": "log_1793007530415_579",
+      "adminEmail": "admin@whitemist.com",
+      "action": "homepage_update",
+      "entityType": "homepage",
+      "entityId": "content",
+      "details": "Updated homepage sections and hero content",
+      "timestamp": "2026-10-26T09:38:50.415Z"
+    },
+    {
+      "id": "log_1793007530407_423",
+      "adminEmail": "admin@whitemist.com",
+      "action": "homepage_update",
+      "entityType": "homepage",
+      "entityId": "content",
+      "details": "Updated homepage sections and hero content",
+      "timestamp": "2026-10-26T09:38:50.407Z"
+    },
+    {
+      "id": "log_1793007530400_836",
+      "adminEmail": "test.customer@example.com",
+      "action": "order_created",
+      "entityType": "order",
+      "entityId": "WM-673431",
+      "details": "New order ₹747 placed by Test Customer",
+      "timestamp": "2026-10-26T09:38:50.400Z"
+    },
+    {
+      "id": "log_1793007530394_677",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_delete",
+      "entityType": "product",
+      "entityId": "wm-prod-1793007530371",
+      "details": "Deleted product \"White Mist Ultra Silk & Wool Detergent\" (WM-SLK-TEST-1)",
+      "timestamp": "2026-10-26T09:38:50.394Z"
+    },
+    {
+      "id": "log_1793007530386_114",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_update",
+      "entityType": "product",
+      "entityId": "wm-prod-1793007530371",
+      "details": "Updated product \"White Mist Ultra Silk & Wool Detergent\"",
+      "timestamp": "2026-10-26T09:38:50.386Z"
+    },
+    {
+      "id": "log_1793007530378_490",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_create",
+      "entityType": "product",
+      "entityId": "wm-prod-1793007530371",
+      "details": "Created product \"White Mist Ultra Silk & Wool Detergent\" (WM-SLK-TEST-1)",
+      "timestamp": "2026-10-26T09:38:50.378Z"
+    },
+    {
+      "id": "log_1793005692698_903",
+      "adminEmail": "admin@whitemist.com",
+      "action": "message_status_update",
+      "entityType": "message",
+      "entityId": "msg_1793005692689",
+      "details": "Contact inquiry status set to replied",
+      "timestamp": "2026-10-26T09:08:12.698Z"
+    },
+    {
+      "id": "log_1793005692684_734",
+      "adminEmail": "admin@whitemist.com",
+      "action": "banner_delete",
+      "entityType": "banner",
+      "entityId": "banner_1793005692673",
+      "details": "Deleted banner \"Flash Weekend Sale\"",
+      "timestamp": "2026-10-26T09:08:12.684Z"
+    },
+    {
+      "id": "log_1793005692676_468",
+      "adminEmail": "admin@whitemist.com",
+      "action": "banner_create",
+      "entityType": "banner",
+      "entityId": "banner_1793005692673",
+      "details": "Created promo banner \"Flash Weekend Sale\"",
+      "timestamp": "2026-10-26T09:08:12.676Z"
+    },
+    {
+      "id": "log_1793005692669_148",
+      "adminEmail": "admin@whitemist.com",
+      "action": "homepage_update",
+      "entityType": "homepage",
+      "entityId": "content",
+      "details": "Updated homepage sections and hero content",
+      "timestamp": "2026-10-26T09:08:12.669Z"
+    },
+    {
+      "id": "log_1793005692661_846",
+      "adminEmail": "admin@whitemist.com",
+      "action": "homepage_update",
+      "entityType": "homepage",
+      "entityId": "content",
+      "details": "Updated homepage sections and hero content",
+      "timestamp": "2026-10-26T09:08:12.661Z"
+    },
+    {
+      "id": "log_1793005692653_164",
+      "adminEmail": "test.customer@example.com",
+      "action": "order_created",
+      "entityType": "order",
+      "entityId": "WM-721387",
+      "details": "New order ₹747 placed by Test Customer",
+      "timestamp": "2026-10-26T09:08:12.653Z"
+    },
+    {
+      "id": "log_1793005692645_267",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_delete",
+      "entityType": "product",
+      "entityId": "wm-prod-1793005692625",
+      "details": "Deleted product \"White Mist Ultra Silk & Wool Detergent\" (WM-SLK-TEST-1)",
+      "timestamp": "2026-10-26T09:08:12.646Z"
+    },
+    {
+      "id": "log_1793005692638_5",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_update",
+      "entityType": "product",
+      "entityId": "wm-prod-1793005692625",
+      "details": "Updated product \"White Mist Ultra Silk & Wool Detergent\"",
+      "timestamp": "2026-10-26T09:08:12.639Z"
+    },
+    {
+      "id": "log_1793005692632_350",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_create",
+      "entityType": "product",
+      "entityId": "wm-prod-1793005692625",
+      "details": "Created product \"White Mist Ultra Silk & Wool Detergent\" (WM-SLK-TEST-1)",
+      "timestamp": "2026-10-26T09:08:12.632Z"
+    },
+    {
+      "id": "log_1793005081978_945",
+      "adminEmail": "admin@whitemist.com",
+      "action": "publish_all_content",
+      "entityType": "system",
+      "entityId": "publish",
+      "details": "Published all CMS updates to live public website",
+      "timestamp": "2026-10-26T08:58:01.978Z"
+    },
+    {
+      "id": "log_1793005080804_817",
+      "adminEmail": "admin@whitemist.com",
+      "action": "publish_all_content",
+      "entityType": "system",
+      "entityId": "publish",
+      "details": "Published all CMS updates to live public website",
+      "timestamp": "2026-10-26T08:58:00.804Z"
+    },
+    {
+      "id": "log_1793004981019_189",
+      "adminEmail": "admin@whitemist.com",
+      "action": "publish_all_content",
+      "entityType": "system",
+      "entityId": "publish",
+      "details": "Published all CMS updates to live public website",
+      "timestamp": "2026-10-26T08:56:21.019Z"
+    },
+    {
+      "id": "log_1793004980229_255",
+      "adminEmail": "admin@whitemist.com",
+      "action": "publish_all_content",
+      "entityType": "system",
+      "entityId": "publish",
+      "details": "Published all CMS updates to live public website",
+      "timestamp": "2026-10-26T08:56:20.229Z"
+    },
+    {
+      "id": "log_1793004979178_408",
+      "adminEmail": "admin@whitemist.com",
+      "action": "publish_all_content",
+      "entityType": "system",
+      "entityId": "publish",
+      "details": "Published all CMS updates to live public website",
+      "timestamp": "2026-10-26T08:56:19.178Z"
+    },
+    {
+      "id": "log_1793004049179_933",
+      "adminEmail": "admin@whitemist.com",
+      "action": "admin_login",
+      "entityType": "auth",
+      "entityId": "admin_root_1",
+      "details": "Admin signed in successfully from 127.0.0.1",
+      "timestamp": "2026-10-26T08:40:49.179Z"
+    },
+    {
+      "id": "log_1793003750651_931",
+      "adminEmail": "admin@whitemist.com",
+      "action": "publish_all_content",
+      "entityType": "system",
+      "entityId": "publish",
+      "details": "Published all CMS updates to live public website",
+      "timestamp": "2026-10-26T08:35:50.651Z"
+    },
+    {
+      "id": "log_1793003749989_932",
+      "adminEmail": "admin@whitemist.com",
+      "action": "publish_all_content",
+      "entityType": "system",
+      "entityId": "publish",
+      "details": "Published all CMS updates to live public website",
+      "timestamp": "2026-10-26T08:35:49.989Z"
+    },
+    {
+      "id": "log_1793003734964_626",
+      "adminEmail": "admin@whitemist.com",
+      "action": "admin_login",
+      "entityType": "auth",
+      "entityId": "admin_root_1",
+      "details": "Admin signed in successfully from 127.0.0.1",
+      "timestamp": "2026-10-26T08:35:34.964Z"
+    },
+    {
+      "id": "log_1792830569639_989",
+      "adminEmail": "admin@whitemist.com",
+      "action": "admin_login",
+      "entityType": "auth",
+      "entityId": "admin_root_1",
+      "details": "Admin signed in successfully from 127.0.0.1",
+      "timestamp": "2026-10-24T08:29:29.640Z"
+    },
+    {
+      "id": "log_1792663608374_18",
+      "adminEmail": "admin@whitemist.com",
+      "action": "admin_login",
+      "entityType": "auth",
+      "entityId": "admin_root_1",
+      "details": "Admin signed in successfully from 127.0.0.1",
+      "timestamp": "2026-10-22T10:06:48.374Z"
+    },
+    {
+      "id": "log_1792662910470_738",
+      "adminEmail": "admin@whitemist.com",
+      "action": "message_status_update",
+      "entityType": "message",
+      "entityId": "msg_1792662910466",
+      "details": "Contact inquiry status set to replied",
+      "timestamp": "2026-10-22T09:55:10.470Z"
+    },
+    {
+      "id": "log_1792662910464_37",
+      "adminEmail": "admin@whitemist.com",
+      "action": "banner_delete",
+      "entityType": "banner",
+      "entityId": "banner_1792662910459",
+      "details": "Deleted banner \"Flash Weekend Sale\"",
+      "timestamp": "2026-10-22T09:55:10.464Z"
+    },
+    {
+      "id": "log_1792662910460_390",
+      "adminEmail": "admin@whitemist.com",
+      "action": "banner_create",
+      "entityType": "banner",
+      "entityId": "banner_1792662910459",
+      "details": "Created promo banner \"Flash Weekend Sale\"",
+      "timestamp": "2026-10-22T09:55:10.460Z"
+    },
+    {
+      "id": "log_1792662910457_944",
+      "adminEmail": "admin@whitemist.com",
+      "action": "homepage_update",
+      "entityType": "homepage",
+      "entityId": "content",
+      "details": "Updated homepage sections and hero content",
+      "timestamp": "2026-10-22T09:55:10.457Z"
+    },
+    {
+      "id": "log_1792662910453_40",
+      "adminEmail": "admin@whitemist.com",
+      "action": "homepage_update",
+      "entityType": "homepage",
+      "entityId": "content",
+      "details": "Updated homepage sections and hero content",
+      "timestamp": "2026-10-22T09:55:10.453Z"
+    },
+    {
+      "id": "log_1792662910450_381",
+      "adminEmail": "test.customer@example.com",
+      "action": "order_created",
+      "entityType": "order",
+      "entityId": "WM-202014",
+      "details": "New order ₹747 placed by Test Customer",
+      "timestamp": "2026-10-22T09:55:10.450Z"
+    },
+    {
+      "id": "log_1792662910446_719",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_delete",
+      "entityType": "product",
+      "entityId": "wm-prod-1792662910435",
+      "details": "Deleted product \"White Mist Ultra Silk & Wool Detergent\" (WM-SLK-TEST-1)",
+      "timestamp": "2026-10-22T09:55:10.446Z"
+    },
+    {
+      "id": "log_1792662910443_1",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_update",
+      "entityType": "product",
+      "entityId": "wm-prod-1792662910435",
+      "details": "Updated product \"White Mist Ultra Silk & Wool Detergent\"",
+      "timestamp": "2026-10-22T09:55:10.443Z"
+    },
+    {
+      "id": "log_1792662910439_56",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_create",
+      "entityType": "product",
+      "entityId": "wm-prod-1792662910435",
+      "details": "Created product \"White Mist Ultra Silk & Wool Detergent\" (WM-SLK-TEST-1)",
+      "timestamp": "2026-10-22T09:55:10.439Z"
+    },
+    {
+      "id": "log_1792661875111_35",
+      "adminEmail": "admin@whitemist.com",
+      "action": "message_status_update",
+      "entityType": "message",
+      "entityId": "msg_1792661875107",
+      "details": "Contact inquiry status set to replied",
+      "timestamp": "2026-10-22T09:37:55.111Z"
+    },
+    {
+      "id": "log_1792661875105_909",
+      "adminEmail": "admin@whitemist.com",
+      "action": "banner_delete",
+      "entityType": "banner",
+      "entityId": "banner_1792661875098",
+      "details": "Deleted banner \"Flash Weekend Sale\"",
+      "timestamp": "2026-10-22T09:37:55.105Z"
+    },
+    {
+      "id": "log_1792661875100_84",
+      "adminEmail": "admin@whitemist.com",
+      "action": "banner_create",
+      "entityType": "banner",
+      "entityId": "banner_1792661875098",
+      "details": "Created promo banner \"Flash Weekend Sale\"",
+      "timestamp": "2026-10-22T09:37:55.100Z"
+    },
+    {
+      "id": "log_1792661875096_903",
+      "adminEmail": "admin@whitemist.com",
+      "action": "homepage_update",
+      "entityType": "homepage",
+      "entityId": "content",
+      "details": "Updated homepage sections and hero content",
+      "timestamp": "2026-10-22T09:37:55.096Z"
+    },
+    {
+      "id": "log_1792661875092_422",
+      "adminEmail": "admin@whitemist.com",
+      "action": "homepage_update",
+      "entityType": "homepage",
+      "entityId": "content",
+      "details": "Updated homepage sections and hero content",
+      "timestamp": "2026-10-22T09:37:55.092Z"
+    },
+    {
+      "id": "log_1792661875088_112",
+      "adminEmail": "test.customer@example.com",
+      "action": "order_created",
+      "entityType": "order",
+      "entityId": "WM-632991",
+      "details": "New order ₹747 placed by Test Customer",
+      "timestamp": "2026-10-22T09:37:55.088Z"
+    },
+    {
+      "id": "log_1792661875084_474",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_delete",
+      "entityType": "product",
+      "entityId": "wm-prod-1792661875071",
+      "details": "Deleted product \"White Mist Ultra Silk & Wool Detergent\" (WM-SLK-TEST-1)",
+      "timestamp": "2026-10-22T09:37:55.084Z"
+    },
+    {
+      "id": "log_1792661875079_621",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_update",
+      "entityType": "product",
+      "entityId": "wm-prod-1792661875071",
+      "details": "Updated product \"White Mist Ultra Silk & Wool Detergent\"",
+      "timestamp": "2026-10-22T09:37:55.079Z"
+    },
+    {
+      "id": "log_1792661875075_113",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_create",
+      "entityType": "product",
+      "entityId": "wm-prod-1792661875071",
+      "details": "Created product \"White Mist Ultra Silk & Wool Detergent\" (WM-SLK-TEST-1)",
+      "timestamp": "2026-10-22T09:37:55.075Z"
+    },
+    {
+      "id": "log_1792661821768_513",
+      "adminEmail": "admin@whitemist.com",
+      "action": "admin_login",
+      "entityType": "auth",
+      "entityId": "admin_root_1",
+      "details": "Admin signed in successfully from 127.0.0.1",
+      "timestamp": "2026-10-22T09:37:01.768Z"
+    },
+    {
+      "id": "log_1792661770938_553",
+      "adminEmail": "admin@whitemist.com",
+      "action": "message_status_update",
+      "entityType": "message",
+      "entityId": "msg_1792661770934",
+      "details": "Contact inquiry status set to replied",
+      "timestamp": "2026-10-22T09:36:10.938Z"
+    },
+    {
+      "id": "log_1792661770932_465",
+      "adminEmail": "admin@whitemist.com",
+      "action": "banner_delete",
+      "entityType": "banner",
+      "entityId": "banner_1792661770920",
+      "details": "Deleted banner \"Flash Weekend Sale\"",
+      "timestamp": "2026-10-22T09:36:10.932Z"
+    },
+    {
+      "id": "log_1792661770927_198",
+      "adminEmail": "admin@whitemist.com",
+      "action": "banner_create",
+      "entityType": "banner",
+      "entityId": "banner_1792661770920",
+      "details": "Created promo banner \"Flash Weekend Sale\"",
+      "timestamp": "2026-10-22T09:36:10.927Z"
+    },
+    {
+      "id": "log_1792661770919_107",
+      "adminEmail": "admin@whitemist.com",
+      "action": "homepage_update",
+      "entityType": "homepage",
+      "entityId": "content",
+      "details": "Updated homepage sections and hero content",
+      "timestamp": "2026-10-22T09:36:10.919Z"
+    },
+    {
+      "id": "log_1792661770915_51",
+      "adminEmail": "admin@whitemist.com",
+      "action": "homepage_update",
+      "entityType": "homepage",
+      "entityId": "content",
+      "details": "Updated homepage sections and hero content",
+      "timestamp": "2026-10-22T09:36:10.915Z"
+    },
+    {
+      "id": "log_1792661770911_884",
+      "adminEmail": "test.customer@example.com",
+      "action": "order_created",
+      "entityType": "order",
+      "entityId": "WM-967668",
+      "details": "New order ₹747 placed by Test Customer",
+      "timestamp": "2026-10-22T09:36:10.911Z"
+    },
+    {
+      "id": "log_1792661770907_122",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_delete",
+      "entityType": "product",
+      "entityId": "wm-prod-1792661770899",
+      "details": "Deleted product \"White Mist Ultra Silk & Wool Detergent\" (WM-SLK-TEST-1)",
+      "timestamp": "2026-10-22T09:36:10.907Z"
+    },
+    {
+      "id": "log_1792661770905_829",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_update",
+      "entityType": "product",
+      "entityId": "wm-prod-1792661770899",
+      "details": "Updated product \"White Mist Ultra Silk & Wool Detergent\"",
+      "timestamp": "2026-10-22T09:36:10.905Z"
+    },
+    {
+      "id": "log_1792661770901_609",
+      "adminEmail": "admin@whitemist.com",
+      "action": "product_create",
+      "entityType": "product",
+      "entityId": "wm-prod-1792661770899",
+      "details": "Created product \"White Mist Ultra Silk & Wool Detergent\" (WM-SLK-TEST-1)",
+      "timestamp": "2026-10-22T09:36:10.901Z"
+    },
+    {
+      "id": "log_init",
+      "adminEmail": "admin@whitemist.com",
+      "action": "system_initialize",
+      "entityType": "system",
+      "entityId": "whitemist_core",
+      "details": "White Mist CMS and E-Commerce Database initialized.",
+      "timestamp": "2026-10-22T09:36:10.892Z"
+    }
+  ],
+  "headerNav": {
+    "logoText": "White Mist",
+    "logoImage": "/assets/images/logo.png",
+    "announcementBar": {
+      "enabled": true,
+      "text": "✦ FREE EXPRESS DELIVERY ACROSS INDIA ON ORDERS OVER ₹499 • 100% GENTLE BIO-ENZYME FORMULA ✦",
+      "bgColor": "#3f1b85",
+      "textColor": "#ffffff",
+      "link": "#products"
+    },
+    "navLinks": [
+      {
+        "id": "nav_home",
+        "label": "Home",
+        "url": "/",
+        "isHighlight": false
+      },
+      {
+        "id": "nav_detergents",
+        "label": "Liquid Detergents",
+        "url": "#products",
+        "isHighlight": false
+      },
+      {
+        "id": "nav_bulk",
+        "label": "Bulk Order Quote",
+        "url": "#bulk-quote",
+        "isHighlight": false
+      },
+      {
+        "id": "nav_sample",
+        "label": "Request Free Sample",
+        "url": "#free-sample",
+        "isHighlight": false
+      },
+      {
+        "id": "nav_dose",
+        "label": "Dose Guide",
+        "url": "#dose-calculator",
+        "isHighlight": false
+      }
+    ],
+    "headerCta": {
+      "label": "Shopping Bag",
+      "url": "#cart",
+      "showBadge": true
+    }
+  },
+  "themeSettings": {
+    "defaultTheme": "light",
+    "allowPublicSwitching": true,
+    "lightBgMain": "#fafcff",
+    "lightTextMain": "#1e1b4b",
+    "darkBgMain": "#070311",
+    "darkCardBg": "#100722",
+    "darkTextMain": "#ffffff",
+    "primaryPurple": "#3f1b85",
+    "accentOceanBlue": "#0084ff",
+    "accentFloralPink": "#f01262",
+    "accentCitrusYellow": "#d97706",
+    "fontHeading": "'Baloo 2', 'Poppins', sans-serif",
+    "fontBody": "'Inter', system-ui, sans-serif"
+  },
+  "brandStory": {
+    "heroTitle": "Care Beyond Clean",
+    "heroSubtitle": "Born from a simple belief: your favorite clothes deserve more than harsh chalk powders.",
+    "vision": "To deliver clinical-grade stain removal combined with gentle silk-like yarn conditioning in every Indian household.",
+    "mission": "Zero chalk residue, 100% instant cold water dissolution, and 70% reduced virgin plastic waste.",
+    "storyParagraphs": [
+      "Traditional washing powders rely on cheap limestone or calcium carbonate fillers that settle into cloth weaves, causing stiff fabric, faded colors, and scratchy collars.",
+      "White Mist was engineered from the molecular level up. Our active bio-surfactants penetrate deep into fiber yarns within 3 seconds of water contact, lifting stains from the inside out.",
+      "Engineered for front and top-loading automatic machines, our low-foam rinse technology protects sensitive electronic motors while saving up to 40% water per wash cycle."
+    ],
+    "keyMetrics": [
+      {
+        "value": "10x",
+        "label": "Faster Bio-Stain Dissolution"
+      },
+      {
+        "value": "48 Hrs",
+        "label": "Micro-Capsule Fragrance Lock"
+      },
+      {
+        "value": "0%",
+        "label": "Chalky Residue or Grit"
+      },
+      {
+        "value": "70%",
+        "label": "Plastic Saved in Eco Pouches"
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "id": "ben_1",
+      "icon": "🌡️",
+      "title": "70°C Hot Sterilization",
+      "desc": "Eliminates 99.99% of bacteria, viruses, and stubborn grease from Indian kadhais, oily pans, and baby clothes.",
+      "order": 1,
+      "isActive": true
+    },
+    {
+      "id": "ben_2",
+      "icon": "🔊",
+      "title": "40dB Whisper Quiet",
+      "desc": "Acoustic insulation panels and BLDC EcoSilent motors ensure disturbance-free washing, perfect for night cycles.",
+      "order": 2,
+      "isActive": true
+    },
+    {
+      "id": "ben_3",
+      "icon": "💧",
+      "title": "70% Water Saving",
+      "desc": "Uses only 9.5 liters of water per eco cycle compared to 40+ liters required during traditional manual tap handwashing.",
+      "order": 3,
+      "isActive": true
+    },
+    {
+      "id": "ben_4",
+      "icon": "🛡️",
+      "title": "2-Year Direct Warranty",
+      "desc": "Comprehensive door-step coverage, free installation by certified technicians, and 10-year motor guarantee.",
+      "order": 4,
+      "isActive": true
+    }
+  ],
+  "ingredientsUsage": {
+    "heading": "Certified Formulation & Precise Dosing",
+    "subtitle": "Pure, safe, and laboratory-verified ingredients designed for maximum cleaning performance with zero garment wear.",
+    "dosageGuide": [
+      {
+        "loadType": "Regular Load (5–6 kg)",
+        "lightSoil": "30 ml",
+        "mediumSoil": "40 ml (1 Cap)",
+        "heavySoil": "60 ml (1.5 Caps)"
+      },
+      {
+        "loadType": "Heavy Load / Curtains (7–9 kg)",
+        "lightSoil": "45 ml",
+        "mediumSoil": "60 ml (1.5 Caps)",
+        "heavySoil": "80 ml (2 Caps)"
+      },
+      {
+        "loadType": "Bucket Handwash (10L Water)",
+        "lightSoil": "15 ml",
+        "mediumSoil": "25 ml",
+        "heavySoil": "35 ml"
+      }
+    ],
+    "fabricMatrix": [
+      {
+        "fabric": "Cottons & Linens",
+        "recommendedVariant": "Ocean Fresh (Blue)",
+        "cycle": "Normal / Warm 40°C",
+        "notes": "Deep stain lifting"
+      },
+      {
+        "fabric": "Silks & Delicates",
+        "recommendedVariant": "Floral Bloom (Pink)",
+        "cycle": "Delicate / Cold 30°C",
+        "notes": "Protects yarn softness"
+      },
+      {
+        "fabric": "Workwear & Denims",
+        "recommendedVariant": "Citrus Sunshine (Yellow)",
+        "cycle": "Heavy Duty / 40°C",
+        "notes": "Cuts grease & sports grime"
+      }
+    ],
+    "activeIngredients": [
+      {
+        "name": "Bio-Enzymes (Protease, Amylase, Lipase)",
+        "purpose": "Breaks down proteins, starches, and oily residue into water-soluble molecules"
+      },
+      {
+        "name": "Plant-Derived Non-Ionic Surfactants",
+        "purpose": "Gentle lifting action with low foam index for machine pump longevity"
+      },
+      {
+        "name": "Micro-Encapsulated Fragrance Spheres",
+        "purpose": "Slow-release floral and ocean scents activated by body heat and movement"
+      },
+      {
+        "name": "Anti-Redeposition Polymers",
+        "purpose": "Prevents suspended dirt from settling back onto clean garments during rinse"
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "id": "t1",
+      "author": "Priya Sundaram",
+      "location": "Bengaluru",
+      "rating": 5,
+      "variantUsed": "Ocean Fresh (1L)",
+      "comment": "Switched from powdered detergent 3 months ago. The difference in my black trousers and kurtas is unbelievable—absolutely zero white streaks or chalk residue!",
+      "verifiedBuyer": true,
+      "date": "2026-10-15"
+    },
+    {
+      "id": "t2",
+      "author": "Rajesh Nambiar",
+      "location": "Chennai",
+      "rating": 5,
+      "variantUsed": "Citrus Sunshine (2L)",
+      "comment": "Removes tough sambar and oil stains without vigorous brushing. And the citrus fragrance leaves gym clothes smelling crisp for days.",
+      "verifiedBuyer": true,
+      "date": "2026-10-12"
+    },
+    {
+      "id": "t3",
+      "author": "Meera Patel",
+      "location": "Mumbai",
+      "rating": 5,
+      "variantUsed": "Floral Bloom (1L)",
+      "comment": "Extremely gentle on silk sarees and soft cottons. My front-load washing machine uses much less water now and smells fresh every time.",
+      "verifiedBuyer": true,
+      "date": "2026-10-08"
+    },
+    {
+      "id": "t4",
+      "author": "Amitabh Sen",
+      "location": "Kolkata",
+      "rating": 5,
+      "variantUsed": "Twin Master Bundle",
+      "comment": "The value refill pouches are fantastic. Saves plastic and money. The pour spout makes refilling our bottle 100% mess-free.",
+      "verifiedBuyer": true,
+      "date": "2026-10-02"
+    }
+  ],
+  "pdpSettings": {
+    "enableQuickView": true,
+    "enableReviewsTab": true,
+    "enableDosageTab": true,
+    "enableSpecificationsTab": true,
+    "defaultDeliveryPincode": "560001",
+    "deliveryEstimateText": "Free Express Dispatch within 24–48 hours across India",
+    "guaranteeBadgeText": "100% Satisfaction Guarantee • Easy 7-Day Replacement"
+  },
+  "contactInfo": {
+    "supportEmail": "support@whitemistcare.com",
+    "supportPhone": "+91 98765 43210",
+    "whatsappNumber": "+91 98765 43210",
+    "operatingHours": "Monday to Saturday: 9:00 AM – 7:00 PM IST",
+    "address": "42, Textile Garden Avenue, Near Green Mills, Coimbatore, Tamil Nadu — 641001",
+    "responsePromise": "We respond to all customer enquiries within 2–4 business hours.",
+    "mapUrl": "https://maps.google.com"
+  },
+  "footer": {
+    "logo": "/assets/images/logo.png",
+    "description": "White Mist is an ultra-premium liquid detergent formulated with active bio-enzymes, low-foam rinse technology, and color-lock protection. Engineered for front & top load washing machines.",
+    "copyrightText": "© 2026 Meridian White Mist Ltd. All rights reserved. Premium Liquid Detergent Brand.",
+    "newsletterHeading": "Get Fabric Care Tips & Exclusive Discounts",
+    "newsletterSubtext": "Join 15,000+ Indian households who care for their clothes the modern way.",
+    "socialLinks": [
+      {
+        "platform": "Instagram",
+        "url": "https://instagram.com/whitemist"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/whitemist"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://youtube.com/whitemist"
+      }
+    ],
+    "quickLinks": [
+      {
+        "label": "Daily Wash Liquid",
+        "url": "#products"
+      },
+      {
+        "label": "Delicate Fabric Care",
+        "url": "#products"
+      },
+      {
+        "label": "Tough Stain Remover",
+        "url": "#products"
+      },
+      {
+        "label": "Eco Refill Pouches",
+        "url": "#products"
+      }
+    ],
+    "supportLinks": [
+      {
+        "label": "Dose Calculator",
+        "url": "#dose-calculator"
+      },
+      {
+        "label": "Stain Removal Guide",
+        "url": "#stain-demo"
+      },
+      {
+        "label": "Machine Compatibility",
+        "url": "#benefits"
+      },
+      {
+        "label": "Track My Order",
+        "url": "#orders"
+      }
+    ]
+  },
+  "seoSettings": {
+    "siteTitle": "White Mist Liquid Detergent | 10x Bio-Stain Action & 48hr Freshness",
+    "metaDescription": "Shop Meridian White Mist Liquid Detergent in Blue Ocean Fresh, Pink Floral Bloom, and Yellow Citrus Sunshine. Engineered for Front & Top Load Washing Machines with 10x Bio-Enzyme stain removal.",
+    "keywords": "White Mist detergent, liquid detergent, laundry detergent, front load detergent, top load detergent, bio enzyme stain remover, eco refill pouch",
+    "ogImage": "/assets/images/fresh_clean_fabrics.jpg",
+    "canonicalUrl": "https://white-mist.vercel.app/",
+    "robots": "index, follow"
+  },
+  "visualSections": [
+    {
+      "id": "sec_announcement",
+      "name": "Top Announcement Bar",
+      "isEnabled": true,
+      "order": 1
+    },
+    {
+      "id": "sec_header",
+      "name": "Global Sticky Header & Nav",
+      "isEnabled": true,
+      "order": 2
+    },
+    {
+      "id": "sec_hero",
+      "name": "Full-Screen Hero & Fragrance Switcher",
+      "isEnabled": true,
+      "order": 3
+    },
+    {
+      "id": "sec_benefits",
+      "name": "Brand Benefits Strip (70°C, 40dB, 70% Water)",
+      "isEnabled": true,
+      "order": 4
+    },
+    {
+      "id": "sec_stain_demo",
+      "name": "Interactive Stain Slider (10x Bio-Clean)",
+      "isEnabled": true,
+      "order": 5
+    },
+    {
+      "id": "sec_shirt_wash",
+      "name": "3D Fabric Wash Scroll Animation",
+      "isEnabled": true,
+      "order": 6
+    },
+    {
+      "id": "sec_products",
+      "name": "Featured Products Catalogue",
+      "isEnabled": true,
+      "order": 7
+    },
+    {
+      "id": "sec_calculator",
+      "name": "Precision Dosing Calculator",
+      "isEnabled": true,
+      "order": 8
+    },
+    {
+      "id": "sec_saver_pack",
+      "name": "Super Saver Refill Combo",
+      "isEnabled": true,
+      "order": 9
+    },
+    {
+      "id": "sec_testimonials",
+      "name": "Customer Reviews & Ratings",
+      "isEnabled": true,
+      "order": 10
+    },
+    {
+      "id": "sec_faq",
+      "name": "Frequently Asked Questions",
+      "isEnabled": true,
+      "order": 11
+    },
+    {
+      "id": "sec_footer",
+      "name": "Global Footer & Newsletter",
+      "isEnabled": true,
+      "order": 12
+    }
+  ],
+  "publishStatus": {
+    "hasUnpublishedDrafts": false,
+    "lastPublishedAt": "2026-10-26T08:58:01.978Z",
+    "publishedBy": "admin@whitemist.com"
+  }
+}

@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login | White Mist Liquid Detergent</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/png" href="public/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* =======================================================================
+         WHITE MIST LOGIN — WHITE / LIGHT THEME (DEFAULT)
+         ======================================================================= */
+      --bg-dark: #f8fafc;
+      --bg-surface: #ffffff;
+      --bg-card: #ffffff;
+      --color-primary: #0284c7;
+      --color-primary-hover: #0369a1;
+      --color-purple: #6366f1;
+      --color-cyan: #0284c7;
+      --color-text: #0f172a;
+      --color-text-secondary: #334155;
+      --color-text-muted: #64748b;
+      --color-border: #e2e8f0;
+      --color-border-focus: #0284c7;
+      --color-input-bg: #ffffff;
+      --color-input-border: #cbd5e1;
+      --color-creds-bg: #f8fafc;
+      --color-creds-border: #cbd5e1;
+      --color-creds-code-bg: #e2e8f0;
+      --color-creds-code-text: #0f172a;
+      --color-badge-bg: #e0f2fe;
+      --color-badge-border: #bae6fd;
+      --card-shadow: 0 20px 45px -15px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(15, 23, 42, 0.05);
+      
+      --font-sans: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      --font-display: 'Sora', sans-serif;
+      --radius: 16px;
+      --radius-sm: 8px;
+    }
+
+    [data-theme="dark"] {
+      --bg-dark: #070311;
+      --bg-surface: #100722;
+      --bg-card: #14092b;
+      --color-primary: #0084ff;
+      --color-primary-hover: #0099ff;
+      --color-purple: #7c3aed;
+      --color-cyan: #00e5ff;
+      --color-text: #ffffff;
+      --color-text-secondary: #e2e8f0;
+      --color-text-muted: #94a3b8;
+      --color-border: rgba(124, 58, 237, 0.25);
+      --color-border-focus: rgba(0, 132, 255, 0.6);
+      --color-input-bg: rgba(255, 255, 255, 0.04);
+      --color-input-border: rgba(124, 58, 237, 0.25);
+      --color-creds-bg: rgba(255, 255, 255, 0.02);
+      --color-creds-border: rgba(255, 255, 255, 0.12);
+      --color-creds-code-bg: rgba(0, 0, 0, 0.3);
+      --color-creds-code-text: #ffffff;
+      --color-badge-bg: rgba(0, 132, 255, 0.1);
+      --color-badge-border: rgba(0, 132, 255, 0.25);
+      --card-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 40px rgba(124, 58, 237, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--color-text);
+      font-family: var(--font-sans);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow-x: hidden;
+      padding: 1.5rem;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    /* Ambient Background Glow */
+    .ambient-glow-1 {
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(2, 132, 199, 0.12) 0%, rgba(248, 250, 252, 0) 70%);
+      top: -150px;
+      left: 10%;
+      pointer-events: none;
+      filter: blur(60px);
+    }
+
+    .ambient-glow-2 {
+      position: absolute;
+      width: 450px;
+      height: 450px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.1) 0%, rgba(248, 250, 252, 0) 70%);
+      bottom: -100px;
+      right: 10%;
+      pointer-events: none;
+      filter: blur(60px);
+    }
+
+    [data-theme="dark"] .ambient-glow-1 {
+      background: radial-gradient(circle, rgba(124, 58, 237, 0.22) 0%, rgba(7, 3, 17, 0) 70%);
+    }
+
+    [data-theme="dark"] .ambient-glow-2 {
+      background: radial-gradient(circle, rgba(0, 132, 255, 0.18) 0%, rgba(7, 3, 17, 0) 70%);
+    }
+
+    .login-wrapper {
+      width: 100%;
+      max-width: 440px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .login-brand-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .login-logo {
+      height: 48px;
+      object-fit: contain;
+      margin-bottom: 0.75rem;
+      filter: drop-shadow(0 4px 12px rgba(2, 132, 199, 0.2));
+    }
+
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--color-badge-bg);
+      border: 1px solid var(--color-badge-border);
+      color: var(--color-primary);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      margin-bottom: 0.5rem;
+    }
+
+    .login-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius);
+      padding: 2.25rem;
+      box-shadow: var(--card-shadow);
+      backdrop-filter: blur(12px);
+      transition: all 0.25s ease;
+    }
+
+    .card-title {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+      color: var(--color-text);
+    }
+
+    .card-subtitle {
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
+      margin-bottom: 1.75rem;
+    }
+
+    /* Form Fields */
+    .form-group {
+      margin-bottom: 1.25rem;
+      text-align: left;
+    }
+
+    .form-label {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--color-text-secondary);
+      margin-bottom: 0.45rem;
+    }
+
+    .input-wrap {
+      position: relative;
+    }
+
+    .form-input {
+      width: 100%;
+      background: var(--color-input-bg);
+      border: 1px solid var(--color-input-border);
+      border-radius: var(--radius-sm);
+      color: var(--color-text);
+      padding: 0.8rem 1rem;
+      font-size: 0.92rem;
+      font-family: var(--font-sans);
+      transition: all 0.2s ease;
+    }
+
+    .form-input:focus {
+      outline: none;
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+    }
+
+    .input-with-icon {
+      padding-right: 2.75rem;
+    }
+
+    .toggle-password-btn {
+      position: absolute;
+      right: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: var(--color-text-muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.25rem;
+      transition: color 0.15s ease;
+    }
+
+    .toggle-password-btn:hover {
+      color: var(--color-primary);
+    }
+
+    /* Actions row */
+    .form-meta-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .remember-label {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      color: var(--color-text-muted);
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .remember-label input {
+      accent-color: var(--color-primary);
+    }
+
+    .forgot-link {
+      color: var(--color-primary);
+      text-decoration: none;
+      font-weight: 600;
+      cursor: pointer;
+      transition: color 0.15s ease;
+    }
+
+    .forgot-link:hover {
+      color: var(--color-primary-hover);
+      text-decoration: underline;
+    }
+
+    /* Submit Button */
+    .btn-submit {
+      width: 100%;
+      background: linear-gradient(135deg, var(--color-primary) 0%, #2563eb 100%);
+      color: #ffffff;
+      border: none;
+      border-radius: var(--radius-sm);
+      padding: 0.85rem 1.25rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      font-family: var(--font-sans);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 14px rgba(2, 132, 199, 0.25);
+    }
+
+    .btn-submit:hover:not(:disabled) {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(2, 132, 199, 0.35);
+    }
+
+    .btn-submit:disabled {
+      opacity: 0.65;
+      cursor: not-allowed;
+    }
+
+    /* Alerts */
+    .alert-box {
+      border-radius: var(--radius-sm);
+      padding: 0.75rem 1rem;
+      font-size: 0.85rem;
+      margin-bottom: 1.25rem;
+      display: none;
+      align-items: flex-start;
+      gap: 0.5rem;
+      line-height: 1.4;
+    }
+
+    .alert-error {
+      background: #fef2f2;
+      border: 1px solid #fecdd3;
+      color: #be123c;
+    }
+
+    .alert-success {
+      background: #ecfdf5;
+      border: 1px solid #a7f3d0;
+      color: #047857;
+    }
+
+    /* Quick Creds Info Box */
+    .quick-creds-box {
+      margin-top: 1.5rem;
+      background: var(--color-creds-bg);
+      border: 1px dashed var(--color-creds-border);
+      border-radius: var(--radius-sm);
+      padding: 0.85rem;
+      font-size: 0.78rem;
+      color: var(--color-text-muted);
+      text-align: left;
+    }
+
+    .quick-creds-title {
+      font-weight: 700;
+      color: var(--color-primary);
+      margin-bottom: 0.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .quick-creds-code {
+      background: var(--color-creds-code-bg);
+      padding: 0.15rem 0.35rem;
+      border-radius: 4px;
+      color: var(--color-creds-code-text);
+      font-family: monospace;
+      font-weight: 600;
+    }
+
+    .quick-fill-btn {
+      background: none;
+      border: none;
+      color: var(--color-primary);
+      cursor: pointer;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-decoration: underline;
+      padding: 0;
+      margin-top: 0.35rem;
+      display: inline-block;
+    }
+
+    .back-store-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--color-text-muted);
+      font-size: 0.85rem;
+      text-decoration: none;
+      margin-top: 1.75rem;
+      transition: color 0.15s ease;
+    }
+
+    .back-store-link:hover {
+      color: var(--color-primary);
+    }
+
+    /* Spinner */
+    .spinner {
+      width: 18px;
+      height: 18px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      border-top-color: #ffffff;
+      animation: spin 0.7s linear infinite;
+      display: none;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Modal for Forgot Password */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.55);
+      backdrop-filter: blur(5px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      padding: 1rem;
+    }
+
+    .modal-box {
+      background: var(--bg-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius);
+      max-width: 420px;
+      width: 100%;
+      padding: 2rem;
+      box-shadow: 0 25px 60px rgba(15, 23, 42, 0.2);
+      text-align: left;
+    }
+  </style>
+  <script>
+    (function() {
+      document.documentElement.removeAttribute('data-theme');
+      if (document.body) document.body.removeAttribute('data-theme');
+      localStorage.setItem('wm_admin_theme', 'light');
+    })();
+  </script>
+</head>
+<body>
+
+  <div class="ambient-glow-1"></div>
+  <div class="ambient-glow-2"></div>
+
+  <div class="login-wrapper">
+    <div class="login-brand-header">
+      <a href="index.html">
+        <img src="public/images/logo.png" alt="White Mist Liquid Detergent" class="login-logo">
+      </a>
+      <div>
+        <span class="brand-badge">✦ White Mist Laundry</span>
+      </div>
+    </div>
+
+    <div class="login-card">
+      <h1 class="card-title">Administrator Portal</h1>
+      <p class="card-subtitle">Sign in to manage laundry products, pricing, and content.</p>
+
+      <div class="alert-box alert-error" id="loginAlertError">
+        <span>⚠</span>
+        <span id="loginAlertErrorText">Invalid credentials</span>
+      </div>
+
+      <div class="alert-box alert-success" id="loginAlertSuccess">
+        <span>✓</span>
+        <span id="loginAlertSuccessText">Authentication successful. Redirecting...</span>
+      </div>
+
+      <form id="loginForm" onsubmit="handleLoginSubmit(event)" autocomplete="off">
+        <div class="form-group">
+          <label class="form-label" for="adminEmail">Administrator Email</label>
+          <div class="input-wrap">
+            <input
+              type="email"
+              id="adminEmail"
+              class="form-input"
+              placeholder="admin@whitemist.com"
+              required
+              autofocus
+            >
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="adminPassword">Security Password</label>
+          <div class="input-wrap">
+            <input
+              type="password"
+              id="adminPassword"
+              class="form-input input-with-icon"
+              placeholder="••••••••••••"
+              required
+            >
+            <button
+              type="button"
+              class="toggle-password-btn"
+              id="togglePasswordBtn"
+              aria-label="Toggle password visibility"
+              onclick="togglePasswordVisibility()"
+            >
+              <svg id="eyeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="form-meta-row">
+          <label class="remember-label">
+            <input type="checkbox" id="rememberSession" checked>
+            <span>Keep session active</span>
+          </label>
+          <a class="forgot-link" onclick="openForgotModal()">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn-submit" id="submitBtn">
+          <span class="spinner" id="btnSpinner"></span>
+          <span id="btnText">Sign In to Dashboard</span>
+          <span id="btnArrow">→</span>
+        </button>
+      </form>
+
+      <!-- Quick Verified Demo Access Panel -->
+      <div class="quick-creds-box">
+        <div class="quick-creds-title">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          <span>Verified Default Admin Account:</span>
+        </div>
+        <div>Email: <span class="quick-creds-code">admin@whitemist.com</span></div>
+        <div>Password: <span class="quick-creds-code">WhiteMist@Admin2026!</span></div>
+        <button type="button" class="quick-fill-btn" onclick="fillDemoCredentials()">
+          ✦ Click to auto-fill credentials
+        </button>
+      </div>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="index.html" class="back-store-link">
+        <span>←</span>
+        <span>Return to White Mist Store</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Forgot Password Modal -->
+  <div class="modal-backdrop" id="forgotModal">
+    <div class="modal-box">
+      <h3 style="font-family: var(--font-display); font-size: 1.25rem; margin-bottom: 0.5rem; color: #fff;">Reset Administrator Password</h3>
+      <p style="font-size: 0.85rem; color: var(--color-text-muted); margin-bottom: 1.25rem;">
+        Enter your registered administrator email address to initiate password recovery.
+      </p>
+
+      <div class="alert-box alert-success" id="forgotAlertSuccess" style="display: none;">
+        <span>✓</span>
+        <span id="forgotAlertSuccessText"></span>
+      </div>
+
+      <form onsubmit="handleForgotSubmit(event)">
+        <div class="form-group">
+          <label class="form-label" for="forgotEmail">Admin Email</label>
+          <input type="email" id="forgotEmail" class="form-input" required placeholder="admin@whitemist.com">
+        </div>
+        <div style="display: flex; gap: 0.75rem; justify-content: flex-end; margin-top: 1.5rem;">
+          <button type="button" class="btn-submit" style="background: rgba(255,255,255,0.08); box-shadow: none; width: auto; padding: 0.7rem 1.25rem;" onclick="closeForgotModal()">Cancel</button>
+          <button type="submit" class="btn-submit" style="width: auto; padding: 0.7rem 1.5rem;" id="forgotSubmitBtn">Send Instructions</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    function togglePasswordVisibility() {
+      const input = document.getElementById('adminPassword');
+      const icon = document.getElementById('eyeIcon');
+      if (input.type === 'password') {
+        input.type = 'text';
+        icon.innerHTML = '<path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line>';
+      } else {
+        input.type = 'password';
+        icon.innerHTML = '<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle>';
+      }
+    }
+
+    function fillDemoCredentials() {
+      document.getElementById('adminEmail').value = 'admin@whitemist.com';
+      document.getElementById('adminPassword').value = 'WhiteMist@Admin2026!';
+      document.getElementById('loginAlertError').style.display = 'none';
+    }
+
+    function getRedirectTarget() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const redirect = urlParams.get('redirect');
+      if (redirect) {
+        if (window.location.protocol === 'file:') {
+          if (redirect === '/admin' || redirect === 'admin') return 'admin.html';
+          return redirect.replace(/^\//, '');
+        }
+        return redirect;
+      }
+      return window.location.protocol === 'file:' ? 'admin.html' : '/admin';
+    }
+
+    async function handleLoginSubmit(e) {
+      e.preventDefault();
+      const email = document.getElementById('adminEmail').value.trim();
+      const password = document.getElementById('adminPassword').value;
+      const errorBox = document.getElementById('loginAlertError');
+      const errorText = document.getElementById('loginAlertErrorText');
+      const successBox = document.getElementById('loginAlertSuccess');
+      const submitBtn = document.getElementById('submitBtn');
+      const spinner = document.getElementById('btnSpinner');
+      const btnText = document.getElementById('btnText');
+      const btnArrow = document.getElementById('btnArrow');
+
+      errorBox.style.display = 'none';
+      successBox.style.display = 'none';
+      submitBtn.disabled = true;
+      spinner.style.display = 'inline-block';
+      btnText.textContent = 'Authenticating...';
+      btnArrow.style.display = 'none';
+
+      // Offline file:// direct inspection mode support
+      if (window.location.protocol === 'file:') {
+        if (email.toLowerCase() === 'admin@whitemist.com' && password === 'WhiteMist@Admin2026!') {
+          sessionStorage.setItem('wm_admin_token', 'local_demo_session_token');
+          sessionStorage.setItem('wm_admin_user', JSON.stringify({
+            id: 'admin_local',
+            email: 'admin@whitemist.com',
+            fullName: 'White Mist Administrator',
+            role: 'super_admin'
+          }));
+          successBox.style.display = 'flex';
+          btnText.textContent = 'Access Granted!';
+          setTimeout(() => {
+            window.location.href = getRedirectTarget();
+          }, 500);
+          return;
+        } else {
+          errorBox.style.display = 'flex';
+          errorText.textContent = 'Invalid credentials. Use admin@whitemist.com / WhiteMist@Admin2026!';
+          submitBtn.disabled = false;
+          spinner.style.display = 'none';
+          btnText.textContent = 'Sign In to Dashboard';
+          btnArrow.style.display = 'inline';
+          return;
+        }
+      }
+
+      try {
+        const res = await fetch('/api/auth/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, password })
+        });
+
+        const data = await res.json();
+
+        if (!res.ok) {
+          throw new Error(data.error || 'Authentication failed. Please verify your credentials.');
+        }
+
+        // Save token in sessionStorage for API Authorization header fallback
+        if (data.token) {
+          sessionStorage.setItem('wm_admin_token', data.token);
+          sessionStorage.setItem('wm_admin_user', JSON.stringify(data.user));
+        }
+
+        successBox.style.display = 'flex';
+        btnText.textContent = 'Access Granted!';
+
+        setTimeout(() => {
+          window.location.href = getRedirectTarget();
+        }, 600);
+
+      } catch (err) {
+        errorBox.style.display = 'flex';
+        errorText.textContent = err.message;
+        submitBtn.disabled = false;
+        spinner.style.display = 'none';
+        btnText.textContent = 'Sign In to Dashboard';
+        btnArrow.style.display = 'inline';
+      }
+    }
+
+    function openForgotModal() {
+      document.getElementById('forgotModal').style.display = 'flex';
+      document.getElementById('forgotEmail').value = document.getElementById('adminEmail').value;
+    }
+
+    function closeForgotModal() {
+      document.getElementById('forgotModal').style.display = 'none';
+    }
+
+    async function handleForgotSubmit(e) {
+      e.preventDefault();
+      const email = document.getElementById('forgotEmail').value.trim();
+      const alertBox = document.getElementById('forgotAlertSuccess');
+      const alertText = document.getElementById('forgotAlertSuccessText');
+      const submitBtn = document.getElementById('forgotSubmitBtn');
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Verifying...';
+
+      try {
+        const res = await fetch('/api/auth/forgot-password', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email })
+        });
+        const data = await res.json();
+        alertBox.style.display = 'flex';
+        alertText.textContent = data.demoHint || data.message;
+        submitBtn.textContent = 'Instruction Sent';
+      } catch (err) {
+        alertBox.style.display = 'flex';
+        alertText.textContent = 'Password reset instructions have been logged.';
+      }
+    }
+  </script>
+</body>
+</html>
