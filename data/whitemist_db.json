@@ -1,0 +1,2270 @@
+{
+  "products": [
+    {
+      "id": "wm-white-mist-ocean-fresh-2l-liquid-detergent-5600",
+      "slug": "white-mist-ocean-fresh-2l-liquid-detergent",
+      "name": "White Mist Ocean Fresh 2L Liquid Detergent",
+      "category": "Eco Refill Pouches",
+      "categoryName": "Eco Refill Pouches",
+      "sku": "WM-LD-2L-886",
+      "tagline": "Deep Bio-Clean & 48-Hour Sea Breeze Scent Lock",
+      "subtitle": "Deep Bio-Clean & 48-Hour Sea Breeze Scent Lock",
+      "shortDesc": "High-performance bio-enzyme laundry detergent engineered for superior stain removal.",
+      "fullDesc": "",
+      "description": "High-performance bio-enzyme laundry detergent engineered for superior stain removal.",
+      "image": "/assets/images/bottle_blue.png",
+      "gallery": [
+        "/assets/images/bottle_blue.png"
+      ],
+      "formats": [
+        {
+          "id": "fmt-0",
+          "name": "2 Litre",
+          "price": 349,
+          "mrp": 449,
+          "discount": "22%",
+          "image": "/assets/images/bottle_blue.png",
+          "doses": 40
+        }
+      ],
+      "accentColor": "#0084FF",
+      "bgGradient": "linear-gradient(135deg, #E6F3FF 0%, #FFFFFF 100%)",
+      "color": "blue",
+      "rating": 4.9,
+      "reviewsCount": 120,
+      "features": [
+        "10x Bio-Enzyme Stain Action",
+        "Front Load & Top Load Safe",
+        "Color Guard Technology"
+      ],
+      "fragrance": "Cool Ocean & Crisp Cotton",
+      "stockQty": 250,
+      "inStock": true,
+      "formula": "Bio-Enzyme Active Surfactant",
+      "machineType": "Front & Top Load",
+      "dosage": {
+        "regular": "40 ml (1 Cap) for standard 5-6 kg load",
+        "heavy": "60 ml (1.5 Caps) for heavily soiled loads",
+        "handwash": "25 ml in 10 Litres water"
+      },
+      "fabrics": [
+        "Cottons",
+        "Linens",
+        "Blends"
+      ],
+      "badge": "Bestseller",
+      "badgeType": "bestseller",
+      "seoTitle": "",
+      "seoDesc": "",
+      "isActive": true,
+      "isFeatured": true,
+      "sizes": [
+        {
+          "size": "2 Litre",
+          "price": 349,
+          "mrp": 449,
+          "savings": "22%",
+          "isDefault": true
+        }
+      ],
+      "createdAt": "2026-10-31T11:12:05.601Z",
+      "updatedAt": "2026-10-31T11:12:05.601Z"
+    },
+    {
+      "id": "wm-ocean-blue",
+      "slug": "ocean-fresh-liquid-detergent",
+      "name": "White Mist Ocean Fresh Liquid Detergent",
+      "category": "Daily Wash Liquid",
+      "sku": "WM-BLU-1000",
+      "subtitle": "High Quality Laundry Detergent • Front & Top Loading",
+      "shortDesc": "Active bio-liquid detergent formulated for daily cottons, linens, and blended clothes. Dissolves immediately in cold or warm water with zero chalky residue.",
+      "fullDesc": "White Mist Ocean Fresh Liquid Detergent is meticulously formulated to dissolve quickly in water, penetrating deep into fabric weaves to lift daily dust, sweat, and stubborn collar grime. Engineered with balanced surfactants that protect garment elasticity and color integrity wash after wash.",
+      "image": "/assets/images/bottle_blue.png",
+      "fragrance": "Cool Ocean & Crisp Cotton",
+      "stockQty": 180,
+      "inStock": true,
+      "formula": "Low-Foam Bio-Enzyme Active Surfactant",
+      "machineType": "Front & Top Load Compatible",
+      "dosage": {
+        "regular": "40 ml (1 Cap) for standard 5-6 kg load",
+        "heavy": "60 ml (1.5 Caps) for heavily soiled loads",
+        "handwash": "25 ml in 10 Litres of water"
+      },
+      "fabrics": [
+        "Cottons",
+        "Linens",
+        "Blends",
+        "Denims"
+      ],
+      "badge": "Bestseller",
+      "badgeType": "bestseller",
+      "seoTitle": "White Mist Ocean Fresh Liquid Detergent | Front & Top Load",
+      "seoDesc": "Bio-enzyme liquid laundry detergent with 48hr sea breeze scent lock.",
+      "isActive": true,
+      "isFeatured": true,
+      "sizes": [
+        {
+          "size": "500ml",
+          "price": 149,
+          "mrp": 175,
+          "savings": "15%",
+          "isDefault": false
+        },
+        {
+          "size": "1 Litre",
+          "price": 249,
+          "mrp": 299,
+          "savings": "17%",
+          "isDefault": true
+        },
+        {
+          "size": "2 Litre",
+          "price": 449,
+          "mrp": 549,
+          "savings": "18%",
+          "isDefault": false
+        },
+        {
+          "size": "5 Litre",
+          "price": 999,
+          "mrp": 1299,
+          "savings": "23%",
+          "isDefault": false
+        }
+      ],
+      "createdAt": "2026-01-10T08:00:00.000Z",
+      "updatedAt": "2026-10-25T10:00:00.000Z"
+    },
+    {
+      "id": "wm-floral-pink",
+      "slug": "floral-bloom-liquid-detergent",
+      "name": "White Mist Floral Bloom Liquid Detergent",
+      "category": "Premium Fabric Care",
+      "sku": "WM-PNK-1000",
+      "subtitle": "Gentle Care & Softness • Front & Top Loading",
+      "shortDesc": "Infused with gentle fabric conditioners and micro-fragrance floral notes. Shields yarn texture from stiffness and preserves vibrant color pigments.",
+      "fullDesc": "Formulated especially for festive wear, delicates, pastel shirts, and daily soft fabrics. White Mist Floral Bloom cushions fibers during tumbling cycles, preventing micro-fuzzing and static cling while releasing an uplifting botanical jasmine-rose fragrance.",
+      "image": "/assets/images/bottle_pink.png",
+      "fragrance": "Jasmine & Soft Rose Petals",
+      "stockQty": 120,
+      "inStock": true,
+      "formula": "Conditioner-Infused Low-Foam Cleanser",
+      "machineType": "Front Load, Top Load & Delicates Cycle",
+      "dosage": {
+        "regular": "40 ml for soft daily garments",
+        "heavy": "55 ml for festive or embellished loads",
+        "handwash": "20 ml in a bucket of cold water"
+      },
+      "fabrics": [
+        "Silks",
+        "Chiffons",
+        "Kurtas",
+        "Soft Cottons",
+        "Baby Clothes"
+      ],
+      "badge": "Gentle Care",
+      "badgeType": "gentle",
+      "seoTitle": "White Mist Floral Bloom Liquid Detergent | Rose Softness",
+      "seoDesc": "Fabric conditioning liquid detergent infused with rose botanical extracts.",
+      "isActive": true,
+      "isFeatured": true,
+      "sizes": [
+        {
+          "size": "500ml",
+          "price": 159,
+          "mrp": 189,
+          "savings": "16%",
+          "isDefault": false
+        },
+        {
+          "size": "1 Litre",
+          "price": 269,
+          "mrp": 320,
+          "savings": "16%",
+          "isDefault": true
+        },
+        {
+          "size": "2 Litre",
+          "price": 479,
+          "mrp": 580,
+          "savings": "17%",
+          "isDefault": false
+        },
+        {
+          "size": "5 Litre",
+          "price": 1049,
+          "mrp": 1350,
+          "savings": "22%",
+          "isDefault": false
+        }
+      ],
+      "createdAt": "2026-01-12T08:00:00.000Z",
+      "updatedAt": "2026-10-26T10:00:00.000Z"
+    },
+    {
+      "id": "wm-citrus-yellow",
+      "slug": "citrus-sunshine-liquid-detergent",
+      "name": "White Mist Citrus Sunshine Liquid Detergent",
+      "category": "Concentrated Detergent",
+      "sku": "WM-YEL-1000",
+      "subtitle": "Tough Stain Action & Grease Cutting • Front & Top Load",
+      "shortDesc": "Potent degreasing liquid detergent with natural citrus extracts. Breaks down oily food splatters, turmeric spots, and sports sweat.",
+      "fullDesc": "Engineered for tough household laundry challenges. White Mist Citrus Sunshine features targeted active cleansers that dissolve grease, culinary sauces, coffee stains, and activewear odor without requiring abrasive scrubbing.",
+      "image": "/assets/images/bottle_yellow.png",
+      "fragrance": "Zesty Lime & Sunlit Citrus",
+      "stockQty": 95,
+      "inStock": true,
+      "formula": "High-Efficacy Grease Cutting Emulsion",
+      "machineType": "All Automatic Washers & Bucket Soaking",
+      "dosage": {
+        "regular": "40 ml for general washing",
+        "heavy": "60 ml for sports gear, kitchen aprons, tough grease",
+        "handwash": "25 ml in 10 Litres water"
+      },
+      "fabrics": [
+        "Activewear",
+        "Denims",
+        "Towels",
+        "Heavy Cottons",
+        "Bedsheets"
+      ],
+      "badge": "Tough Stain Action",
+      "badgeType": "stain",
+      "seoTitle": "White Mist Citrus Sunshine | Tough Stain Liquid Detergent",
+      "seoDesc": "Zesty citrus enzymes break down turmeric, grease, and tough stains.",
+      "isActive": true,
+      "isFeatured": true,
+      "sizes": [
+        {
+          "size": "500ml",
+          "price": 155,
+          "mrp": 180,
+          "savings": "14%",
+          "isDefault": false
+        },
+        {
+          "size": "1 Litre",
+          "price": 259,
+          "mrp": 310,
+          "savings": "16%",
+          "isDefault": true
+        },
+        {
+          "size": "2 Litre",
+          "price": 469,
+          "mrp": 560,
+          "savings": "16%",
+          "isDefault": false
+        },
+        {
+          "size": "5 Litre",
+          "price": 1029,
+          "mrp": 1320,
+          "savings": "22%",
+          "isDefault": false
+        }
+      ],
+      "createdAt": "2026-01-15T08:00:00.000Z",
+      "updatedAt": "2026-10-27T10:00:00.000Z"
+    },
+    {
+      "id": "wm-pouch-blue",
+      "slug": "ocean-fresh-eco-refill-pouch",
+      "name": "White Mist Ocean Fresh Eco Refill Pouch",
+      "category": "Family Value Pack",
+      "sku": "WM-PCH-BLU-1000",
+      "subtitle": "70% Less Plastic Packaging • High Quality Laundry Refill",
+      "shortDesc": "Convenient spout pouch that refills your existing White Mist bottle easily. Zero spills, maximum savings, and environmentally mindful.",
+      "fullDesc": "The smart choice for eco-conscious households. Refill your durable White Mist measuring bottle with this ergonomic spout pouch. Saves up to 70% virgin plastic packaging while maintaining the highest standard of fabric-friendly cleaning.",
+      "image": "/assets/images/pouch_blue.png",
+      "fragrance": "Cool Ocean & Crisp Cotton",
+      "stockQty": 140,
+      "inStock": true,
+      "formula": "100% Identical Ocean Fresh Formula",
+      "machineType": "Easy-Pour Spout Refill",
+      "dosage": {
+        "regular": "Pour into White Mist bottle and use measuring cap (40ml)",
+        "heavy": "Use 60ml for heavy loads"
+      },
+      "fabrics": [
+        "All Daily Fabrics"
+      ],
+      "badge": "Eco Saver",
+      "badgeType": "eco",
+      "seoTitle": "White Mist Ocean Fresh Eco Refill Pouch",
+      "seoDesc": "70% less plastic eco spout refill pouch for White Mist detergent.",
+      "isActive": true,
+      "isFeatured": false,
+      "sizes": [
+        {
+          "size": "1 Litre Pouch",
+          "price": 199,
+          "mrp": 249,
+          "savings": "20%",
+          "isDefault": true
+        },
+        {
+          "size": "2 Litre Pouch",
+          "price": 379,
+          "mrp": 469,
+          "savings": "19%",
+          "isDefault": false
+        }
+      ],
+      "createdAt": "2026-02-01T08:00:00.000Z",
+      "updatedAt": "2026-10-25T10:00:00.000Z"
+    },
+    {
+      "id": "wm-pouch-yellow",
+      "slug": "citrus-sunshine-eco-refill-pouch",
+      "name": "White Mist Citrus Sunshine Eco Refill Pouch",
+      "category": "Family Value Pack",
+      "sku": "WM-PCH-YEL-1000",
+      "subtitle": "Tough Stain Action • Family Economy Spout Refill",
+      "shortDesc": "High-capacity refill pouch of our tough-stain Citrus Sunshine formulation. Cost-effective and easy to store in any utility shelf.",
+      "fullDesc": "Keep your laundry room stocked with the toughest grease-fighting liquid detergent. Designed with an easy-pour threaded spout that refills your measuring bottle smoothly without mess.",
+      "image": "/assets/images/pouch_yellow.png",
+      "fragrance": "Zesty Lime & Sunlit Citrus",
+      "stockQty": 85,
+      "inStock": true,
+      "formula": "Concentrated Citrus Stain Cutter",
+      "machineType": "Easy-Pour Spout Refill",
+      "dosage": {
+        "regular": "Pour into White Mist bottle and use measuring cap (40ml)",
+        "heavy": "Use 60ml for heavily soiled clothes"
+      },
+      "fabrics": [
+        "Activewear",
+        "Heavy Linens",
+        "Denims"
+      ],
+      "badge": "Value Pack",
+      "badgeType": "eco",
+      "seoTitle": "White Mist Citrus Sunshine Eco Refill Pouch",
+      "seoDesc": "Economy spout pouch for citrus enzyme stain fighting.",
+      "isActive": true,
+      "isFeatured": false,
+      "sizes": [
+        {
+          "size": "1 Litre Pouch",
+          "price": 209,
+          "mrp": 259,
+          "savings": "19%",
+          "isDefault": true
+        },
+        {
+          "size": "2 Litre Pouch",
+          "price": 389,
+          "mrp": 479,
+          "savings": "19%",
+          "isDefault": false
+        }
+      ],
+      "createdAt": "2026-02-05T08:00:00.000Z",
+      "updatedAt": "2026-10-26T10:00:00.000Z"
+    },
+    {
+      "id": "wm-twin-pack",
+      "slug": "twin-master-pack",
+      "name": "White Mist Twin Master Pack (Ocean + Floral)",
+      "category": "Family Value Pack",
+      "sku": "WM-BND-TWIN-2000",
+      "subtitle": "Complete 2-Bottle Household Care Bundle",
+      "shortDesc": "1x Ocean Fresh (1L) for daily cottons and office wear + 1x Floral Bloom (1L) for delicate silks and beddings.",
+      "fullDesc": "Why compromise on fabric care? The White Mist Twin Master Pack delivers specialized care for every item in your wardrobe. Use the crisp Ocean Fresh for whites, shirts, and jeans; switch to the softening Floral Bloom for delicate washables, curtains, and linens.",
+      "image": "/assets/images/bottle_blue.png",
+      "fragrance": "Dual Collection (Ocean + Floral)",
+      "stockQty": 60,
+      "inStock": true,
+      "formula": "Full Spectrum Household Laundry Solution",
+      "machineType": "All Washing Machines",
+      "dosage": {
+        "regular": "Use Ocean Fresh for regular cottons (40ml)",
+        "delicates": "Use Floral Bloom for silks and beddings (40ml)"
+      },
+      "fabrics": [
+        "Every Wardrobe Fabric Type"
+      ],
+      "badge": "Best Value Bundle",
+      "badgeType": "bundle",
+      "seoTitle": "White Mist Twin Master Pack | Complete Household Care",
+      "seoDesc": "Twin combo pack containing 1x Ocean Fresh and 1x Floral Bloom.",
+      "isActive": true,
+      "isFeatured": true,
+      "sizes": [
+        {
+          "size": "2 x 1 Litre Bottles",
+          "price": 469,
+          "mrp": 599,
+          "savings": "22%",
+          "isDefault": true
+        },
+        {
+          "size": "2 x 2 Litre Bottles",
+          "price": 849,
+          "mrp": 1099,
+          "savings": "23%",
+          "isDefault": false
+        }
+      ],
+      "createdAt": "2026-02-10T08:00:00.000Z",
+      "updatedAt": "2026-10-27T10:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Daily Wash Liquid",
+      "slug": "daily-wash-liquid",
+      "description": "Everyday bio-clean detergents for shirts, linens, and blended clothes.",
+      "productCount": 1
+    },
+    {
+      "id": "cat-2",
+      "name": "Premium Fabric Care",
+      "slug": "premium-fabric-care",
+      "description": "Enzyme conditioners formulated for silks, woolens, and delicate garments.",
+      "productCount": 1
+    },
+    {
+      "id": "cat-3",
+      "name": "Concentrated Detergent",
+      "slug": "concentrated-detergent",
+      "description": "Heavy-duty grease and stain-fighting formulations.",
+      "productCount": 1
+    },
+    {
+      "id": "cat-4",
+      "name": "Family Value Pack",
+      "slug": "family-value-pack",
+      "description": "Eco refill pouches and multi-bottle value packs.",
+      "productCount": 3
+    },
+    {
+      "id": "cat-1793421161760",
+      "name": "rakesh",
+      "slug": "rakesh",
+      "description": "",
+      "displayOrder": 5
+    },
+    {
+      "id": "cat-1793445125584",
+      "name": "Eco Refill Pouches",
+      "slug": "eco-refill-pouches",
+      "description": "Sustainable 2L and 3L detergent refill pouches with easy-pour spout.",
+      "displayOrder": 6
+    },
+    {
+      "id": "cat-1793445637980",
+      "name": "Eco Fabric Softener",
+      "slug": "eco-fabric-softener",
+      "description": "Plant-based enzyme softeners",
+      "displayOrder": 7
+    }
+  ],
+  "homepage": {
+    "hero": {
+      "headline": "Pure Cleanliness,",
+      "highlightText": "Infinite Freshness.",
+      "subtitle": "Meridian White Mist Liquid Detergent dissolves 10x tough stains instantly while infusing garments with 48-hour micro-capsule fragrance. Perfect for both Front Load & Top Load machines.",
+      "feature1": "Front & Top Load Safe",
+      "feature2": "10x Bio-Stain Removal",
+      "feature3": "48hr Scent Lock",
+      "feature4": "Eco Spout Pouch Refills",
+      "badgeTitle": "Super Saver",
+      "badgeText": "Save up to 39%",
+      "primaryCtaText": "Shop White Mist",
+      "primaryCtaLink": "#products",
+      "secondaryCtaText": "Calculate Dose",
+      "secondaryCtaLink": "#stain-calculator",
+      "mainBottleImage": "public/images/bottle_blue.png",
+      "mainPouchImage": "/assets/images/pouch_blue.png"
+    },
+    "brandIntro": {
+      "heading": "Why Commercial & Home Kitchens Trust White Mist",
+      "subheading": "Engineered with high-pressure bio-enzyme water jets, surgical grade stainless steel, and intelligent sensors for superior cleanliness.",
+      "stat1Number": "48-Hr",
+      "stat1Label": "Scent Lock",
+      "stat2Number": "10x",
+      "stat2Label": "Bio-Stain Lift",
+      "stat3Number": "100%",
+      "stat3Label": "Fabric Safe"
+    },
+    "superSaver": {
+      "tag": "LIMITED TIME DEAL",
+      "discount": "Save ₹350 (39% OFF)",
+      "title": "Triple Power Liquid Detergent Bundle (3 x 1L)",
+      "subtitle": "Get Ocean Fresh, Floral Bloom & Citrus Sunshine at an unbeatable introductory price!",
+      "price": 599,
+      "mrp": 949,
+      "notice": "Includes FREE Measuring Cap + Delivery"
+    },
+    "faqs": [
+      {
+        "question": "Is White Mist safe for front load washing machines?",
+        "answer": "Yes, White Mist is low-foam optimized for all front load, top load, and semi-automatic machines."
+      },
+      {
+        "question": "Can I use it for delicate silks and baby clothes?",
+        "answer": "Our Floral Bloom formula is 100% bleach-free, phosphate-free, and dermatologically tested for soft fabrics and sensitive skin."
+      },
+      {
+        "question": "How many washes do I get from a 2L bottle?",
+        "answer": "A 2 Litre bottle delivers approximately 40 full loads (5-6kg machine load) using the recommended 40ml dosage cap."
+      },
+      {
+        "question": "Does White Mist leave white powdery residue on dark clothes?",
+        "answer": "No! Liquid detergents dissolve 100% instantly in water, leaving zero chalky residue or fabric stiffness on dark or colored clothes."
+      }
+    ]
+  },
+  "settings": {
+    "siteTitle": "White Mist — Bio-Enzyme Liquid Detergent",
+    "announcementBarText": "✦ SPECIAL LAUNDRY OFFER • FLAT 25% OFF FAMILY COMBOS ✦",
+    "announcementBarEnabled": true,
+    "freeShippingThreshold": 599,
+    "standardShippingFee": 50,
+    "contactEmail": "care@whitemist.com",
+    "contactPhone": "+91 98860 44210",
+    "storeName": "White Mist",
+    "tagline": "",
+    "supportEmail": "support@whitemistcare.com",
+    "supportPhone": "+91 98765 43210"
+  },
+  "banners": [
+    {
+      "id": "ban-1",
+      "title": "✦ MEGA FESTIVE SAVER BUNDLE ✦",
+      "subtitle": "Flat 30% OFF on 4kg Family Combos + Free Delivery",
+      "badge": "PROMO",
+      "ctaText": "Shop Best Sellers",
+      "ctaLink": "#products",
+      "isActive": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "WM-ORD-3333",
+      "customerName": "Test Failed User",
+      "customerEmail": "failed@test.com",
+      "customerPhone": "",
+      "shippingAddress": {},
+      "items": [
+        {
+          "name": "Ocean Fresh 1L",
+          "sku": "WM-DET-1000",
+          "hsn": "3402",
+          "qty": 1,
+          "unitPrice": 211.02,
+          "grossUnitPrice": 249,
+          "gstRate": 18,
+          "taxAmount": 37.98,
+          "total": 249
+        }
+      ],
+      "subtotal": 211.02,
+      "discount": 0,
+      "cgst": 18.99,
+      "sgst": 18.99,
+      "igst": 0,
+      "tax": 37.98,
+      "shippingFee": 0,
+      "total": 249,
+      "paymentMethod": "CARD",
+      "paymentStatus": "FAILED",
+      "status": "Confirmed & Processing",
+      "transactionId": "TXN-WM-408335",
+      "invoiceId": null,
+      "invoiceNumber": null,
+      "invoiceStatus": "Pending Verification",
+      "invoiceDate": null,
+      "date": "31 Oct 2026",
+      "createdAt": "2026-10-31T05:37:25.556Z"
+    },
+    {
+      "id": "WM-ORD-5951",
+      "customerName": "Ranjith Kumar",
+      "customerEmail": "ranjith.k@techcorp.in",
+      "customerPhone": "+91 98860 11223",
+      "shippingAddress": {
+        "address": "Tower 5, EcoSpace Green, Bellandur",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560103"
+      },
+      "items": [
+        {
+          "name": "White Mist Ocean Fresh Liquid Detergent 2L",
+          "sku": "WM-BLU-2000",
+          "hsn": "3402",
+          "qty": 2,
+          "unitPrice": 295.76,
+          "grossUnitPrice": 349,
+          "gstRate": 18,
+          "taxAmount": 106.48,
+          "total": 698
+        }
+      ],
+      "subtotal": 591.53,
+      "discount": 0,
+      "cgst": 53.23,
+      "sgst": 53.24,
+      "igst": 0,
+      "tax": 106.47,
+      "shippingFee": 0,
+      "total": 698,
+      "paymentMethod": "UPI",
+      "paymentStatus": "PAID",
+      "status": "Confirmed & Processing",
+      "transactionId": "TXN-WM-406283",
+      "invoiceId": "INV-5951",
+      "invoiceNumber": "WM-INV-2026-9910",
+      "invoiceStatus": "Generated",
+      "invoiceDate": "2026-10-31T05:37:25.566Z",
+      "date": "31 Oct 2026",
+      "createdAt": "2026-10-31T05:37:25.541Z"
+    },
+    {
+      "id": "WM-ORD-8921",
+      "customerName": "Aarav Deshmukh",
+      "customerEmail": "aarav.d@gmail.com",
+      "customerPhone": "+91 98201 44510",
+      "shippingAddress": {
+        "address": "Flat 402, Green Palms, Bellandur",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560103"
+      },
+      "items": [
+        {
+          "name": "Ocean Fresh 2L Bottle",
+          "sku": "WM-BLU-2000",
+          "hsn": "3402",
+          "qty": 2,
+          "price": 349,
+          "mrp": 499,
+          "total": 698
+        }
+      ],
+      "subtotal": 591.53,
+      "discount": 0,
+      "cgst": 53.24,
+      "sgst": 53.24,
+      "tax": 106.47,
+      "shippingFee": 0,
+      "total": 698,
+      "status": "Confirmed & Processing",
+      "paymentMethod": "Razorpay UPI",
+      "paymentStatus": "PAID",
+      "transactionId": "TXN-WM-892101",
+      "invoiceId": "INV-8921",
+      "invoiceNumber": "WM-INV-2026-8921",
+      "invoiceStatus": "Generated",
+      "invoiceDate": "2026-10-28T09:31:00.000Z",
+      "date": "28 Oct 2026",
+      "createdAt": "2026-10-28T09:30:00.000Z"
+    },
+    {
+      "id": "WM-ORD-8919",
+      "customerName": "Meera Krishnan",
+      "customerEmail": "meera.k@outlook.com",
+      "customerPhone": "+91 98450 11209",
+      "shippingAddress": {
+        "address": "Villa 14, Prestige Silver Crest, Whitefield",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560066"
+      },
+      "items": [
+        {
+          "name": "Floral Bloom 2kg Refill Pouch",
+          "sku": "WM-PNK-2000",
+          "hsn": "3402",
+          "qty": 2,
+          "price": 289,
+          "mrp": 380,
+          "total": 578
+        }
+      ],
+      "subtotal": 489.83,
+      "discount": 0,
+      "cgst": 44.09,
+      "sgst": 44.09,
+      "tax": 88.17,
+      "shippingFee": 0,
+      "total": 578,
+      "status": "In Transit",
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "PAID",
+      "transactionId": "TXN-WM-891902",
+      "invoiceId": "INV-8919",
+      "invoiceNumber": "WM-INV-2026-8919",
+      "invoiceStatus": "Generated",
+      "invoiceDate": "2026-10-27T14:16:00.000Z",
+      "date": "27 Oct 2026",
+      "createdAt": "2026-10-27T14:15:00.000Z"
+    },
+    {
+      "id": "WM-ORD-8914",
+      "customerName": "Vikram Malhotra",
+      "customerEmail": "vikram.m@corp.in",
+      "customerPhone": "+91 97110 88200",
+      "shippingAddress": {
+        "address": "12-B, Cyber Heights, Sector 29",
+        "city": "Gurugram",
+        "state": "Haryana",
+        "pincode": "122002"
+      },
+      "items": [
+        {
+          "name": "Ocean Fresh 2L Bottle",
+          "sku": "WM-BLU-2000",
+          "hsn": "3402",
+          "qty": 1,
+          "price": 349,
+          "mrp": 499,
+          "total": 349
+        },
+        {
+          "name": "Floral Bloom 2L Bottle",
+          "sku": "WM-PNK-2000",
+          "hsn": "3402",
+          "qty": 1,
+          "price": 349,
+          "mrp": 499,
+          "total": 349
+        },
+        {
+          "name": "Citrus Sunshine 2L Bottle",
+          "sku": "WM-YEL-2000",
+          "hsn": "3402",
+          "qty": 1,
+          "price": 349,
+          "mrp": 499,
+          "total": 349
+        }
+      ],
+      "subtotal": 780.51,
+      "discount": 126,
+      "cgst": 0,
+      "sgst": 0,
+      "igst": 140.49,
+      "tax": 140.49,
+      "shippingFee": 0,
+      "total": 921,
+      "status": "Processing",
+      "paymentMethod": "Net Banking",
+      "paymentStatus": "PAID",
+      "transactionId": "TXN-WM-891403",
+      "invoiceId": "INV-8914",
+      "invoiceNumber": "WM-INV-2026-8914",
+      "invoiceStatus": "Generated",
+      "invoiceDate": "2026-10-26T11:46:00.000Z",
+      "date": "26 Oct 2026",
+      "createdAt": "2026-10-26T11:45:00.000Z"
+    },
+    {
+      "id": "WM-ORD-8902",
+      "customerName": "Pooja Hegde",
+      "customerEmail": "pooja.h@yahoo.com",
+      "customerPhone": "+91 98861 33201",
+      "shippingAddress": {
+        "address": "88, Lavelle Road, Shanthala Nagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560001"
+      },
+      "items": [
+        {
+          "name": "Ocean Fresh 2L Bottle",
+          "sku": "WM-BLU-2000",
+          "hsn": "3402",
+          "qty": 1,
+          "price": 349,
+          "mrp": 499,
+          "total": 349
+        }
+      ],
+      "subtotal": 253.39,
+      "discount": 0,
+      "cgst": 22.81,
+      "sgst": 22.81,
+      "tax": 45.61,
+      "shippingFee": 50,
+      "total": 349,
+      "status": "Delivered",
+      "paymentMethod": "Razorpay UPI",
+      "paymentStatus": "PAID",
+      "transactionId": "TXN-WM-890204",
+      "invoiceId": "INV-8902",
+      "invoiceNumber": "WM-INV-2026-8902",
+      "invoiceStatus": "Generated",
+      "invoiceDate": "2026-10-25T16:21:00.000Z",
+      "date": "25 Oct 2026",
+      "createdAt": "2026-10-25T16:20:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "MSG-4102",
+      "name": "Rajesh Nair (The Grand Orchid Hotel)",
+      "email": "procurement@grandorchid.com",
+      "phone": "+91 98860 44210",
+      "subject": "Bulk Institutional Order",
+      "message": "Requirement for 150 units of 2kg Refill Pouches monthly for hotel laundry operations.",
+      "status": "replied",
+      "date": "28 Oct 2026",
+      "createdAt": "2026-10-28T08:00:00.000Z"
+    },
+    {
+      "id": "MSG-4099",
+      "name": "Sunita Ramanathan (Care & Clean)",
+      "email": "sunita@careclean.in",
+      "phone": "+91 98451 90211",
+      "subject": "Commercial Trial Sample Kit",
+      "message": "Requesting sample pouches of Ocean Fresh and Floral Bloom for front-load machines.",
+      "status": "replied",
+      "date": "26 Oct 2026",
+      "createdAt": "2026-10-26T12:00:00.000Z"
+    }
+  ],
+  "media": [
+    {
+      "id": "med-1793438146772-958",
+      "fileName": "1793438146764_download.png",
+      "originalName": "download.png",
+      "url": "/uploads/1793438146764_download.png",
+      "fileSize": 254482,
+      "mimeType": "image/png",
+      "uploadedAt": "2026-10-31T09:15:46.772Z"
+    },
+    {
+      "id": "med-1793438143689-811",
+      "fileName": "1793438143684_bottle_blue.png",
+      "originalName": "bottle_blue.png",
+      "url": "/uploads/1793438143684_bottle_blue.png",
+      "fileSize": 254482,
+      "mimeType": "image/png",
+      "uploadedAt": "2026-10-31T09:15:43.689Z"
+    },
+    {
+      "id": "med-1793348739276-795",
+      "fileName": "1793348739270_Screenshot_2026-10-29_165309.png",
+      "originalName": "Screenshot 2026-10-29 165309.png",
+      "url": "/uploads/1793348739270_Screenshot_2026-10-29_165309.png",
+      "fileSize": 82172,
+      "mimeType": "image/png",
+      "uploadedAt": "2026-10-30T08:25:39.276Z"
+    },
+    {
+      "id": "med-1",
+      "fileName": "bottle_blue.png",
+      "originalName": "bottle_blue.png",
+      "url": "/assets/images/bottle_blue.png",
+      "size": 142000,
+      "mimeType": "image/png",
+      "uploadedAt": "2026-10-01T10:00:00.000Z"
+    },
+    {
+      "id": "med-2",
+      "fileName": "bottle_pink.png",
+      "originalName": "bottle_pink.png",
+      "url": "/assets/images/bottle_pink.png",
+      "size": 138000,
+      "mimeType": "image/png",
+      "uploadedAt": "2026-10-01T10:00:00.000Z"
+    },
+    {
+      "id": "med-3",
+      "fileName": "bottle_yellow.png",
+      "originalName": "bottle_yellow.png",
+      "url": "/assets/images/bottle_yellow.png",
+      "size": 145000,
+      "mimeType": "image/png",
+      "uploadedAt": "2026-10-01T10:00:00.000Z"
+    },
+    {
+      "id": "med-4",
+      "fileName": "pouch_blue.png",
+      "originalName": "pouch_blue.png",
+      "url": "/assets/images/pouch_blue.png",
+      "size": 122000,
+      "mimeType": "image/png",
+      "uploadedAt": "2026-10-01T10:00:00.000Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "aud-1793445877132-660",
+      "action": "Update Homepage",
+      "details": "Published updated homepage hero, brand highlights, and FAQs",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T11:24:37.132Z"
+    },
+    {
+      "id": "aud-1793445877119-412",
+      "action": "Update Settings",
+      "details": "Updated store configuration & announcement bar",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T11:24:37.119Z"
+    },
+    {
+      "id": "aud-1793445657867-986",
+      "action": "Delete Category",
+      "details": "Deleted category eco-fabric-softener",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T11:20:57.867Z"
+    },
+    {
+      "id": "aud-1793445637983-778",
+      "action": "Create Category",
+      "details": "Created category \"Eco Fabric Softener\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T11:20:37.983Z"
+    },
+    {
+      "id": "aud-1793445394323-884",
+      "action": "Update Homepage",
+      "details": "Published updated homepage hero, brand highlights, and FAQs",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T11:16:34.323Z"
+    },
+    {
+      "id": "aud-1793445394309-905",
+      "action": "Update Settings",
+      "details": "Updated store configuration & announcement bar",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T11:16:34.309Z"
+    },
+    {
+      "id": "aud-1793445125604-947",
+      "action": "Create Product",
+      "details": "Created product \"White Mist Ocean Fresh 2L Liquid Detergent\" (WM-LD-2L-886)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T11:12:05.604Z"
+    },
+    {
+      "id": "aud-1793445125587-681",
+      "action": "Create Category",
+      "details": "Created category \"Eco Refill Pouches\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T11:12:05.587Z"
+    },
+    {
+      "id": "aud-1793441572415-159",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T10:12:52.415Z"
+    },
+    {
+      "id": "aud-1793441559664-267",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T10:12:39.664Z"
+    },
+    {
+      "id": "aud-1793440975430-44",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T10:02:55.430Z"
+    },
+    {
+      "id": "aud-1793440707920-947",
+      "action": "Update Homepage",
+      "details": "Published updated homepage hero, brand highlights, and FAQs",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T09:58:27.920Z"
+    },
+    {
+      "id": "aud-1793440707902-351",
+      "action": "Update Settings",
+      "details": "Updated store configuration & announcement bar",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T09:58:27.902Z"
+    },
+    {
+      "id": "aud-1793440457949-971",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T09:54:17.949Z"
+    },
+    {
+      "id": "aud-1793439719724-919",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T09:41:59.724Z"
+    },
+    {
+      "id": "aud-1793439183209-515",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T09:33:03.209Z"
+    },
+    {
+      "id": "aud-1793438146779-961",
+      "action": "Upload Asset",
+      "details": "Uploaded media asset \"download.png\" -> /uploads/1793438146764_download.png",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T09:15:46.779Z"
+    },
+    {
+      "id": "aud-1793438143696-967",
+      "action": "Upload Asset",
+      "details": "Uploaded media asset \"bottle_blue.png\" -> /uploads/1793438143684_bottle_blue.png",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T09:15:43.696Z"
+    },
+    {
+      "id": "aud-1793438085884-355",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T09:14:45.884Z"
+    },
+    {
+      "id": "aud-1793438035241-560",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T09:13:55.241Z"
+    },
+    {
+      "id": "aud-1793437728544-144",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T09:08:48.544Z"
+    },
+    {
+      "id": "aud-1793437428849-122",
+      "action": "Update Settings",
+      "details": "Updated store configuration & announcement bar",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T09:03:48.849Z"
+    },
+    {
+      "id": "aud-1793427540158-597",
+      "action": "Update Order",
+      "details": "Updated order WM-ORD-3333 status to \"Confirmed & Processing\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T06:19:00.158Z"
+    },
+    {
+      "id": "aud-1793427538360-521",
+      "action": "Update Order",
+      "details": "Updated order WM-ORD-3333 status to \"In Transit\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T06:18:58.360Z"
+    },
+    {
+      "id": "aud-1793425045577-760",
+      "action": "Regenerate Invoice",
+      "details": "Controlled regeneration of invoice WM-INV-2026-9910 for order WM-ORD-5951",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T05:37:25.577Z"
+    },
+    {
+      "id": "aud-1793425045560-839",
+      "action": "Order Checkout & Payment",
+      "details": "Order WM-ORD-3333 placed (CARD, Total: ₹249, Payment: FAILED)",
+      "adminEmail": "failed@test.com",
+      "timestamp": "2026-10-31T05:37:25.560Z"
+    },
+    {
+      "id": "aud-1793425045545-316",
+      "action": "Order Checkout & Payment",
+      "details": "Order WM-ORD-5951 placed (UPI, Total: ₹698, Payment: SUCCESS, Invoice: WM-INV-2026-9910)",
+      "adminEmail": "ranjith.k@techcorp.in",
+      "timestamp": "2026-10-31T05:37:25.545Z"
+    },
+    {
+      "id": "aud-1793421161771-103",
+      "action": "Create Category",
+      "details": "Created category \"rakesh\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-31T04:32:41.771Z"
+    },
+    {
+      "id": "aud-1793348739280-781",
+      "action": "Upload Asset",
+      "details": "Uploaded media asset \"Screenshot 2026-10-29 165309.png\" -> /uploads/1793348739270_Screenshot_2026-10-29_165309.png",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-30T08:25:39.280Z"
+    },
+    {
+      "id": "aud-1793272961135-111",
+      "action": "Delete Category",
+      "details": "Deleted category cat-1793272961113",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:22:41.135Z"
+    },
+    {
+      "id": "aud-1793272961117-977",
+      "action": "Create Category",
+      "details": "Created category \"Test Fabric Softeners\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:22:41.117Z"
+    },
+    {
+      "id": "aud-1793272932304-743",
+      "action": "Update Settings",
+      "details": "Updated store configuration & announcement bar",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:22:12.304Z"
+    },
+    {
+      "id": "aud-1793272932276-278",
+      "action": "Update Homepage",
+      "details": "Published updated homepage hero, brand highlights, and FAQs",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:22:12.276Z"
+    },
+    {
+      "id": "aud-1793272932244-672",
+      "action": "Delete Asset",
+      "details": "Deleted media asset \"1793272932190_test_upload_1793272932184.png\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:22:12.244Z"
+    },
+    {
+      "id": "aud-1793272932197-221",
+      "action": "Upload Asset",
+      "details": "Uploaded media asset \"test_upload_1793272932184.png\" -> /uploads/1793272932190_test_upload_1793272932184.png",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:22:12.197Z"
+    },
+    {
+      "id": "aud-1793272932170-711",
+      "action": "Delete Product",
+      "details": "Permanently deleted product \"White Mist Ultra Bio-Action Detergent Pods\" (wm-white-mist-ultra-bio-action-detergent-pods-2095)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:22:12.170Z"
+    },
+    {
+      "id": "aud-1793272932142-726",
+      "action": "Update Product",
+      "details": "Updated product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-2091)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:22:12.142Z"
+    },
+    {
+      "id": "aud-1793272932100-852",
+      "action": "Create Product",
+      "details": "Created product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-2091)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:22:12.104Z"
+    },
+    {
+      "id": "aud-1793272932054-716",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:22:12.054Z"
+    },
+    {
+      "id": "aud-1793271867256-56",
+      "action": "Update Settings",
+      "details": "Updated store configuration & announcement bar",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:04:27.256Z"
+    },
+    {
+      "id": "aud-1793271867239-716",
+      "action": "Update Homepage",
+      "details": "Published updated homepage hero, brand highlights, and FAQs",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:04:27.239Z"
+    },
+    {
+      "id": "aud-1793271867221-323",
+      "action": "Delete Asset",
+      "details": "Deleted media asset \"1793271867180_test_upload_1793271867177.png\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:04:27.221Z"
+    },
+    {
+      "id": "aud-1793271867185-303",
+      "action": "Upload Asset",
+      "details": "Uploaded media asset \"test_upload_1793271867177.png\" -> /uploads/1793271867180_test_upload_1793271867177.png",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:04:27.185Z"
+    },
+    {
+      "id": "aud-1793271867162-251",
+      "action": "Delete Product",
+      "details": "Permanently deleted product \"White Mist Ultra Bio-Action Detergent Pods\" (wm-white-mist-ultra-bio-action-detergent-pods-7119)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:04:27.162Z"
+    },
+    {
+      "id": "aud-1793271867141-840",
+      "action": "Update Product",
+      "details": "Updated product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-7117)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:04:27.141Z"
+    },
+    {
+      "id": "aud-1793271867123-702",
+      "action": "Create Product",
+      "details": "Created product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-7117)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:04:27.123Z"
+    },
+    {
+      "id": "aud-1793271867095-197",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T11:04:27.095Z"
+    },
+    {
+      "id": "aud-1793271540188-2",
+      "action": "Delete Product",
+      "details": "Permanently deleted product \"White Mist Ultra Bio-Shield Detergent\" (wm-white-mist-ultra-bio-shield-detergent-0163)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:59:00.188Z"
+    },
+    {
+      "id": "aud-1793271540166-221",
+      "action": "Create Product",
+      "details": "Created product \"White Mist Ultra Bio-Shield Detergent\" (WM-HOMEPAGE-SHOWCASE-0156)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:59:00.166Z"
+    },
+    {
+      "id": "aud-1793271362329-225",
+      "action": "Update Settings",
+      "details": "Updated store configuration & announcement bar",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:56:02.329Z"
+    },
+    {
+      "id": "aud-1793271362306-302",
+      "action": "Update Homepage",
+      "details": "Published updated homepage hero, brand highlights, and FAQs",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:56:02.306Z"
+    },
+    {
+      "id": "aud-1793271362281-698",
+      "action": "Delete Asset",
+      "details": "Deleted media asset \"1793271362238_test_upload_1793271362232.png\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:56:02.281Z"
+    },
+    {
+      "id": "aud-1793271362244-840",
+      "action": "Upload Asset",
+      "details": "Uploaded media asset \"test_upload_1793271362232.png\" -> /uploads/1793271362238_test_upload_1793271362232.png",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:56:02.244Z"
+    },
+    {
+      "id": "aud-1793271362219-0",
+      "action": "Delete Product",
+      "details": "Permanently deleted product \"White Mist Ultra Bio-Action Detergent Pods\" (wm-white-mist-ultra-bio-action-detergent-pods-2174)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:56:02.219Z"
+    },
+    {
+      "id": "aud-1793271362198-142",
+      "action": "Update Product",
+      "details": "Updated product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-2171)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:56:02.198Z"
+    },
+    {
+      "id": "aud-1793271362178-644",
+      "action": "Create Product",
+      "details": "Created product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-2171)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:56:02.178Z"
+    },
+    {
+      "id": "aud-1793271362145-127",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:56:02.145Z"
+    },
+    {
+      "id": "aud-1793269650782-864",
+      "action": "Update Settings",
+      "details": "Updated store configuration & announcement bar",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:27:30.782Z"
+    },
+    {
+      "id": "aud-1793269650772-248",
+      "action": "Update Homepage",
+      "details": "Published updated homepage hero, brand highlights, and FAQs",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:27:30.772Z"
+    },
+    {
+      "id": "aud-1793269650760-892",
+      "action": "Delete Asset",
+      "details": "Deleted media asset \"1793269650740_test_upload_1793269650739.png\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:27:30.760Z"
+    },
+    {
+      "id": "aud-1793269650743-862",
+      "action": "Upload Asset",
+      "details": "Uploaded media asset \"test_upload_1793269650739.png\" -> /uploads/1793269650740_test_upload_1793269650739.png",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:27:30.743Z"
+    },
+    {
+      "id": "aud-1793269650731-498",
+      "action": "Delete Product",
+      "details": "Permanently deleted product \"White Mist Ultra Bio-Action Detergent Pods\" (wm-white-mist-ultra-bio-action-detergent-pods-0706)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:27:30.731Z"
+    },
+    {
+      "id": "aud-1793269650720-992",
+      "action": "Update Product",
+      "details": "Updated product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-0705)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:27:30.720Z"
+    },
+    {
+      "id": "aud-1793269650708-993",
+      "action": "Create Product",
+      "details": "Created product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-0705)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:27:30.708Z"
+    },
+    {
+      "id": "aud-1793269650692-222",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:27:30.692Z"
+    },
+    {
+      "id": "aud-1793269382697-342",
+      "action": "Update Settings",
+      "details": "Updated store configuration & announcement bar",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:23:02.697Z"
+    },
+    {
+      "id": "aud-1793269382686-792",
+      "action": "Update Homepage",
+      "details": "Published updated homepage hero, brand highlights, and FAQs",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:23:02.686Z"
+    },
+    {
+      "id": "aud-1793269382670-551",
+      "action": "Delete Asset",
+      "details": "Deleted media asset \"1793269382644_test_upload_1793269382642.png\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:23:02.670Z"
+    },
+    {
+      "id": "aud-1793269382649-7",
+      "action": "Upload Asset",
+      "details": "Uploaded media asset \"test_upload_1793269382642.png\" -> /uploads/1793269382644_test_upload_1793269382642.png",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:23:02.649Z"
+    },
+    {
+      "id": "aud-1793269382634-814",
+      "action": "Delete Product",
+      "details": "Permanently deleted product \"White Mist Ultra Bio-Action Detergent Pods\" (wm-white-mist-ultra-bio-action-detergent-pods-2606)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:23:02.634Z"
+    },
+    {
+      "id": "aud-1793269382621-552",
+      "action": "Update Product",
+      "details": "Updated product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-2604)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:23:02.621Z"
+    },
+    {
+      "id": "aud-1793269382608-923",
+      "action": "Create Product",
+      "details": "Created product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-2604)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:23:02.608Z"
+    },
+    {
+      "id": "aud-1793269382589-547",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T10:23:02.589Z"
+    },
+    {
+      "id": "aud-1793267992547-779",
+      "action": "Update Order",
+      "details": "Updated order WM-ORD-8921 status to \"Confirmed & Processing\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:59:52.547Z"
+    },
+    {
+      "id": "aud-1793267990037-799",
+      "action": "Update Order",
+      "details": "Updated order WM-ORD-8921 status to \"Shipped\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:59:50.037Z"
+    },
+    {
+      "id": "aud-1793267755656-268",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:55:55.656Z"
+    },
+    {
+      "id": "aud-1793266532215-8",
+      "action": "Update Settings",
+      "details": "Updated store configuration & announcement bar",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:35:32.215Z"
+    },
+    {
+      "id": "aud-1793266532201-528",
+      "action": "Update Homepage",
+      "details": "Published updated homepage hero, brand highlights, and FAQs",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:35:32.201Z"
+    },
+    {
+      "id": "aud-1793266532186-940",
+      "action": "Delete Asset",
+      "details": "Deleted media asset \"1793266532157_test_upload_1793266532154.png\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:35:32.186Z"
+    },
+    {
+      "id": "aud-1793266532161-746",
+      "action": "Upload Asset",
+      "details": "Uploaded media asset \"test_upload_1793266532154.png\" -> /uploads/1793266532157_test_upload_1793266532154.png",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:35:32.161Z"
+    },
+    {
+      "id": "aud-1793266532143-766",
+      "action": "Delete Product",
+      "details": "Permanently deleted product \"White Mist Ultra Bio-Action Detergent Pods\" (wm-white-mist-ultra-bio-action-detergent-pods-2110)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:35:32.143Z"
+    },
+    {
+      "id": "aud-1793266532128-453",
+      "action": "Update Product",
+      "details": "Updated product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-2108)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:35:32.128Z"
+    },
+    {
+      "id": "aud-1793266532112-505",
+      "action": "Create Product",
+      "details": "Created product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-2108)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:35:32.112Z"
+    },
+    {
+      "id": "aud-1793266532092-404",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:35:32.092Z"
+    },
+    {
+      "id": "aud-1793266392590-609",
+      "action": "Update Settings",
+      "details": "Updated store configuration & announcement bar",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:33:12.590Z"
+    },
+    {
+      "id": "aud-1793266392578-588",
+      "action": "Update Homepage",
+      "details": "Published updated homepage hero, brand highlights, and FAQs",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:33:12.578Z"
+    },
+    {
+      "id": "aud-1793266392563-328",
+      "action": "Delete Asset",
+      "details": "Deleted media asset \"1793266392534_test_upload_1793266392531.png\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:33:12.563Z"
+    },
+    {
+      "id": "aud-1793266392538-504",
+      "action": "Upload Asset",
+      "details": "Uploaded media asset \"test_upload_1793266392531.png\" -> /uploads/1793266392534_test_upload_1793266392531.png",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:33:12.538Z"
+    },
+    {
+      "id": "aud-1793266392525-140",
+      "action": "Delete Product",
+      "details": "Permanently deleted product \"White Mist Ultra Bio-Action Detergent Pods\" (wm-white-mist-ultra-bio-action-detergent-pods-2499)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:33:12.525Z"
+    },
+    {
+      "id": "aud-1793266392514-218",
+      "action": "Update Product",
+      "details": "Updated product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-2498)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:33:12.514Z"
+    },
+    {
+      "id": "aud-1793266392502-747",
+      "action": "Create Product",
+      "details": "Created product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-2498)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:33:12.502Z"
+    },
+    {
+      "id": "aud-1793266392484-200",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:33:12.484Z"
+    },
+    {
+      "id": "aud-1793266341021-213",
+      "action": "Update Settings",
+      "details": "Updated store configuration & announcement bar",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:32:21.021Z"
+    },
+    {
+      "id": "aud-1793266341007-43",
+      "action": "Update Homepage",
+      "details": "Published updated homepage hero, brand highlights, and FAQs",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:32:21.007Z"
+    },
+    {
+      "id": "aud-1793266340996-240",
+      "action": "Delete Asset",
+      "details": "Deleted media asset \"1793266340967_test_upload_1793266340965.png\"",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:32:20.997Z"
+    },
+    {
+      "id": "aud-1793266340970-903",
+      "action": "Upload Asset",
+      "details": "Uploaded media asset \"test_upload_1793266340965.png\" -> /uploads/1793266340967_test_upload_1793266340965.png",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:32:20.970Z"
+    },
+    {
+      "id": "aud-1793266340956-179",
+      "action": "Delete Product",
+      "details": "Permanently deleted product \"White Mist Ultra Bio-Action Detergent Pods\" (wm-white-mist-ultra-bio-action-detergent-pods-0931)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:32:20.956Z"
+    },
+    {
+      "id": "aud-1793266340944-90",
+      "action": "Update Product",
+      "details": "Updated product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-0930)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:32:20.944Z"
+    },
+    {
+      "id": "aud-1793266340933-775",
+      "action": "Create Product",
+      "details": "Created product \"White Mist Ultra Bio-Action Detergent Pods\" (WM-TEST-POD-0930)",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:32:20.933Z"
+    },
+    {
+      "id": "aud-1793266340904-273",
+      "action": "Admin Sign In",
+      "details": "Administrator admin@whitemist.com successfully signed in",
+      "adminEmail": "admin@whitemist.com",
+      "timestamp": "2026-10-29T09:32:20.904Z"
+    }
+  ],
+  "pages": {
+    "about": {
+      "title": "About White Mist",
+      "content": "White Mist is an Indian manufacturer of premium bio-enzyme laundry solutions..."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "content": "Your privacy is important to White Mist. We do not sell your personal information..."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "content": "Welcome to White Mist. By using our website, you agree to these terms..."
+    },
+    "shipping": {
+      "title": "Shipping & Return Policy",
+      "content": "We deliver across 19,000+ pin codes in India with standard delivery within 3-5 business days..."
+    }
+  },
+  "transactions": [
+    {
+      "id": "TXN-WM-408335",
+      "orderId": "WM-ORD-3333",
+      "customerName": "Test Failed User",
+      "customerEmail": "failed@test.com",
+      "customerPhone": "",
+      "amount": 249,
+      "currency": "INR",
+      "paymentGateway": "Razorpay",
+      "paymentMethod": "CARD",
+      "gatewayReference": "pay_gwy_mvvyytke_0rst1",
+      "paymentStatus": "FAILED",
+      "refundStatus": "NONE",
+      "refundedAmount": 0,
+      "invoiceNumber": null,
+      "failureReason": "Card declined by user bank",
+      "transactionDate": "2026-10-31T05:37:25.550Z",
+      "createdAt": "2026-10-31T05:37:25.550Z"
+    },
+    {
+      "id": "TXN-WM-406283",
+      "orderId": "WM-ORD-5951",
+      "customerName": "Ranjith Kumar",
+      "customerEmail": "ranjith.k@techcorp.in",
+      "customerPhone": "+91 98860 11223",
+      "amount": 698,
+      "currency": "INR",
+      "paymentGateway": "Razorpay",
+      "paymentMethod": "UPI",
+      "gatewayReference": "pay_gwy_mvvyytju_445mp",
+      "paymentStatus": "SUCCESS",
+      "refundStatus": "NONE",
+      "refundedAmount": 0,
+      "invoiceNumber": "WM-INV-2026-9910",
+      "failureReason": null,
+      "transactionDate": "2026-10-31T05:37:25.530Z",
+      "createdAt": "2026-10-31T05:37:25.530Z"
+    },
+    {
+      "id": "TXN-WM-892101",
+      "orderId": "WM-ORD-8921",
+      "customerName": "Aarav Deshmukh",
+      "customerEmail": "aarav.d@gmail.com",
+      "customerPhone": "+91 98201 44510",
+      "amount": 698,
+      "currency": "INR",
+      "paymentGateway": "Razorpay",
+      "paymentMethod": "UPI (Google Pay)",
+      "gatewayReference": "pay_O7bK9z4w18921",
+      "paymentStatus": "SUCCESS",
+      "refundStatus": "NONE",
+      "refundedAmount": 0,
+      "invoiceNumber": "WM-INV-2026-8921",
+      "transactionDate": "2026-10-28T09:30:45.000Z",
+      "createdAt": "2026-10-28T09:30:45.000Z"
+    },
+    {
+      "id": "TXN-WM-891902",
+      "orderId": "WM-ORD-8919",
+      "customerName": "Meera Krishnan",
+      "customerEmail": "meera.k@outlook.com",
+      "customerPhone": "+91 98450 11209",
+      "amount": 578,
+      "currency": "INR",
+      "paymentGateway": "HDFC Payment Gateway",
+      "paymentMethod": "Credit Card (Visa **4242)",
+      "gatewayReference": "hdfc_auth_8829104",
+      "paymentStatus": "SUCCESS",
+      "refundStatus": "NONE",
+      "refundedAmount": 0,
+      "invoiceNumber": "WM-INV-2026-8919",
+      "transactionDate": "2026-10-27T14:15:30.000Z",
+      "createdAt": "2026-10-27T14:15:30.000Z"
+    },
+    {
+      "id": "TXN-WM-891403",
+      "orderId": "WM-ORD-8914",
+      "customerName": "Vikram Malhotra",
+      "customerEmail": "vikram.m@corp.in",
+      "customerPhone": "+91 97110 88200",
+      "amount": 921,
+      "currency": "INR",
+      "paymentGateway": "Razorpay",
+      "paymentMethod": "Net Banking (ICICI Bank)",
+      "gatewayReference": "pay_N21xM0p714902",
+      "paymentStatus": "SUCCESS",
+      "refundStatus": "NONE",
+      "refundedAmount": 0,
+      "invoiceNumber": "WM-INV-2026-8914",
+      "transactionDate": "2026-10-26T11:45:50.000Z",
+      "createdAt": "2026-10-26T11:45:50.000Z"
+    },
+    {
+      "id": "TXN-WM-890204",
+      "orderId": "WM-ORD-8902",
+      "customerName": "Pooja Hegde",
+      "customerEmail": "pooja.h@yahoo.com",
+      "customerPhone": "+91 98861 33201",
+      "amount": 349,
+      "currency": "INR",
+      "paymentGateway": "Razorpay",
+      "paymentMethod": "UPI (PhonePe)",
+      "gatewayReference": "pay_K91zL881023",
+      "paymentStatus": "SUCCESS",
+      "refundStatus": "NONE",
+      "refundedAmount": 0,
+      "invoiceNumber": "WM-INV-2026-8902",
+      "transactionDate": "2026-10-25T16:20:35.000Z",
+      "createdAt": "2026-10-25T16:20:35.000Z"
+    },
+    {
+      "id": "TXN-WM-889905",
+      "orderId": "WM-ORD-8899",
+      "customerName": "Rohan Verma",
+      "customerEmail": "rohan.v@gmail.com",
+      "customerPhone": "+91 99001 22334",
+      "amount": 1498,
+      "currency": "INR",
+      "paymentGateway": "Razorpay",
+      "paymentMethod": "UPI (Paytm)",
+      "gatewayReference": "pay_Q88xP900122",
+      "paymentStatus": "PENDING",
+      "refundStatus": "NONE",
+      "refundedAmount": 0,
+      "invoiceNumber": null,
+      "failureReason": "Awaiting UPI app authorization PIN from customer device",
+      "transactionDate": "2026-10-29T10:15:00.000Z",
+      "createdAt": "2026-10-29T10:15:00.000Z"
+    },
+    {
+      "id": "TXN-WM-888806",
+      "orderId": "WM-ORD-8888",
+      "customerName": "Ananya Iyer",
+      "customerEmail": "ananya.i@techcorp.com",
+      "customerPhone": "+91 98112 33445",
+      "amount": 799,
+      "currency": "INR",
+      "paymentGateway": "Stripe India",
+      "paymentMethod": "Debit Card (Mastercard **8910)",
+      "gatewayReference": "ch_3PkL7129988",
+      "paymentStatus": "FAILED",
+      "refundStatus": "NONE",
+      "refundedAmount": 0,
+      "invoiceNumber": null,
+      "failureReason": "Card issuing bank 3D-Secure authentication timed out",
+      "transactionDate": "2026-10-29T08:30:00.000Z",
+      "createdAt": "2026-10-29T08:30:00.000Z"
+    },
+    {
+      "id": "TXN-WM-887707",
+      "orderId": "WM-ORD-8877",
+      "customerName": "Sanjay Singhania",
+      "customerEmail": "sanjay.s@singhania.in",
+      "customerPhone": "+91 98220 55667",
+      "amount": 449,
+      "currency": "INR",
+      "paymentGateway": "Razorpay",
+      "paymentMethod": "Credit Card (Amex **1002)",
+      "gatewayReference": "pay_M99zX112233",
+      "paymentStatus": "REFUNDED",
+      "refundStatus": "FULL_REFUND",
+      "refundedAmount": 449,
+      "invoiceNumber": "WM-INV-2026-8877",
+      "transactionDate": "2026-10-24T12:00:00.000Z",
+      "createdAt": "2026-10-24T12:00:00.000Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-5951",
+      "invoiceNumber": "WM-INV-2026-9910",
+      "orderId": "WM-ORD-5951",
+      "transactionId": "TXN-WM-406283",
+      "invoiceDate": "2026-10-31T05:37:25.566Z",
+      "paymentDate": "2026-10-31T05:37:25.541Z",
+      "customerName": "Ranjith Kumar",
+      "customerEmail": "ranjith.k@techcorp.in",
+      "customerPhone": "+91 98860 11223",
+      "billingAddress": {
+        "address": "Tower 5, EcoSpace Green, Bellandur",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560103"
+      },
+      "companyDetails": {
+        "name": "Meridian White Mist Private Limited",
+        "brand": "White Mist",
+        "address": "Plot 42, Eco Clean Corridor, Bellandur, Outer Ring Road, Bengaluru, Karnataka, India - 560103",
+        "gstin": "29AAACW1234F1Z8",
+        "cin": "U24246KA2026PTC189210",
+        "pan": "AAACW1234F",
+        "contactEmail": "care@whitemist.com",
+        "contactPhone": "+91 98860 44210",
+        "website": "www.whitemist.com"
+      },
+      "items": [
+        {
+          "name": "White Mist Ocean Fresh Liquid Detergent 2L",
+          "sku": "WM-BLU-2000",
+          "hsn": "3402",
+          "qty": 2,
+          "unitPrice": 295.76,
+          "grossUnitPrice": 349,
+          "gstRate": 18,
+          "taxAmount": 106.48,
+          "total": 698
+        }
+      ],
+      "subtotal": 591.53,
+      "taxableAmount": 591.53,
+      "discount": 0,
+      "shippingCharges": 0,
+      "cgst": 53.23,
+      "sgst": 53.24,
+      "igst": 0,
+      "totalTax": 106.47,
+      "grandTotal": 698,
+      "amountPaid": 698,
+      "balanceDue": 0,
+      "paymentMethod": "UPI",
+      "paymentStatus": "PAID",
+      "status": "PAID",
+      "updatedAt": "2026-10-31T05:37:25.566Z"
+    },
+    {
+      "id": "INV-8921",
+      "invoiceNumber": "WM-INV-2026-8921",
+      "orderId": "WM-ORD-8921",
+      "transactionId": "TXN-WM-892101",
+      "invoiceDate": "2026-10-28T09:31:00.000Z",
+      "paymentDate": "2026-10-28T09:30:45.000Z",
+      "customerName": "Aarav Deshmukh",
+      "customerEmail": "aarav.d@gmail.com",
+      "customerPhone": "+91 98201 44510",
+      "billingAddress": {
+        "street": "Flat 402, Green Palms, Outer Ring Road",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560103",
+        "country": "India"
+      },
+      "companyDetails": {
+        "name": "Meridian White Mist Private Limited",
+        "brand": "White Mist",
+        "address": "Plot 42, Eco Clean Corridor, Bellandur, Outer Ring Road, Bengaluru, Karnataka, India - 560103",
+        "gstin": "29AAACW1234F1Z8",
+        "cin": "U24246KA2026PTC189210",
+        "pan": "AAACW1234F",
+        "contactEmail": "care@whitemist.com",
+        "contactPhone": "+91 98860 44210",
+        "website": "www.whitemist.com"
+      },
+      "items": [
+        {
+          "name": "White Mist Ocean Fresh Liquid Detergent 2L",
+          "sku": "WM-BLU-2000",
+          "hsn": "3402",
+          "qty": 2,
+          "unitPrice": 295.76,
+          "gstRate": 18,
+          "taxAmount": 106.48,
+          "total": 698
+        }
+      ],
+      "subtotal": 591.52,
+      "discount": 0,
+      "taxableAmount": 591.52,
+      "cgst": 53.24,
+      "sgst": 53.24,
+      "igst": 0,
+      "totalTax": 106.48,
+      "shippingCharges": 0,
+      "grandTotal": 698,
+      "amountPaid": 698,
+      "balanceDue": 0,
+      "paymentMethod": "Razorpay UPI",
+      "paymentStatus": "PAID",
+      "status": "PAID",
+      "createdAt": "2026-10-28T09:31:00.000Z"
+    },
+    {
+      "id": "INV-8919",
+      "invoiceNumber": "WM-INV-2026-8919",
+      "orderId": "WM-ORD-8919",
+      "transactionId": "TXN-WM-891902",
+      "invoiceDate": "2026-10-27T14:16:00.000Z",
+      "paymentDate": "2026-10-27T14:15:30.000Z",
+      "customerName": "Meera Krishnan",
+      "customerEmail": "meera.k@outlook.com",
+      "customerPhone": "+91 98450 11209",
+      "billingAddress": {
+        "street": "Villa 14, Prestige Silver Crest, Whitefield",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560066",
+        "country": "India"
+      },
+      "companyDetails": {
+        "name": "Meridian White Mist Private Limited",
+        "brand": "White Mist",
+        "address": "Plot 42, Eco Clean Corridor, Bellandur, Outer Ring Road, Bengaluru, Karnataka, India - 560103",
+        "gstin": "29AAACW1234F1Z8",
+        "cin": "U24246KA2026PTC189210",
+        "pan": "AAACW1234F",
+        "contactEmail": "care@whitemist.com",
+        "contactPhone": "+91 98860 44210",
+        "website": "www.whitemist.com"
+      },
+      "items": [
+        {
+          "name": "White Mist Floral Bloom 2kg Refill Pouch",
+          "sku": "WM-PNK-2000",
+          "hsn": "3402",
+          "qty": 2,
+          "unitPrice": 244.92,
+          "gstRate": 18,
+          "taxAmount": 88.16,
+          "total": 578
+        }
+      ],
+      "subtotal": 489.84,
+      "discount": 0,
+      "taxableAmount": 489.84,
+      "cgst": 44.08,
+      "sgst": 44.08,
+      "igst": 0,
+      "totalTax": 88.16,
+      "shippingCharges": 0,
+      "grandTotal": 578,
+      "amountPaid": 578,
+      "balanceDue": 0,
+      "paymentMethod": "Credit Card (Visa **4242)",
+      "paymentStatus": "PAID",
+      "status": "PAID",
+      "createdAt": "2026-10-27T14:16:00.000Z"
+    },
+    {
+      "id": "INV-8914",
+      "invoiceNumber": "WM-INV-2026-8914",
+      "orderId": "WM-ORD-8914",
+      "transactionId": "TXN-WM-891403",
+      "invoiceDate": "2026-10-26T11:46:00.000Z",
+      "paymentDate": "2026-10-26T11:45:50.000Z",
+      "customerName": "Vikram Malhotra",
+      "customerEmail": "vikram.m@corp.in",
+      "customerPhone": "+91 97110 88200",
+      "billingAddress": {
+        "street": "12-B, Cyber Heights, Sector 29",
+        "city": "Gurugram",
+        "state": "Haryana",
+        "pincode": "122002",
+        "country": "India"
+      },
+      "companyDetails": {
+        "name": "Meridian White Mist Private Limited",
+        "brand": "White Mist",
+        "address": "Plot 42, Eco Clean Corridor, Bellandur, Outer Ring Road, Bengaluru, Karnataka, India - 560103",
+        "gstin": "29AAACW1234F1Z8",
+        "cin": "U24246KA2026PTC189210",
+        "pan": "AAACW1234F",
+        "contactEmail": "care@whitemist.com",
+        "contactPhone": "+91 98860 44210",
+        "website": "www.whitemist.com"
+      },
+      "items": [
+        {
+          "name": "White Mist Ocean Fresh Liquid Detergent 2L",
+          "sku": "WM-BLU-2000",
+          "hsn": "3402",
+          "qty": 1,
+          "unitPrice": 260.17,
+          "gstRate": 18,
+          "taxAmount": 46.83,
+          "total": 307
+        },
+        {
+          "name": "White Mist Floral Bloom Liquid Detergent 2L",
+          "sku": "WM-PNK-2000",
+          "hsn": "3402",
+          "qty": 1,
+          "unitPrice": 260.17,
+          "gstRate": 18,
+          "taxAmount": 46.83,
+          "total": 307
+        },
+        {
+          "name": "White Mist Citrus Sunshine Liquid Detergent 2L",
+          "sku": "WM-YEL-2000",
+          "hsn": "3402",
+          "qty": 1,
+          "unitPrice": 260.17,
+          "gstRate": 18,
+          "taxAmount": 46.83,
+          "total": 307
+        }
+      ],
+      "subtotal": 780.51,
+      "discount": 0,
+      "taxableAmount": 780.51,
+      "cgst": 0,
+      "sgst": 0,
+      "igst": 140.49,
+      "totalTax": 140.49,
+      "shippingCharges": 0,
+      "grandTotal": 921,
+      "amountPaid": 921,
+      "balanceDue": 0,
+      "paymentMethod": "Net Banking (ICICI Bank)",
+      "paymentStatus": "PAID",
+      "status": "PAID",
+      "createdAt": "2026-10-26T11:46:00.000Z"
+    },
+    {
+      "id": "INV-8902",
+      "invoiceNumber": "WM-INV-2026-8902",
+      "orderId": "WM-ORD-8902",
+      "transactionId": "TXN-WM-890204",
+      "invoiceDate": "2026-10-25T16:21:00.000Z",
+      "paymentDate": "2026-10-25T16:20:35.000Z",
+      "customerName": "Pooja Hegde",
+      "customerEmail": "pooja.h@yahoo.com",
+      "customerPhone": "+91 98861 33201",
+      "billingAddress": {
+        "street": "88, Lavelle Road, Shanthala Nagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560001",
+        "country": "India"
+      },
+      "companyDetails": {
+        "name": "Meridian White Mist Private Limited",
+        "brand": "White Mist",
+        "address": "Plot 42, Eco Clean Corridor, Bellandur, Outer Ring Road, Bengaluru, Karnataka, India - 560103",
+        "gstin": "29AAACW1234F1Z8",
+        "cin": "U24246KA2026PTC189210",
+        "pan": "AAACW1234F",
+        "contactEmail": "care@whitemist.com",
+        "contactPhone": "+91 98860 44210",
+        "website": "www.whitemist.com"
+      },
+      "items": [
+        {
+          "name": "White Mist Ocean Fresh Liquid Detergent 2L",
+          "sku": "WM-BLU-2000",
+          "hsn": "3402",
+          "qty": 1,
+          "unitPrice": 253.39,
+          "gstRate": 18,
+          "taxAmount": 45.61,
+          "total": 299
+        }
+      ],
+      "subtotal": 253.39,
+      "discount": 0,
+      "taxableAmount": 253.39,
+      "cgst": 22.81,
+      "sgst": 22.81,
+      "igst": 0,
+      "totalTax": 45.61,
+      "shippingCharges": 50,
+      "grandTotal": 349,
+      "amountPaid": 349,
+      "balanceDue": 0,
+      "paymentMethod": "Razorpay UPI",
+      "paymentStatus": "PAID",
+      "status": "PAID",
+      "createdAt": "2026-10-25T16:21:00.000Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "ADM-001",
+      "name": "Super Admin (Ranjith)",
+      "email": "admin@whitemist.com",
+      "role": "SUPER_ADMIN",
+      "title": "System Security Lead",
+      "password": "Password123!",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-25T10:00:00.000Z"
+    },
+    {
+      "id": "ADM-002",
+      "name": "Rakesh Sharma",
+      "email": "storemanager@whitemist.com",
+      "role": "ADMIN",
+      "title": "Store & Operations Manager",
+      "password": "Password123!",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-26T11:00:00.000Z"
+    },
+    {
+      "id": "ADM-003",
+      "name": "Ananya Gupta",
+      "email": "sales@whitemist.com",
+      "role": "ADMIN",
+      "title": "Commercial Accounts Lead",
+      "password": "Password123!",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-27T09:30:00.000Z"
+    }
+  ],
+  "customer_logins": [
+    {
+      "id": "c-log-1793444020389",
+      "customerId": "CUST-7675",
+      "customerName": "Varun Dhawan",
+      "email": "varun.d@mumbai.in",
+      "status": "Logged Out",
+      "loginDate": "31 Oct 2026",
+      "loginTime": "04:23 pm",
+      "timestamp": "2026-10-31T10:53:40.388Z"
+    },
+    {
+      "id": "c-log-1793442425000-1",
+      "customerId": "CUST-1001",
+      "customerName": "Ranjith Kumar",
+      "email": "ranjith.k@techcorp.in",
+      "status": "Logged In",
+      "loginDate": "31 Oct 2026",
+      "loginTime": "11:07 AM",
+      "timestamp": "2026-10-31T05:37:05.000Z"
+    },
+    {
+      "id": "c-log-1793441800000-2",
+      "customerId": "CUST-1002",
+      "customerName": "Aarav Deshmukh",
+      "email": "aarav.d@gmail.com",
+      "status": "Logged In",
+      "loginDate": "31 Oct 2026",
+      "loginTime": "09:15 AM",
+      "timestamp": "2026-10-31T03:45:00.000Z"
+    },
+    {
+      "id": "c-log-1793440500000-3",
+      "customerId": "CUST-1000",
+      "customerName": "Test Failed User",
+      "email": "failed@test.com",
+      "status": "Logged Out",
+      "loginDate": "31 Oct 2026",
+      "loginTime": "08:30 AM",
+      "timestamp": "2026-10-31T03:00:00.000Z"
+    },
+    {
+      "id": "c-log-1793355600000-4",
+      "customerId": "CUST-1003",
+      "customerName": "Meera Krishnan",
+      "email": "meera.k@outlook.com",
+      "status": "Logged Out",
+      "loginDate": "30 Oct 2026",
+      "loginTime": "03:40 PM",
+      "timestamp": "2026-10-30T10:10:00.000Z"
+    },
+    {
+      "id": "c-log-1793347500000-5",
+      "customerId": "CUST-1004",
+      "customerName": "Vikram Malhotra",
+      "email": "vikram.m@corp.in",
+      "status": "Logged In",
+      "loginDate": "30 Oct 2026",
+      "loginTime": "01:25 PM",
+      "timestamp": "2026-10-30T07:55:00.000Z"
+    },
+    {
+      "id": "c-log-1793269800000-6",
+      "customerId": "CUST-1005",
+      "customerName": "Pooja Hegde",
+      "email": "pooja.h@yahoo.com",
+      "status": "Logged Out",
+      "loginDate": "29 Oct 2026",
+      "loginTime": "05:10 PM",
+      "timestamp": "2026-10-29T11:40:00.000Z"
+    },
+    {
+      "id": "c-log-1793253000000-7",
+      "customerId": "CUST-1006",
+      "customerName": "Rohan Verma",
+      "email": "rohan.v@gmail.com",
+      "status": "Logged In",
+      "loginDate": "29 Oct 2026",
+      "loginTime": "12:30 PM",
+      "timestamp": "2026-10-29T07:00:00.000Z"
+    },
+    {
+      "id": "c-log-1793179200000-8",
+      "customerId": "CUST-1007",
+      "customerName": "Ananya Iyer",
+      "email": "ananya.i@techcorp.com",
+      "status": "Logged Out",
+      "loginDate": "28 Oct 2026",
+      "loginTime": "04:15 PM",
+      "timestamp": "2026-10-28T10:45:00.000Z"
+    },
+    {
+      "id": "c-log-1793093400000-9",
+      "customerId": "CUST-1008",
+      "customerName": "Sanjay Singhania",
+      "email": "sanjay.s@singhania.in",
+      "status": "Logged Out",
+      "loginDate": "27 Oct 2026",
+      "loginTime": "02:50 PM",
+      "timestamp": "2026-10-27T09:20:00.000Z"
+    },
+    {
+      "id": "c-log-1793006400000-10",
+      "customerId": "CUST-1009",
+      "customerName": "Priya Sharma",
+      "email": "priya.s@retail.in",
+      "status": "Logged In",
+      "loginDate": "26 Oct 2026",
+      "loginTime": "11:20 AM",
+      "timestamp": "2026-10-26T05:50:00.000Z"
+    },
+    {
+      "id": "c-log-1792915500000-11",
+      "customerId": "CUST-1010",
+      "customerName": "Arjun Venkatesh",
+      "email": "arjun.v@chennai.org",
+      "status": "Logged Out",
+      "loginDate": "25 Oct 2026",
+      "loginTime": "10:05 AM",
+      "timestamp": "2026-10-25T04:35:00.000Z"
+    },
+    {
+      "id": "c-log-1792860600000-12",
+      "customerId": "CUST-1011",
+      "customerName": "Kavita Reddy",
+      "email": "kavita.r@biotech.co.in",
+      "status": "Logged Out",
+      "loginDate": "24 Oct 2026",
+      "loginTime": "06:30 PM",
+      "timestamp": "2026-10-24T13:00:00.000Z"
+    },
+    {
+      "id": "c-log-1792762500000-13",
+      "customerId": "CUST-1012",
+      "customerName": "Deepak Nambiar",
+      "email": "deepak.n@enterprise.in",
+      "status": "Logged In",
+      "loginDate": "23 Oct 2026",
+      "loginTime": "03:15 PM",
+      "timestamp": "2026-10-23T09:45:00.000Z"
+    },
+    {
+      "id": "c-log-1792650000000-14",
+      "customerId": "CUST-1013",
+      "customerName": "Sneha Patil",
+      "email": "sneha.p@greenclean.org",
+      "status": "Logged Out",
+      "loginDate": "22 Oct 2026",
+      "loginTime": "09:50 AM",
+      "timestamp": "2026-10-22T04:20:00.000Z"
+    }
+  ]
+}

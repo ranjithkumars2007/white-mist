@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administrator Sign In | White Mist Enterprise</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/png" href="/assets/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* Primary White / Light Theme */
+      --bg-body: #F8FAFC;
+      --bg-surface: #FFFFFF;
+      --bg-subtle: #F1F5F9;
+      --bg-input: #FFFFFF;
+      --border-color: #E2E8F0;
+      --border-focus: #2563EB;
+      --focus-ring: rgba(37, 99, 235, 0.15);
+      
+      --text-primary: #111827;
+      --text-secondary: #4B5563;
+      --text-muted: #64748B;
+      --text-dim: #94A3B8;
+      
+      --color-brand: #2563EB;
+      --color-brand-hover: #1D4ED8;
+      
+      --color-error-bg: #FEF2F2;
+      --color-error-border: #FCA5A5;
+      --color-error-text: #991B1B;
+      
+      --color-success-bg: #ECFDF5;
+      --color-success-border: #A7F3D0;
+      --color-success-text: #065F46;
+
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px -1px rgba(0, 0, 0, 0.04);
+      --shadow-popover: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+
+      --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --radius-sm: 6px;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+      --transition: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: var(--font-sans);
+      background-color: var(--bg-body);
+      color: var(--text-primary);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Split-screen container */
+    .auth-wrapper {
+      display: flex;
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    /* Left Section: Brand Presentation */
+    .brand-pane {
+      flex: 1 1 50%;
+      max-width: 50%;
+      background: var(--bg-body);
+      border-right: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 3.5rem 4rem;
+      position: relative;
+    }
+
+    .brand-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .brand-logo-img {
+      height: 42px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .brand-content-middle {
+      margin: auto 0;
+      padding: 2.5rem 0;
+    }
+
+    .brand-title {
+      font-size: 2.25rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--text-primary);
+      line-height: 1.2;
+      margin-bottom: 0.85rem;
+    }
+
+    .brand-desc {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: var(--text-muted);
+      max-width: 490px;
+      margin-bottom: 2.25rem;
+    }
+
+    /* Product Showcase Card */
+    .product-showcase-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-card);
+      max-width: 490px;
+    }
+
+    .product-showcase-hero {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .showcase-bottle-thumb {
+      width: 64px;
+      height: 72px;
+      object-fit: contain;
+      background: var(--bg-subtle);
+      border-radius: var(--radius-sm);
+      padding: 6px;
+      flex-shrink: 0;
+    }
+
+    .showcase-text-wrap h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.25rem;
+    }
+
+    .showcase-text-wrap p {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .showcase-stats-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+      padding-top: 1.25rem;
+      text-align: center;
+    }
+
+    .stat-metric {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-brand);
+      line-height: 1.1;
+    }
+
+    .stat-caption {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .brand-footer {
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid var(--border-color);
+      padding-top: 1.5rem;
+    }
+
+    /* Right Section: Secure Login */
+    .login-pane {
+      flex: 1 1 50%;
+      max-width: 50%;
+      background: var(--bg-surface);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem 2rem;
+      position: relative;
+    }
+
+    /* Login Form Card Container */
+    .login-card-container {
+      width: 100%;
+      max-width: 410px;
+    }
+
+    .security-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      padding: 0.3rem 0.65rem;
+      border-radius: var(--radius-sm);
+      margin-bottom: 1.25rem;
+    }
+
+    .auth-title {
+      font-size: 1.65rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      margin-bottom: 0.4rem;
+    }
+
+    .auth-subtitle {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+    }
+
+    /* Form Fields */
+    .form-group {
+      margin-bottom: 1.35rem;
+    }
+
+    .form-label {
+      display: block;
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.45rem;
+      letter-spacing: -0.01em;
+    }
+
+    .input-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .input-icon-left {
+      position: absolute;
+      left: 12px;
+      color: var(--text-dim);
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+    }
+
+    .form-input {
+      width: 100%;
+      height: 44px;
+      padding: 0 1rem 0 2.5rem;
+      font-size: 0.92rem;
+      font-family: inherit;
+      color: var(--text-primary);
+      background-color: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      transition: border-color var(--transition), box-shadow var(--transition);
+      outline: none;
+    }
+
+    .form-input:focus {
+      border-color: var(--border-focus);
+      box-shadow: 0 0 0 3px var(--focus-ring);
+    }
+
+    .form-input.is-invalid {
+      border-color: #DC2626;
+      box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.12);
+    }
+
+    .input-toggle-btn {
+      position: absolute;
+      right: 10px;
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      padding: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: var(--radius-sm);
+    }
+
+    .input-toggle-btn:hover {
+      color: var(--text-primary);
+    }
+
+    .inline-error {
+      font-size: 0.78rem;
+      color: #DC2626;
+      margin-top: 0.35rem;
+      display: none;
+    }
+
+    /* Options Row: Remember Me & Forgot Password */
+    .form-options-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0.25rem 0 1.5rem 0;
+      font-size: 0.84rem;
+    }
+
+    .checkbox-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-secondary);
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .checkbox-input {
+      width: 16px;
+      height: 16px;
+      accent-color: var(--color-brand);
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .forgot-link {
+      color: var(--color-brand);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color var(--transition);
+      background: none;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      font-size: inherit;
+    }
+
+    .forgot-link:hover {
+      color: var(--color-brand-hover);
+      text-decoration: underline;
+    }
+
+    /* Primary Submit Button */
+    .btn-primary {
+      width: 100%;
+      height: 44px;
+      background-color: var(--color-brand);
+      color: #FFFFFF;
+      border: none;
+      border-radius: var(--radius-md);
+      font-size: 0.92rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      box-shadow: var(--shadow-sm);
+      transition: background-color var(--transition), transform 0.1s ease, box-shadow var(--transition);
+    }
+
+    .btn-primary:hover:not(:disabled) {
+      background-color: var(--color-brand-hover);
+    }
+
+    .btn-primary:focus-visible {
+      outline: 2px solid var(--border-focus);
+      outline-offset: 2px;
+    }
+
+    .btn-primary:active:not(:disabled) {
+      transform: scale(0.99);
+    }
+
+    .btn-primary:disabled {
+      opacity: 0.65;
+      cursor: not-allowed;
+    }
+
+    /* Notification Alerts */
+    .alert-box {
+      padding: 0.85rem 1rem;
+      border-radius: var(--radius-md);
+      font-size: 0.84rem;
+      line-height: 1.45;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+    }
+
+    .alert-box svg {
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .alert-error {
+      background-color: var(--color-error-bg);
+      border: 1px solid var(--color-error-border);
+      color: var(--color-error-text);
+    }
+
+    .alert-success {
+      background-color: var(--color-success-bg);
+      border: 1px solid var(--color-success-border);
+      color: var(--color-success-text);
+    }
+
+    /* Security Note Footer */
+    .security-note {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.78rem;
+      color: var(--text-dim);
+      margin-top: 2rem;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .storefront-return {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      margin-top: 1.25rem;
+      color: var(--text-muted);
+      font-size: 0.82rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color var(--transition);
+    }
+
+    .storefront-return:hover {
+      color: var(--color-brand);
+    }
+
+    /* Modal for Password Recovery */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.45);
+      backdrop-filter: blur(4px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      padding: 1.5rem;
+    }
+
+    .modal-backdrop.is-active {
+      display: flex;
+    }
+
+    .modal-window {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      width: 100%;
+      max-width: 440px;
+      padding: 2rem;
+      box-shadow: var(--shadow-popover);
+      animation: modalFadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    @keyframes modalFadeIn {
+      from { opacity: 0; transform: translateY(8px) scale(0.98); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
+
+    .modal-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .modal-close-btn {
+      background: none;
+      border: none;
+      color: var(--text-dim);
+      cursor: pointer;
+      padding: 4px;
+      border-radius: var(--radius-sm);
+    }
+
+    .modal-close-btn:hover {
+      color: var(--text-primary);
+    }
+
+    .modal-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+    }
+
+    .modal-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+
+    .btn-secondary {
+      height: 40px;
+      padding: 0 1rem;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      color: var(--text-primary);
+      border-radius: var(--radius-md);
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    /* Spinner */
+    .spinner {
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      border-top-color: #FFFFFF;
+      animation: spin 0.6s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .mobile-logo-header {
+      display: none;
+    }
+
+    /* Tablet (768px - 1024px) */
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .brand-pane {
+        padding: 2.5rem 2rem;
+      }
+      .brand-title {
+        font-size: 1.85rem;
+      }
+      .login-pane {
+        padding: 2.5rem 2rem;
+      }
+    }
+
+    /* Mobile Phones (320px to 767px) */
+    @media (max-width: 767px) {
+      .auth-wrapper {
+        flex-direction: column;
+        min-height: 100vh;
+        min-height: 100dvh;
+        min-height: 100svh;
+        width: 100%;
+        overflow-x: hidden;
+      }
+
+      /* 1. HIDE THE ENTIRE LEFT BRAND PRESENTATION */
+      .brand-pane {
+        display: none !important;
+      }
+
+      /* 2. SHOW COMPACT LOGO AT TOP OF LOGIN FORM */
+      .mobile-logo-header {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 1.25rem !important;
+      }
+
+      .mobile-logo-img {
+        height: 36px;
+        width: auto;
+        object-fit: contain;
+      }
+
+      /* 3. FULL VIEWPORT SINGLE-COLUMN LOGIN PANE */
+      .login-pane {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        min-height: 100vh !important;
+        min-height: 100dvh !important;
+        min-height: 100svh !important;
+        padding: max(1.5rem, env(safe-area-inset-top)) max(1.25rem, env(safe-area-inset-right)) max(1.5rem, env(safe-area-inset-bottom)) max(1.25rem, env(safe-area-inset-left)) !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        background-color: #FFFFFF !important;
+        box-sizing: border-box !important;
+        overflow-x: hidden !important;
+      }
+
+      .login-card-container {
+        width: 100% !important;
+        max-width: 420px !important;
+        margin: auto 0 !important;
+      }
+
+      .auth-title {
+        font-size: 1.55rem !important;
+        letter-spacing: -0.02em !important;
+        margin-bottom: 0.35rem !important;
+      }
+
+      .auth-subtitle {
+        font-size: 0.88rem !important;
+        margin-bottom: 1.5rem !important;
+      }
+
+      /* Touch-friendly inputs: 48-52px tall, 16px font to prevent mobile safari auto-zoom */
+      .form-input {
+        height: 50px !important;
+        font-size: 16px !important;
+        border-radius: 8px !important;
+      }
+
+      /* Primary sign-in button: 48-52px tall */
+      .submit-btn {
+        height: 50px !important;
+        font-size: 15px !important;
+        border-radius: 8px !important;
+      }
+
+      .form-group {
+        margin-bottom: 1.25rem !important;
+      }
+
+      .form-options-row {
+        margin-bottom: 1.5rem !important;
+      }
+    }
+
+    /* Very Small Screens (< 360px) */
+    @media (max-width: 359px) {
+      .login-pane {
+        padding: 1rem 0.85rem !important;
+      }
+      .auth-title {
+        font-size: 1.35rem !important;
+      }
+      .form-input {
+        height: 46px !important;
+      }
+      .submit-btn {
+        height: 46px !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="auth-wrapper">
+    
+    <!-- Left Section: Brand Presentation -->
+    <aside class="brand-pane" aria-label="Brand Overview">
+      <div class="brand-header">
+        <img 
+          src="/assets/images/logo.png" 
+          alt="White Mist Logo" 
+          class="brand-logo-img"
+          onerror="this.src='/public/assets/images/logo.png'"
+        >
+      </div>
+
+      <div class="brand-content-middle">
+        <h1 class="brand-title">Welcome to White Mist.</h1>
+        <p class="brand-desc">
+          Manage your store operations, products, inventory, orders, and customer experience from one secure workspace.
+        </p>
+
+        <!-- Product Workspace Card -->
+        <div class="product-showcase-card">
+          <div class="product-showcase-hero">
+            <img 
+              src="/assets/images/bottle_blue.png" 
+              alt="White Mist Ocean Fresh Bottle" 
+              class="showcase-bottle-thumb"
+              onerror="this.src='/public/assets/images/bottle_blue.png'"
+            >
+            <div class="showcase-text-wrap">
+              <h3>Meridian White Mist Commercial Suite</h3>
+              <p>Advanced bio-enzyme liquid detergent formulations & operational fulfillment logistics.</p>
+            </div>
+          </div>
+          <div class="showcase-stats-row">
+            <div>
+              <div class="stat-metric">48-Hr</div>
+              <div class="stat-caption">Scent Lock</div>
+            </div>
+            <div>
+              <div class="stat-metric">10x</div>
+              <div class="stat-caption">Bio-Stain Lift</div>
+            </div>
+            <div>
+              <div class="stat-metric">100%</div>
+              <div class="stat-caption">Fabric Safe</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="brand-footer">
+        <span>White Mist · Official Administration Portal</span>
+        <span>Build v2.4 (Enterprise)</span>
+      </div>
+    </aside>
+
+    <!-- Right Section: Secure Login Card -->
+    <main class="login-pane" aria-label="Administrator Authentication">
+
+      <div class="login-card-container">
+        
+        <!-- Mobile-Only White Mist Logo -->
+        <div class="mobile-logo-header">
+          <img 
+            src="/assets/images/logo.png" 
+            alt="White Mist Logo" 
+            class="mobile-logo-img"
+            onerror="this.src='/public/assets/images/logo.png'"
+          >
+        </div>
+
+        <div class="security-badge">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+          </svg>
+          AUTHORIZED PERSONNEL ONLY
+        </div>
+
+        <h2 class="auth-title">Administrator Sign In</h2>
+        <p class="auth-subtitle">Sign in to access your administration workspace.</p>
+
+        <!-- Dynamic Feedback Messages -->
+        <div id="errorAlert" class="alert-box alert-error" role="alert" style="display: none;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+          <span id="errorMessage">Invalid email or password credentials.</span>
+        </div>
+
+        <div id="successAlert" class="alert-box alert-success" role="alert" style="display: none;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+          </svg>
+          <span id="successMessage">Authentication verified. Accessing secure workspace...</span>
+        </div>
+
+        <!-- Real Authentication Form -->
+        <form id="adminLoginForm" onsubmit="handleAdminLogin(event)" novalidate>
+          
+          <!-- Email Field -->
+          <div class="form-group">
+            <label for="workEmail" class="form-label">Work email address</label>
+            <div class="input-wrapper">
+              <span class="input-icon-left" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </span>
+              <input 
+                type="email" 
+                id="workEmail" 
+                name="email" 
+                class="form-input" 
+                placeholder="name@company.com" 
+                autocomplete="username" 
+                required
+              >
+            </div>
+            <div id="emailInlineError" class="inline-error">Please enter a valid work email address.</div>
+          </div>
+
+          <!-- Password Field -->
+          <div class="form-group">
+            <label for="workPassword" class="form-label">Password</label>
+            <div class="input-wrapper">
+              <span class="input-icon-left" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+              </span>
+              <input 
+                type="password" 
+                id="workPassword" 
+                name="password" 
+                class="form-input" 
+                placeholder="••••••••••••" 
+                autocomplete="current-password" 
+                required
+              >
+              <button 
+                type="button" 
+                id="togglePasswordBtn" 
+                class="input-toggle-btn" 
+                onclick="togglePasswordVisibility()" 
+                aria-label="Show password"
+              >
+                <svg id="eyeIconOpen" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <svg id="eyeIconClosed" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                  <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                  <line x1="1" y1="1" x2="23" y2="23"></line>
+                </svg>
+              </button>
+            </div>
+            <div id="passwordInlineError" class="inline-error">Password is required.</div>
+          </div>
+
+          <!-- Options Row -->
+          <div class="form-options-row">
+            <label class="checkbox-label">
+              <input type="checkbox" id="rememberMe" class="checkbox-input" checked>
+              <span>Remember me</span>
+            </label>
+            <button type="button" class="forgot-link" onclick="openForgotPasswordModal()">Forgot password?</button>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" id="submitBtn" class="btn-primary">
+            <span id="btnSpinner" class="spinner" style="display: none;"></span>
+            <span id="btnText">Sign In to Admin Portal</span>
+          </button>
+        </form>
+
+        <div class="security-note">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+          <span>Secured with 256-bit TLS encryption. Access is logged.</span>
+        </div>
+
+        <div style="text-align: center;">
+          <a href="/" class="storefront-return">← Return to Customer Storefront</a>
+        </div>
+
+      </div>
+    </main>
+
+  </div>
+
+  <!-- Forgot Password Recovery Modal -->
+  <div id="forgotPasswordModal" class="modal-backdrop" onclick="handleBackdropClick(event)">
+    <div class="modal-window" role="dialog" aria-modal="true" aria-labelledby="modalHeading">
+      <div class="modal-header">
+        <h3 id="modalHeading" class="modal-title">Reset Administrator Password</h3>
+        <button type="button" class="modal-close-btn" onclick="closeForgotPasswordModal()" aria-label="Close dialog">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <p class="modal-desc">
+        Enter your authorized corporate email address. If an account is associated with this address in the enterprise directory, an automated password reset link will be dispatched immediately.
+      </p>
+
+      <div id="modalAlertSuccess" class="alert-box alert-success" style="display: none;">
+        <span>Reset instructions dispatched to your inbox.</span>
+      </div>
+
+      <form id="forgotPasswordForm" onsubmit="handleForgotPasswordSubmit(event)">
+        <div class="form-group" style="margin-bottom: 0;">
+          <label for="recoveryEmail" class="form-label">Authorized Work Email</label>
+          <div class="input-wrapper">
+            <span class="input-icon-left" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </span>
+            <input 
+              type="email" 
+              id="recoveryEmail" 
+              class="form-input" 
+              placeholder="admin@whitemist.com" 
+              required
+            >
+          </div>
+        </div>
+
+        <div class="modal-actions">
+          <button type="button" class="btn-secondary" onclick="closeForgotPasswordModal()">Cancel</button>
+          <button type="submit" id="recoverySubmitBtn" class="btn-primary" style="width: auto; padding: 0 1.25rem;">
+            <span>Send Reset Instructions</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    // -------------------------------------------------------------------------
+    // THEME CONFIGURATION (Pure White Theme Only)
+    // -------------------------------------------------------------------------
+    function initTheme() {
+      document.documentElement.removeAttribute('data-theme');
+      if (document.body) document.body.removeAttribute('data-theme');
+      localStorage.setItem('wm_admin_theme', 'light');
+    }
+
+    // -------------------------------------------------------------------------
+    // PASSWORD VISIBILITY TOGGLE
+    // -------------------------------------------------------------------------
+    function togglePasswordVisibility() {
+      const pwdInput = document.getElementById('workPassword');
+      const openIcon = document.getElementById('eyeIconOpen');
+      const closedIcon = document.getElementById('eyeIconClosed');
+      const btn = document.getElementById('togglePasswordBtn');
+
+      if (pwdInput.type === 'password') {
+        pwdInput.type = 'text';
+        openIcon.style.display = 'none';
+        closedIcon.style.display = 'block';
+        btn.setAttribute('aria-label', 'Hide password');
+      } else {
+        pwdInput.type = 'password';
+        openIcon.style.display = 'block';
+        closedIcon.style.display = 'none';
+        btn.setAttribute('aria-label', 'Show password');
+      }
+    }
+
+    // -------------------------------------------------------------------------
+    // REAL BACKEND AUTHENTICATION INTEGRATION
+    // -------------------------------------------------------------------------
+    let isSubmitting = false;
+
+    async function handleAdminLogin(event) {
+      event.preventDefault();
+      if (isSubmitting) return;
+
+      const emailInput = document.getElementById('workEmail');
+      const passwordInput = document.getElementById('workPassword');
+      const rememberMeInput = document.getElementById('rememberMe');
+      
+      const emailInlineError = document.getElementById('emailInlineError');
+      const passwordInlineError = document.getElementById('passwordInlineError');
+      const errorAlert = document.getElementById('errorAlert');
+      const successAlert = document.getElementById('successAlert');
+      const errorMessage = document.getElementById('errorMessage');
+      
+      const submitBtn = document.getElementById('submitBtn');
+      const btnSpinner = document.getElementById('btnSpinner');
+      const btnText = document.getElementById('btnText');
+
+      // Reset feedback states
+      errorAlert.style.display = 'none';
+      successAlert.style.display = 'none';
+      emailInlineError.style.display = 'none';
+      passwordInlineError.style.display = 'none';
+      emailInput.classList.remove('is-invalid');
+      passwordInput.classList.remove('is-invalid');
+
+      const email = emailInput.value.trim();
+      const password = passwordInput.value;
+
+      // Inline validation
+      let hasError = false;
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!email || !emailRegex.test(email)) {
+        emailInput.classList.add('is-invalid');
+        emailInlineError.style.display = 'block';
+        hasError = true;
+      }
+
+      if (!password) {
+        passwordInput.classList.add('is-invalid');
+        passwordInlineError.style.display = 'block';
+        hasError = true;
+      }
+
+      if (hasError) return;
+
+      // Set Loading State
+      isSubmitting = true;
+      submitBtn.disabled = true;
+      btnSpinner.style.display = 'inline-block';
+      btnText.textContent = 'Authenticating...';
+
+      try {
+        const response = await fetch('/api/auth/login', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({ email, password })
+        });
+
+        const result = await response.json().catch(() => ({}));
+
+        if (response.ok && result.data && result.data.tokens) {
+          // Success state
+          successAlert.style.display = 'flex';
+          btnText.textContent = 'Access Granted';
+
+          const accessToken = result.data.tokens.accessToken;
+          const user = result.data.user;
+
+          // Store authentication credentials securely
+          sessionStorage.setItem('wm_admin_token', accessToken);
+          sessionStorage.setItem('wm_admin_user', JSON.stringify(user));
+
+          if (rememberMeInput.checked) {
+            localStorage.setItem('wm_admin_token', accessToken);
+            localStorage.setItem('wm_admin_user', JSON.stringify(user));
+          } else {
+            localStorage.removeItem('wm_admin_token');
+            localStorage.removeItem('wm_admin_user');
+          }
+
+          // Target redirection: either the requested redirect parameter or the admin dashboard
+          const params = new URLSearchParams(window.location.search);
+          const destination = params.get('redirect') || '/admin.html#dashboard';
+
+          setTimeout(() => {
+            window.location.href = destination;
+          }, 600);
+          return;
+        } else {
+          // Failure state
+          const msg = result.error || 'Authentication failed. Please verify your credentials.';
+          errorMessage.textContent = msg;
+          errorAlert.style.display = 'flex';
+          passwordInput.classList.add('is-invalid');
+          passwordInput.focus();
+        }
+      } catch (err) {
+        errorMessage.textContent = 'Unable to reach the enterprise authentication server. Please check your network connection.';
+        errorAlert.style.display = 'flex';
+      } finally {
+        isSubmitting = false;
+        submitBtn.disabled = false;
+        btnSpinner.style.display = 'none';
+        btnText.textContent = 'Sign In to Admin Portal';
+      }
+    }
+
+    // -------------------------------------------------------------------------
+    // FORGOT PASSWORD MODAL HANDLING
+    // -------------------------------------------------------------------------
+    function openForgotPasswordModal() {
+      const currentEmail = document.getElementById('workEmail').value.trim();
+      if (currentEmail) {
+        document.getElementById('recoveryEmail').value = currentEmail;
+      }
+      document.getElementById('modalAlertSuccess').style.display = 'none';
+      document.getElementById('forgotPasswordModal').classList.add('is-active');
+      document.getElementById('recoveryEmail').focus();
+    }
+
+    function closeForgotPasswordModal() {
+      document.getElementById('forgotPasswordModal').classList.remove('is-active');
+    }
+
+    function handleBackdropClick(e) {
+      if (e.target.id === 'forgotPasswordModal') {
+        closeForgotPasswordModal();
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeForgotPasswordModal();
+    });
+
+    async function handleForgotPasswordSubmit(e) {
+      e.preventDefault();
+      const email = document.getElementById('recoveryEmail').value.trim();
+      const btn = document.getElementById('recoverySubmitBtn');
+      const origText = btn.innerHTML;
+
+      btn.disabled = true;
+      btn.textContent = 'Processing...';
+
+      try {
+        const res = await fetch('/api/auth/forgot-password', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email })
+        });
+        const data = await res.json().catch(() => ({}));
+        
+        document.getElementById('modalAlertSuccess').style.display = 'flex';
+        document.getElementById('modalAlertSuccess').textContent = data.message || `Password reset instructions have been dispatched to ${email}.`;
+        setTimeout(() => {
+          closeForgotPasswordModal();
+        }, 2200);
+      } catch (err) {
+        document.getElementById('modalAlertSuccess').style.display = 'flex';
+        document.getElementById('modalAlertSuccess').textContent = `Password reset request registered for ${email}.`;
+        setTimeout(() => {
+          closeForgotPasswordModal();
+        }, 2200);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = origText;
+      }
+    }
+
+    // Auto-initialize theme on load
+    document.addEventListener('DOMContentLoaded', initTheme);
+  </script>
+</body>
+</html>
